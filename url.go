@@ -2,6 +2,7 @@ package musicspider
 
 import (
 	"fmt"
+	"github.com/thedevsaddam/gojsonq"
 )
 
 func url(site, id string) map[string]interface{} {
@@ -41,3 +42,73 @@ func url(site, id string) map[string]interface{} {
 		return map[string]interface{}{"status": "404", "result": "暂不支持此站点"}
 	}
 }
+
+const unexceptResp = `{"url": "", "size": 0, "br": -1}`
+
+func neteaseURL(result string) string {
+	//jsonDom := gojsonq.New().JSONString(result)
+	url := gojsonq.New().JSONString(result).Find("data.[0].uf.url")
+	if url == nil {
+		if url = gojsonq.New().JSONString(result).Find("data.[0].url"); url == nil {
+			return unexceptResp
+		}
+	}
+	size := gojsonq.New().JSONString(result).Find("data.[0].size")
+	br := gojsonq.New().JSONString(result).Find("data.[0].br")
+	return fmt.Sprintf(`{"url": %s, "size": %d, "br": %d}`, url, size, br)
+}
+
+func tencentURL(result string) string {
+	const key  = "58A42A941AEC67EDC9792B5A824F8E8AAB5D3F5641628A002364306E7796FE98CAE45F2F1EEC7BAB5DD6F6C158C08D24471C31CB6200B625"
+	if media_mid := gojsonq.New().JSONString(result).Find("data.[0].file.media_mid"); media_mid == nil {
+		return unexceptResp
+	}
+	//https://dl.stream.qqmusic.qq.com/'.$vo[1].$data['data'][0]['file']['media_mid'].'.'.$vo[2].'?vkey='.$key.'&guid='.$guid.'&uid=0&fromtag=30
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
