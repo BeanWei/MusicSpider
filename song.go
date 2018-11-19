@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func song(site, id string) map[string]interface{} {
+func song(site, id string) map[string]string {
 	switch site {
 	case "netease":
 		reqMethod := "POST"
@@ -34,9 +34,9 @@ func song(site, id string) map[string]interface{} {
 		url := "http://musicapi.taihe.com/v1/restserver/ting"
 		from, method, res, platform, version := "qianqianmini", "baidu.ting.song.getInfos", 1, "darwin", "1.0.0"
 		data := fmt.Sprintf(`{"songid": %s, "from": %s, "method": %s, "res", %d, "platform": %s, "version": %s}`,
-											id, from, method, res, platform, version)
+			id, from, method, res, platform, version)
 		return reqHandler("baidu", reqMethod, url, data)
 	default:
-		return map[string]interface{}{"status": "404", "result": "暂不支持此站点"}
+		return map[string]string{"status": "404", "result": "暂不支持此站点"}
 	}
 }

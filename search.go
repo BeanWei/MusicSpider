@@ -11,7 +11,7 @@ var (
 	offset = 0
 )
 
-func search(keyword, site string, option map[string]int) map[string]interface{} {
+func search(keyword, site string, option map[string]int) map[string]string {
 	switch site {
 	case "netease":
 		reqMethod := "POST"
@@ -27,7 +27,7 @@ func search(keyword, site string, option map[string]int) map[string]interface{} 
 			offset = (option["page"] - 1) * option["limit"]
 		}
 		data := fmt.Sprintf(`{"s": %s, "offset": %d, "limit": %d, "type": %d, "total": %s}`,
-										keyword, offset, limit, _type, total)
+			keyword, offset, limit, _type, total)
 		return reqHandler("netease", reqMethod, url, data)
 	case "tencent":
 		reqMethod := "GET"
@@ -40,7 +40,7 @@ func search(keyword, site string, option map[string]int) map[string]interface{} 
 			limit = option["limit"]
 		}
 		data := fmt.Sprintf(`{"w": %s, "format": %s, "p": %d, "n": %d, "aggr": %d, "lossless": %d, "cr": %d, "new_json": %d}`,
-										keyword, format, page, limit, aggr, lossless, cr, new_json)
+			keyword, format, page, limit, aggr, lossless, cr, new_json)
 		return reqHandler("tencent", reqMethod, url, data)
 	case "xiami":
 		reqMethod := "GET"
@@ -64,7 +64,7 @@ func search(keyword, site string, option map[string]int) map[string]interface{} 
 		}
 		api_ver, area_code, correct, plat, tag, sver, showtype, version := 1, 1, 1, 2, 1, 5, 10, 8990
 		data := fmt.Sprintf(`{"key": %s, "pagesize": %d, "page": %d "api_ver": %d, "area_code": %d, "correct": %d, "plat": %d, "tag": %d, "sver": %d, "showtype": %d, "version":}`,
-										keyword, limit, page, api_ver, area_code, correct, plat, tag, sver, showtype, version)
+			keyword, limit, page, api_ver, area_code, correct, plat, tag, sver, showtype, version)
 		return reqHandler("kugou", reqMethod, url, data)
 	case "baidu":
 		reqMethod := "GET"
@@ -77,9 +77,9 @@ func search(keyword, site string, option map[string]int) map[string]interface{} 
 		}
 		from, method, isNew, platform, version := "qianqianmini", "baidu.ting.search.merge", 1, "darwin", "11.2.1"
 		data := fmt.Sprintf(`{"query": %s, "page_no": %d, "page_size": %d, "from": %s, "method": %s, "isNew": %d, "platform": %s, "version": %s}`,
-										keyword, page, limit, from, method, isNew, platform, version)
+			keyword, page, limit, from, method, isNew, platform, version)
 		return reqHandler("baidu", reqMethod, url, data)
 	default:
-		return map[string]interface{}{"status": "404", "result": "暂不支持此站点"}
+		return map[string]string{"status": "404", "result": "暂不支持此站点"}
 	}
 }
