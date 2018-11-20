@@ -1,6 +1,6 @@
 ## site: 网易、QQ、酷狗、百度、虾米
 
-### 网易 API
+### 网易音乐 API
 - 搜索
    > http://music.163.com/weapi/search/get
     - 请求方式: POST
@@ -30,4 +30,21 @@
     lossless:
     cr:
     new_json:
+    ```
+    
+    
+ 
+ ### 虾米音乐 API
+ - 搜索
+    > http://api.xiami.com/web?v=2.0&key=hello&limit=30&page=1&r=search/songs&app_key=1
+     - 请求方式: GET
+    ```aidl
+    key: 搜索关键字
+    v: 版本号2.0  
+    p: 页数
+    limit: 上限数
+    r: search/songs规则
+    app_key: 1
+
+    - 请求头必须加上 Referer: http://h.xiami.com/ 否则会被认为非法请求
     ```
