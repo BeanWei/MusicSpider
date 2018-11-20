@@ -97,3 +97,9 @@ func NeteaseAESCBC(text string) *strings.Reader {
 	form.Set("encSecKey", encSecKey)
 	return strings.NewReader(form.Encode())
 }
+
+/* TODO 虾米站点的参数解密
+func XiamiSign()  {
+
+}
+*/
