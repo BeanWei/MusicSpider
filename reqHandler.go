@@ -44,6 +44,7 @@ func reqHandler(site, reqmethod, url, data string) map[string]string {
 		req.Header.Set("Connection", "keep-alive")
 		req.Header.Set("Content-Type", "application/x-www-form-urlencoded")
 	case "xiami":
+		req.Header.Set("Referer", "http://h.xiami.com/")
 		req.Header.Set("Cookie", "_m_h5_tk=15d3402511a022796d88b249f83fb968_1511163656929; _m_h5_tk_enc=b6b3e64d81dae577fc314b5c5692df3c")
 		req.Header.Set("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) XIAMI-MUSIC/3.1.1 Chrome/56.0.2924.87 Electron/1.6.11 Safari/537.36")
 		req.Header.Set("Accept", "application/json")
