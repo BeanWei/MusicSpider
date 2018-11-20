@@ -14,4 +14,20 @@
           "n": "1000"
       }
    ```
-      
+     
+     
+
+ ### QQ音乐 API
+ - 搜索
+    > https://c.y.qq.com/soso/fcgi-bin/client_search_cp?w=hello&format=json&p=1&n=10&aggr=1&lossless=1&cr=1&new_json=1
+     - 请求方式: GET
+    ```aidl
+    W: 搜索关键字
+    format: 返回值形式    
+    p: 页数
+    n: 
+    aggr:
+    lossless:
+    cr:
+    new_json:
+    ```
