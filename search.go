@@ -15,7 +15,6 @@ func search(keyword, site string, option map[string]int) map[string]string {
 	switch site {
 	case "netease":
 		reqMethod := "POST"
-		//url := "http://music.163.com/api/cloudsearch/pc"
 		url := "http://music.163.com/weapi/search/get"
 		total, n := "true", "1000"
 		if checkDicKey(option, "type") {
@@ -40,7 +39,7 @@ func search(keyword, site string, option map[string]int) map[string]string {
 		if checkDicKey(option, "limit") {
 			limit = option["limit"]
 		}
-		data := fmt.Sprintf(`{"w": %s, "format": %s, "p": %d, "n": %d, "aggr": %d, "lossless": %d, "cr": %d, "new_json": %d}`,
+		data := fmt.Sprintf(`{"w": "%s", "format": "%s", "p": "%d", "n": "%d", "aggr": "%d", "lossless": "%d", "cr": "%d", "new_json": "%d"}`,
 			keyword, format, page, limit, aggr, lossless, cr, new_json)
 		return reqHandler("tencent", reqMethod, url, data)
 	case "xiami":

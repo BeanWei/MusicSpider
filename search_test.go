@@ -6,6 +6,11 @@ import (
 )
 
 func Test_search(t *testing.T) {
-	resp := search("hello", "netease", map[string]int{"limit": 10})
-	fmt.Println(resp)
+	for i, s := range sites {
+		if i == 1 {
+			resp := search("hello", s, map[string]int{"limit": 10})
+			fmt.Println(resp)
+		}
+	}
+
 }
