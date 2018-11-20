@@ -3,10 +3,12 @@ package musicspider
 import (
 	"bytes"
 	"fmt"
+	"github.com/thedevsaddam/gojsonq"
 	"io"
 	"io/ioutil"
 	"net/http"
 	"strconv"
+	"strings"
 )
 
 // 请求处理函数，所有的请求均通过此入口
@@ -20,7 +22,7 @@ func reqHandler(site, reqmethod, url, data string) map[string]string {
 	}
 	fmt.Println("the URL is: ", url)
 	fmt.Println("the Params is: ", data)
-	req, _ := http.NewRequest(reqmethod, url, dataByte)
+	req, _ := RequestHandler(reqmethod, url, dataByte)
 	switch site {
 	case "netease":
 		req.Header.Set("Host", "music.163.com")
@@ -35,7 +37,7 @@ func reqHandler(site, reqmethod, url, data string) map[string]string {
 		req.Header.Set("Content-Type", "application/x-www-form-urlencoded")
 	case "tencent":
 		req.Header.Set("Referer", "http://y.qq.com")
-		req.Header.Set("Cookie", "pgv_pvi=22038528; pgv_si=s3156287488; pgv_pvid=5535248600; yplayer_open=1; ts_last=y.qq.com/portal/player.html; ts_uid=4847550686; yq_index=0; qqmusic_fromtag=66; player_exist=1")
+		//req.Header.Set("Cookie", "pgv_pvi=22038528; pgv_si=s3156287488; pgv_pvid=5535248600; yplayer_open=1; ts_last=y.qq.com/portal/player.html; ts_uid=4847550686; yq_index=0; qqmusic_fromtag=66; player_exist=1")
 		req.Header.Set("User-Agent", "QQ%E9%9F%B3%E4%B9%90/54409 CFNetwork/901.1 Darwin/17.6.0 (x86_64)")
 		req.Header.Set("Accept", "*/*")
 		req.Header.Set("Accept-Language", "zh-CN,zh;q=0.8,gl;q=0.6,zh-TW;q=0.4")
@@ -59,7 +61,9 @@ func reqHandler(site, reqmethod, url, data string) map[string]string {
 	default:
 		req.Header.Set("Content-Type", "application/x-www-form-urlencoded")
 	}
+	fmt.Println("the ReqURL is: ", req.URL.String())
 	resp, _ := client.Do(req)
+	defer resp.Body.Close()
 	status := strconv.Itoa(resp.StatusCode)
 	if status == "200" {
 		body, _ := ioutil.ReadAll(resp.Body)
@@ -71,4 +75,20 @@ func reqHandler(site, reqmethod, url, data string) map[string]string {
 	}
 	feedback := map[string]string{"status": status, "result": ""}
 	return feedback
+}
+
+// 对 http.NewRequest 进行封装 自动处理 Get 请求下的参数处理
+func RequestHandler(method, url string, body io.Reader) (*http.Request, error) {
+	// 对GET请求下传过来的的参数进行处理
+	if method == "GET" && body != nil {
+		gr := gojsonq.New().Reader(body).Get()
+		params := "?"
+		for key, value := range gr.(map[string]interface{}) {
+			params += fmt.Sprintf("%s=%s&", key, value)
+		}
+		params = strings.TrimRight(params, "&")
+		url += params
+	}
+	req, err := http.NewRequest(method, url, body)
+	return req, err
 }
