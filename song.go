@@ -10,13 +10,13 @@ func song(site, id string) map[string]string {
 		reqMethod := "POST"
 		url := "http://music.163.com/api/v3/song/detail/"
 		v := 0
-		data := fmt.Sprintf(`{"id": %s, "v": %d}`, id, v)
+		data := fmt.Sprintf(`{"id": "%s", "v": %d}`, id, v)
 		return reqHandler("netease", reqMethod, url, data)
 	case "tencent":
 		reqMethod := "GET"
 		url := "https://c.y.qq.com/v8/fcg-bin/fcg_play_single_song.fcg"
 		platform, format := "yqq", "json"
-		data := fmt.Sprintf(`{"songmid": %s, "platform": %s, "format": %s}`, id, platform, format)
+		data := fmt.Sprintf(`{"songmid": "%s", "platform": "%s", "format": %s}`, id, platform, format)
 		return reqHandler("tencent", reqMethod, url, data)
 	case "xiami":
 		reqMethod := "GET"
@@ -27,13 +27,13 @@ func song(site, id string) map[string]string {
 		reqMethod := "POST"
 		url := "http://m.kugou.com/app/i/getSongInfo.php"
 		cmd, from := "playInfo", "mkugou"
-		data := fmt.Sprintf(`{"hash": %s, "cmd": %s, "from": %s }`, id, cmd, from)
+		data := fmt.Sprintf(`{"hash": "%s", "cmd": "%s", "from": %s }`, id, cmd, from)
 		return reqHandler("kugou", reqMethod, url, data)
 	case "baidu":
 		reqMethod := "GET"
 		url := "http://musicapi.taihe.com/v1/restserver/ting"
 		from, method, res, platform, version := "qianqianmini", "baidu.ting.song.getInfos", 1, "darwin", "1.0.0"
-		data := fmt.Sprintf(`{"songid": %s, "from": %s, "method": %s, "res", %d, "platform": %s, "version": %s}`,
+		data := fmt.Sprintf(`{"songid": "%s", "from": "%s", "method": "%s", "res", "%d", "platform": "%s", "version": %s}`,
 			id, from, method, res, platform, version)
 		return reqHandler("baidu", reqMethod, url, data)
 	default:

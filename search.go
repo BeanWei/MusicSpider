@@ -51,7 +51,7 @@ func search(keyword, site string, option map[string]int) map[string]string {
 		if checkDicKey(option, "limit") {
 			limit = option["limit"]
 		}
-		data := fmt.Sprintf(`{"key": %s, "page": %d, "limit": %d}`, keyword, page, limit)
+		data := fmt.Sprintf(`{"key": "%s", "page": "%d", "limit": "%d"}`, keyword, page, limit)
 		return reqHandler("xiami", reqMethod, url, data)
 	case "kugou":
 		reqMethod := "GET"
@@ -63,7 +63,7 @@ func search(keyword, site string, option map[string]int) map[string]string {
 			page = option["page"]
 		}
 		api_ver, area_code, correct, plat, tag, sver, showtype, version := 1, 1, 1, 2, 1, 5, 10, 8990
-		data := fmt.Sprintf(`{"key": %s, "pagesize": %d, "page": %d "api_ver": %d, "area_code": %d, "correct": %d, "plat": %d, "tag": %d, "sver": %d, "showtype": %d, "version": %d}`,
+		data := fmt.Sprintf(`{"key": "%s", "pagesize": "%d", "page": "%d", "api_ver": "%d", "area_code": "%d", "correct": "%d", "plat": "%d", "tag": "%d", "sver": "%d", "showtype": "%d", "version": "%d"}`,
 			keyword, limit, page, api_ver, area_code, correct, plat, tag, sver, showtype, version)
 		return reqHandler("kugou", reqMethod, url, data)
 	case "baidu":
@@ -76,7 +76,7 @@ func search(keyword, site string, option map[string]int) map[string]string {
 			limit = option["limit"]
 		}
 		from, method, isNew, platform, version := "qianqianmini", "baidu.ting.search.merge", 1, "darwin", "11.2.1"
-		data := fmt.Sprintf(`{"query": %s, "page_no": %d, "page_size": %d, "from": %s, "method": %s, "isNew": %d, "platform": %s, "version": %s}`,
+		data := fmt.Sprintf(`{"query": "%s", "page_no": "%d", "page_size": "%d", "from": "%s", "method": "%s", "isNew": "%d", "platform": "%s", "version": %s}`,
 			keyword, page, limit, from, method, isNew, platform, version)
 		return reqHandler("baidu", reqMethod, url, data)
 	default:

@@ -12,14 +12,14 @@ func lyric(site, id string) map[string]string {
 		reqMethod := "POST"
 		url := "http://music.163.com/api/song/lyric"
 		os, lv, kv, tv := "linux", "-1", "-1", "-1"
-		data := fmt.Sprintf(`{"id": %s, "os": %s, "lv": %s, "kv": %s, "tv": %s}`,
+		data := fmt.Sprintf(`{"id": "%s", "os": "%s", "lv": "%s", "kv": "%s", "tv": %s}`,
 			id, os, lv, kv, tv)
 		return reqHandler("netease", reqMethod, url, data)
 	case "tencent":
 		reqMethod := "GET"
 		url := "https://c.y.qq.com/lyric/fcgi-bin/fcg_query_lyric_new.fcg"
 		g_tk := "5381"
-		data := fmt.Sprintf(`{"songmid": %s, "g_tk": %s}`, id, g_tk)
+		data := fmt.Sprintf(`{"songmid": "%s", "g_tk": %s}`, id, g_tk)
 		return reqHandler("tencent", reqMethod, url, data)
 	case "xiami":
 		reqMethod := "GET"
@@ -30,14 +30,14 @@ func lyric(site, id string) map[string]string {
 		reqMethod := "GET"
 		url := "http://krcs.kugou.com/search"
 		keyword, ver, client, man := "%20-%20", 1, "mobi", "yes"
-		data := fmt.Sprintf(`{"hash": %s, "keyword": %s, "ver": %d, "client": %s, "man": %s}`,
+		data := fmt.Sprintf(`{"hash": "%s", "keyword": "%s", "ver": "%d", "client": "%s", "man": %s}`,
 			id, keyword, ver, client, man)
 		return reqHandler("kugou", reqMethod, url, data)
 	case "baidu":
 		reqMethod := "GET"
 		url := "http://musicapi.taihe.com/v1/restserver/ting"
 		from, method, platform, version := "qianqianmini", "baidu.ting.song.lry", "darwin", "1.0.0"
-		data := fmt.Sprintf(`{"songid": %s, "from": %s, "method": "%s", "platform": %s, "version": %s}`,
+		data := fmt.Sprintf(`{"songid": "%s", "from": "%s", "method": "%s", "platform": "%s", "version": %s}`,
 			id, from, method, platform, version)
 		return reqHandler("baidu", reqMethod, url, data)
 	default:
@@ -54,7 +54,7 @@ func neteaseLyric(result string) string {
 	if tlyric == nil {
 		tlyric = ""
 	}
-	return fmt.Sprintf(`{"lyric": %s, "tlyric": %s}`, lyric.(string), tlyric.(string))
+	return fmt.Sprintf(`{"lyric": "%s", "tlyric": %s}`, lyric.(string), tlyric.(string))
 }
 
 func tencentLyric(result string) string {
@@ -82,11 +82,11 @@ func tencentLyric(result string) string {
 			tlyricStr = ""
 		}
 	}
-	return fmt.Sprintf(`{"lyric": %s, "tlyric": %s}`, lyricStr, tlyricStr)
+	return fmt.Sprintf(`{"lyric": "%s", "tlyric": %s}`, lyricStr, tlyricStr)
 }
 
 func xiamiLyric(result string) string {
-	return fmt.Sprintf(`{"lyric": %s, "tlyric": %s}`, "", "")
+	return fmt.Sprintf(`{"lyric": "%s", "tlyric": %s}`, "", "")
 }
 
 func kugouLyric(result string) string {
@@ -95,7 +95,7 @@ func kugouLyric(result string) string {
 	reqMethod := "GET"
 	url := "http://lyrics.kugou.com/download"
 	charset, client, _fmt, ver := "utf-8", "mobi", "lrc", 1
-	data := fmt.Sprintf(`{"charset: %s", "accesskey": %s, "id": %s, "client": %s, "fmt", %s, "ver": %d}`,
+	data := fmt.Sprintf(`{"charset: %s", "accesskey": "%s", "id": "%s", "client": "%s", "fmt", "%s", "ver": %d}`,
 		charset, accesskey.(string), id.(string), client, _fmt, ver)
 	resp := reqHandler("kugou", reqMethod, url, data)
 	res := resp["result"]
@@ -111,7 +111,7 @@ func kugouLyric(result string) string {
 			lyricStr = ""
 		}
 	}
-	return fmt.Sprintf(`{"lyric": %s, "tlyric": %s}`, lyricStr, "")
+	return fmt.Sprintf(`{"lyric": "%s", "tlyric": %s}`, lyricStr, "")
 }
 
 func baiduLyric(result string) string {
@@ -122,5 +122,5 @@ func baiduLyric(result string) string {
 	} else {
 		lyricStr = lyric.(string)
 	}
-	return fmt.Sprintf(`{"lyric": %s, "tlyric": %s}`, lyricStr, "")
+	return fmt.Sprintf(`{"lyric": "%s", "tlyric": %s}`, lyricStr, "")
 }
