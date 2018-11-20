@@ -44,14 +44,17 @@ func search(keyword, site string, option map[string]int) map[string]string {
 		return reqHandler("tencent", reqMethod, url, data)
 	case "xiami":
 		reqMethod := "GET"
-		url := "http://h5api.m.xiami.com/h5/mtop.alimusic.search.searchservice.searchsongs/1.0/"
+		//url := "http://h5api.m.xiami.com/h5/mtop.alimusic.search.searchservice.searchsongs/1.0/"
+		url := "http://api.xiami.com/web"
 		if checkDicKey(option, "page") {
 			page = option["page"]
 		}
 		if checkDicKey(option, "limit") {
 			limit = option["limit"]
 		}
-		data := fmt.Sprintf(`{"key": "%s", "page": "%d", "limit": "%d"}`, keyword, page, limit)
+		v, r, appKey := "2.0", "search/songs", "1"
+		data := fmt.Sprintf(`{"key": "%s", "page": "%d", "limit": "%d", "v": "%s", "r": "%s", "app_key": "%s"}`,
+			keyword, page, limit, v, r, appKey)
 		return reqHandler("xiami", reqMethod, url, data)
 	case "kugou":
 		reqMethod := "GET"
