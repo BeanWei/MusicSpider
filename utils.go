@@ -6,6 +6,8 @@ import (
 	"math/rand"
 )
 
+var sites = [5]string{"netease", "tencent", "xiami", "kugou", "baidu"}
+
 func checkDicKey(dict map[string]int, thisKey ...string) bool {
 	for _, k := range thisKey {
 		_, ok := dict[k]
