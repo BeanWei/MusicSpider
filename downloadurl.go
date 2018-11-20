@@ -3,9 +3,10 @@ package musicspider
 import (
 	"fmt"
 	"github.com/thedevsaddam/gojsonq"
+	"strconv"
 )
 
-func url(site, id string) map[string]string {
+func downloadurl(site, id string) map[string]string {
 	switch site {
 	case "netease":
 		reqMethod := "POST"
@@ -78,12 +79,11 @@ func xiamiUrl(result string) string {
 	}
 	size := gojsonq.New().JSONString(result).Find("data.data.songs.[0].listenFiles.[0].fileSize")
 	br := gojsonq.New().JSONString(result).Find("data.data.songs.[0].listenFiles.[0].quality")
-	url, size, br = fmt.Sprintf("%#", url), fmt.Sprintf("%#", size), fmt.Sprintf("%#", br)
-	return fmt.Sprintf(`{"url": %s, "size": %d, "br": %d}`, url, size, br)
+	return fmt.Sprintf(`{"url": %s, "size": %s, "br": %s}`, url.(string), size.(string), br.(string))
 }
 
 func kugouURL(result string) string {
-	hashStr := fmt.Sprintf("%#", gojsonq.New().JSONString(result).Find("data.[0].relate_goods.[0].hash"))
+	hashStr := gojsonq.New().JSONString(result).Find("data.[0].relate_goods.[0].hash").(string)
 	reqMethod := "GET"
 	req4fownurl := "http://trackercdn.kugou.com/i/v2/"
 	key, pid, behavior, cmd, version := md5Encrpyt(hashStr+"kgcloudv2"), 3, "play", "25", 8990
@@ -97,10 +97,15 @@ func kugouURL(result string) string {
 	if url == nil {
 		return unexceptResp
 	}
-	url = fmt.Sprintf("%#", url)
 	size := gojsonq.New().JSONString(res).Find("fileSize")
-	br := (fmt.Sprintf("%#", gojsonq.New().JSONString(res).Find("bitRate")))[:-4]
-	return fmt.Sprintf(`{"url": %s, "size": %d, "br": %d}`, url, size, br)
+	bitRateStr := gojsonq.New().JSONString(res).Find("bitRate")
+	br, err := strconv.Atoi(bitRateStr.(string))
+	if err != nil {
+		br = br / 1000
+	} else {
+		br = -1
+	}
+	return fmt.Sprintf(`{"url": %s, "size": %s, "br": %d}`, url.(string), size.(string), br)
 }
 
 func baiduURL(result string) string {
@@ -109,6 +114,5 @@ func baiduURL(result string) string {
 		return unexceptResp
 	}
 	br := gojsonq.New().JSONString(result).Find("songurl.url.[0].file_bitrate")
-	url, br = fmt.Sprintf("%#", url), fmt.Sprintf("%#", br)
-	return fmt.Sprintf(`{"url": %s, "br": %d}`, url, br)
+	return fmt.Sprintf(`{"url": %s, "br": %s}`, url.(string), br.(string))
 }

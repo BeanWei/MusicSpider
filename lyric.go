@@ -54,8 +54,7 @@ func neteaseLyric(result string) string {
 	if tlyric == nil {
 		tlyric = ""
 	}
-	lyric, tlyric = fmt.Sprintf("%#", lyric), fmt.Sprintf("%#", tlyric)
-	return fmt.Sprintf(`{"lyric": %s, "tlyric": %s}`, lyric, tlyric)
+	return fmt.Sprintf(`{"lyric": %s, "tlyric": %s}`, lyric.(string), tlyric.(string))
 }
 
 func tencentLyric(result string) string {
@@ -65,8 +64,7 @@ func tencentLyric(result string) string {
 	if lyric == nil {
 		lyricStr = ""
 	} else {
-		lyricEncode := fmt.Sprintf("%#", lyric)
-		lyricByte, err := base64.StdEncoding.DecodeString(lyricEncode)
+		lyricByte, err := base64.StdEncoding.DecodeString(lyric.(string))
 		if err == nil {
 			lyricStr = string(lyricByte)
 		} else {
@@ -77,8 +75,7 @@ func tencentLyric(result string) string {
 	if tlyric == nil {
 		tlyricStr = ""
 	} else {
-		tlyricEncode := fmt.Sprintf("%#", lyric)
-		tlyricByte, err := base64.StdEncoding.DecodeString(tlyricEncode)
+		tlyricByte, err := base64.StdEncoding.DecodeString(tlyric.(string))
 		if err == nil {
 			tlyricStr = string(tlyricByte)
 		} else {
@@ -93,12 +90,13 @@ func xiamiLyric(result string) string {
 }
 
 func kugouLyric(result string) string {
-	accesskey := fmt.Sprintf("%#", gojsonq.New().JSONString(result).Find("candidates.[0].accesskey"))
-	id := fmt.Sprintf("%#", gojsonq.New().JSONString(result).Find("candidates.[0].id"))
+	accesskey := gojsonq.New().JSONString(result).Find("candidates.[0].accesskey")
+	id := gojsonq.New().JSONString(result).Find("candidates.[0].id")
 	reqMethod := "GET"
 	url := "http://lyrics.kugou.com/download"
 	charset, client, _fmt, ver := "utf-8", "mobi", "lrc", 1
-	data := fmt.Sprintf(`{"charset: %s", "accesskey": %s, "id": %s, "client": %s, "fmt", %s, "ver": %d}`, charset, accesskey, id, client, _fmt, ver)
+	data := fmt.Sprintf(`{"charset: %s", "accesskey": %s, "id": %s, "client": %s, "fmt", %s, "ver": %d}`,
+		charset, accesskey.(string), id.(string), client, _fmt, ver)
 	resp := reqHandler("kugou", reqMethod, url, data)
 	res := resp["result"]
 	var lyricStr string
@@ -106,8 +104,7 @@ func kugouLyric(result string) string {
 	if lyric == nil {
 		lyricStr = ""
 	} else {
-		lyricEncode := fmt.Sprintf("%#", lyric)
-		lyricByte, err := base64.StdEncoding.DecodeString(lyricEncode)
+		lyricByte, err := base64.StdEncoding.DecodeString(lyric.(string))
 		if err == nil {
 			lyricStr = string(lyricByte)
 		} else {
@@ -123,7 +120,7 @@ func baiduLyric(result string) string {
 	if lyric == nil {
 		lyricStr = ""
 	} else {
-		lyricStr = fmt.Sprintf("%#", lyric)
+		lyricStr = lyric.(string)
 	}
 	return fmt.Sprintf(`{"lyric": %s, "tlyric": %s}`, lyricStr, "")
 }
