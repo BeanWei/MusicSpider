@@ -1,7 +1,9 @@
 package musicspider
 
 import (
+	"encoding/base64"
 	"fmt"
+	"github.com/thedevsaddam/gojsonq"
 )
 
 func lyric(site, id string) map[string]string {
@@ -41,4 +43,87 @@ func lyric(site, id string) map[string]string {
 	default:
 		return map[string]string{"status": "404", "result": "暂不支持此站点"}
 	}
+}
+
+func neteaseLyric(result string) string {
+	lyric := gojsonq.New().JSONString(result).Find("lrc.lyric")
+	if lyric == nil {
+		lyric = ""
+	}
+	tlyric := gojsonq.New().JSONString(result).Find("tlyric.lyric")
+	if tlyric == nil {
+		tlyric = ""
+	}
+	lyric, tlyric = fmt.Sprintf("%#", lyric), fmt.Sprintf("%#", tlyric)
+	return fmt.Sprintf(`{"lyric": %s, "tlyric": %s}`, lyric, tlyric)
+}
+
+func tencentLyric(result string) string {
+	// TODO: 获取完整的json返回
+	var lyricStr, tlyricStr string
+	lyric := gojsonq.New().JSONString(result).Find("tlyric")
+	if lyric == nil {
+		lyricStr = ""
+	} else {
+		lyricEncode := fmt.Sprintf("%#", lyric)
+		lyricByte, err := base64.StdEncoding.DecodeString(lyricEncode)
+		if err == nil {
+			lyricStr = string(lyricByte)
+		} else {
+			lyricStr = ""
+		}
+	}
+	tlyric := gojsonq.New().JSONString(result).Find("trans")
+	if tlyric == nil {
+		tlyricStr = ""
+	} else {
+		tlyricEncode := fmt.Sprintf("%#", lyric)
+		tlyricByte, err := base64.StdEncoding.DecodeString(tlyricEncode)
+		if err == nil {
+			tlyricStr = string(tlyricByte)
+		} else {
+			tlyricStr = ""
+		}
+	}
+	return fmt.Sprintf(`{"lyric": %s, "tlyric": %s}`, lyricStr, tlyricStr)
+}
+
+func xiamiLyric(result string) string {
+	return fmt.Sprintf(`{"lyric": %s, "tlyric": %s}`, "", "")
+}
+
+func kugouLyric(result string) string {
+	accesskey := fmt.Sprintf("%#", gojsonq.New().JSONString(result).Find("candidates.[0].accesskey"))
+	id := fmt.Sprintf("%#", gojsonq.New().JSONString(result).Find("candidates.[0].id"))
+	reqMethod := "GET"
+	url := "http://lyrics.kugou.com/download"
+	charset, client, _fmt, ver := "utf-8", "mobi", "lrc", 1
+	data := fmt.Sprintf(`{"charset: %s", "accesskey": %s, "id": %s, "client": %s, "fmt", %s, "ver": %d}`, charset, accesskey, id, client, _fmt, ver)
+	resp := reqHandler("kugou", reqMethod, url, data)
+	res := resp["result"]
+	var lyricStr string
+	lyric := gojsonq.New().JSONString(res).Find("content")
+	if lyric == nil {
+		lyricStr = ""
+	} else {
+		lyricEncode := fmt.Sprintf("%#", lyric)
+		lyricByte, err := base64.StdEncoding.DecodeString(lyricEncode)
+		if err == nil {
+			lyricStr = string(lyricByte)
+		} else {
+			lyricStr = ""
+		}
+	}
+	return fmt.Sprintf(`{"lyric": %s, "tlyric": %s}`, lyricStr, "")
+}
+
+func baiduLyric(result string) string {
+	var lyricStr string
+	lyric := gojsonq.New().JSONString(result).Find("lrcContent")
+	if lyric == nil {
+		lyricStr = ""
+	} else {
+		lyricStr = fmt.Sprintf("%#", lyric)
+	}
+	return fmt.Sprintf(`{"lyric": %s, "tlyric": %s}`, lyricStr, "")
 }
