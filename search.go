@@ -79,7 +79,7 @@ func search(keyword, site string, option map[string]int) map[string]string {
 			limit = option["limit"]
 		}
 		from, method, isNew, platform, version := "qianqianmini", "baidu.ting.search.merge", 1, "darwin", "11.2.1"
-		data := fmt.Sprintf(`{"query": "%s", "page_no": "%d", "page_size": "%d", "from": "%s", "method": "%s", "isNew": "%d", "platform": "%s", "version": %s}`,
+		data := fmt.Sprintf(`{"query": "%s", "page_no": "%d", "page_size": "%d", "from": "%s", "method": "%s", "isNew": "%d", "platform": "%s", "version": "%s"}`,
 			keyword, page, limit, from, method, isNew, platform, version)
 		return reqHandler("baidu", reqMethod, url, data)
 	default:

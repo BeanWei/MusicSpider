@@ -67,3 +67,19 @@
      sver:
      showtype:     
      ```
+     
+     
+ ### 百度音乐 API
+ - 搜索
+     > http://musicapi.taihe.com/v1/restserver/ting?page_no=1&page_size=10&from=qianqianmini&method=baidu.ting.search.merge&isNew=1&platform=darwin&version=11.2.1&query=hello
+      - 请求方式: GET
+     ```aidl
+     query: 搜索关键字
+     page_size: 搜索页数 
+     page_no: 当前页
+     from: api源 qianqianmini
+     method: 方法参数
+     isNew:
+     platform:平台参数  
+     version: 版本号
+     ```     
