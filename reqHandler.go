@@ -12,17 +12,29 @@ import (
 )
 
 // 请求处理函数，所有的请求均通过此入口
-func reqHandler(site, reqmethod, url, data string) map[string]string {
+// TODO: 更优雅的处理可变参数 args
+// args 为一个bool值列表,
+// 列表0为为是否需要加密参数处理的Bool值, 默认不处理加密
+func reqHandler(site, reqmethod, url, data string, args ...bool) map[string]string {
 	client := http.DefaultClient
 	var dataByte io.Reader
-	if site == "netease" {
-		dataByte = NeteaseAESCBC(data)
+	if data == "" {
+		dataByte = nil
 	} else {
-		dataByte = bytes.NewBuffer([]byte(data))
+		if len(args) > 0 && args[0] == true {
+			if site == "netease" {
+				dataByte = NeteaseAESCBC(data)
+			}
+		} else {
+			dataByte = bytes.NewBuffer([]byte(data))
+		}
 	}
 	fmt.Println("the URL is: ", url)
-	fmt.Println("the Params is: ", data)
-	req, _ := RequestHandler(reqmethod, url, dataByte)
+	fmt.Println("the Params is: ", dataByte)
+	req, err := RequestHandler(reqmethod, url, dataByte)
+	if err != nil {
+		fmt.Println(err)
+	}
 	switch site {
 	case "netease":
 		req.Header.Set("Host", "music.163.com")
@@ -53,6 +65,7 @@ func reqHandler(site, reqmethod, url, data string) map[string]string {
 	case "kugou":
 		req.Header.Set("User-Agent", "IPhone-8990-searchSong")
 		req.Header.Set("UNI-UserAgent", "iOS11.4-Phone8990-1009-0-WiFi")
+		req.Header.Set("Content-Type", "application/x-www-form-urlencoded")
 	case "baidu":
 		req.Header.Set("Cookie", "BAIDUID='.$this->getRandomHex(32).':FG=1")
 		req.Header.Set("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) baidu-music/1.2.1 Chrome/66.0.3359.181 Electron/3.0.5 Safari/537.36")

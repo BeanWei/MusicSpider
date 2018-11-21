@@ -28,7 +28,7 @@ func search(site, keyword string, option map[string]int) map[string]string {
 		}
 		data := fmt.Sprintf(`{"s": "%s", "offset": "%d", "limit": "%d", "type": "%d", "total": "%s", "n": "%s"}`,
 			keyword, offset, limit, _type, total, n)
-		return reqHandler("netease", reqMethod, url, data)
+		return reqHandler("netease", reqMethod, url, data, true)
 	case "tencent":
 		reqMethod := "GET"
 		url := "https://c.y.qq.com/soso/fcgi-bin/client_search_cp"

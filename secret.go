@@ -12,6 +12,7 @@ import (
 	"math/rand"
 	"net/url"
 	"strings"
+	"time"
 )
 
 // 创建指定长度的key
@@ -96,6 +97,15 @@ func NeteaseAESCBC(text string) *strings.Reader {
 	form.Set("params", aes2)
 	form.Set("encSecKey", encSecKey)
 	return strings.NewReader(form.Encode())
+}
+
+func BaiduAESCBC(text string) string {
+	const key = "DBEECF8C50FD160E"
+	const vi = "1231021386755796"
+	data := fmt.Sprintf(`songid="%s"&ts="%v"`, text, time.Now().Unix())
+	aesText := aesEncrypt(data, key, vi)
+	return aesText
+
 }
 
 /* TODO 虾米站点的参数解密
