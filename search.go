@@ -11,7 +11,7 @@ var (
 	offset = 0
 )
 
-func search(keyword, site string, option map[string]int) map[string]string {
+func search(site, keyword string, option map[string]int) map[string]string {
 	switch site {
 	case "netease":
 		reqMethod := "POST"
