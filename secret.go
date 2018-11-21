@@ -11,6 +11,7 @@ import (
 	"math/big"
 	"math/rand"
 	"net/url"
+	"strconv"
 	"strings"
 	"time"
 )
@@ -106,6 +107,55 @@ func BaiduAESCBC(text string) string {
 	aesText := aesEncrypt(data, key, vi)
 	return aesText
 
+}
+
+// 凯撒矩阵解密, 还原真实文本
+func Caesar(text string) {
+	text = "9hFx%224818.t1E554e%t%i2FF5%46mh5%E%3e5t2aF7265_%p_45-5c6EpFm2216E153k3E%Efdf%mi%%%875E%e3%521c131.555%1433y75E5a99A2nEEE2222F%4E-a261%8e444F462a3%-5ed72.t%%21797uD5%fb4d"
+	// 凯撒行数
+	rows, _ := strconv.Atoi(fmt.Sprintf("%c", text[0]))
+	// 凯撒矩阵最后一列的长度
+	remainder := (len(text) - 1) % rows
+	// 凯撒矩阵最后一行的长度
+	cutLength := (len(text) - 1 - remainder) / rows
+	fmt.Println(remainder, cutLength)
+	paddingStr := ""
+	signIndexs := []int{}
+	for i := 1; i <= remainder; i++ {
+		sign := i*cutLength + 1
+		signIndexs = append(signIndexs, sign)
+		paddingStr += fmt.Sprintf("%c", text[sign])
+	}
+	fmt.Println(signIndexs)
+	matrixStr := ""
+	for indexA := 1; indexA <= cutLength; indexA++ {
+		for indexB := 0; indexB < rows; indexB++ {
+			currentIndex := indexA + indexB*cutLength
+			//fmt.Println("currentIndex:",currentIndex)
+			if indexB < len(signIndexs) && currentIndex != signIndexs[indexB] {
+				matrixStr += fmt.Sprintf("%c", text[currentIndex])
+
+			}
+			if indexB >= len(signIndexs) {
+				matrixStr += fmt.Sprintf("%c", text[currentIndex])
+			}
+
+		}
+	}
+	matrixStr += paddingStr
+	fmt.Println(matrixStr)
+	/*
+		9
+		hFx%224818.t1E554e%
+		t%i2FF5%46mh5%E%3e5
+		t2aF7265_%p_45-5c6E
+		pFm2216E153k3E%Efdf
+		%mi%%%875E%e3%521c1
+		31.555%1433y75E5a99
+		A2nEEE2222F%4E-a261
+		%8e444F462a3%-5ed7
+		2.t%%21797uD5%fb4d
+	*/
 }
 
 /* TODO 虾米站点的参数解密
