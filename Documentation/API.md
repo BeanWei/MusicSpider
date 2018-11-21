@@ -48,3 +48,22 @@
 
     - 请求头必须加上 Referer: http://h.xiami.com/ 否则会被认为非法请求
     ```
+    
+    
+ ### 酷狗音乐 API
+ - 搜索
+     > http://mobilecdn.kugou.com/api/v3/search/song?keyword=hello&pagesize=10&page=1&area_code=1&plat=2&version=8990&api_ver=1&correct=1&tag=1&sver=5&showtype=10
+      - 请求方式: GET
+     ```aidl
+     keyword: 搜索关键字
+     pagesize: 搜索页数 
+     page: 当前页
+     area_code: 区域代码
+     plat:平台代号
+     version: 版本号
+     api_ver: api接口版本号
+     correct: 
+     tag:
+     sver:
+     showtype:     
+     ```
