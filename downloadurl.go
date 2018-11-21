@@ -32,7 +32,8 @@ func downloadurl(site, id string) map[string]string {
 			return map[string]string{"url": ""}
 		}
 		reg, _ := regexp.Compile(`<location><!\[CDATA\[(.*?)\]\]></location>`)
-		downloadUrl := fmt.Sprintf("%q", reg.FindStringSubmatch(htmlText)[1])
+		encodeText := fmt.Sprintf("%q", reg.FindStringSubmatch(htmlText)[1])
+		downloadUrl := urlDecode(Caesar(encodeText))
 		return map[string]string{"url": downloadUrl}
 	case "kugou":
 		reqMethod := "POST"
@@ -75,14 +76,6 @@ func tencentURL(result string) map[string]string {
 	//http://dl.stream.qqmusic.qq.com/%s?vkey=%s&guid=%s&uin=0&fromtag=66' % (filename, vkey, guid)  # 获取直链
 	url := fmt.Sprintf("http://dl.stream.qqmusic.qq.com/C400%s.m4a?vkey=%s&guid=%s&uin=0&fromtag=66", media_mid, key, guid)
 	return map[string]string{"url": url}
-}
-
-func xiamiUrl(result string) map[string]string {
-	url := gojsonq.New().JSONString(result).Find("data.data.songs.[0].listenFiles.[0].listenFile")
-	if url == nil {
-		return map[string]string{"url": ""}
-	}
-	return map[string]string{"url": url.(string)}
 }
 
 func kugouURL(result string) map[string]string {
