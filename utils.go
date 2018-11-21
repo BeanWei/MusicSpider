@@ -4,6 +4,8 @@ import (
 	"crypto/md5"
 	"fmt"
 	"math/rand"
+	"net/url"
+	"strings"
 )
 
 var sites = [5]string{"netease", "tencent", "xiami", "kugou", "baidu"}
@@ -49,4 +51,15 @@ func md5Encrpyt(s string) string {
 	has := md5.Sum(data)
 	md5Str := fmt.Sprintf("%x", has)
 	return md5Str
+}
+
+// URL Decode
+func urlDecode(encodeURL string) string {
+	result, _ := url.ParseQuery(encodeURL)
+	keys := []string{}
+	for key, _ := range result {
+		keys = append(keys, key)
+	}
+	res := strings.Replace(keys[0], "^", "0", -1)
+	return res
 }
