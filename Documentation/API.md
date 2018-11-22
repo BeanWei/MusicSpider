@@ -44,7 +44,18 @@
           "ext": "true", 
           "private_cloud": "true"
       }
-     ```     
+     ```  
+- 艺人
+   > http://music.163.com/api/v1/artist/艺人ID
+     - 请求方式: POST
+       ```aidl
+        {
+           "albumId": "艺人ID", 
+           "ext": "true", 
+           "private_cloud": "true", 
+           "top": 50
+        }
+       ```          
 
  ### QQ音乐 API
  - 搜索
@@ -84,6 +95,17 @@
         "format": "json", 
         "newsong": "1"
         ```   
+ - 艺人
+    > https://c.y.qq.com/v8/fcg-bin/fcg_v8_singer_track_cp.fcg?singermid=003Nz2So3XXYek&begin=0&num=50&order=listen&platform=mac&newsong=1
+      - 请求方式: GET
+        ```aidl
+        "singermid": "艺人ID", 
+        "begin": "0", 
+        "num": "50", 
+        "order": "listen", 
+        "platform": "mac", 
+        "newsong": "1"
+        ```        
  
  ### 虾米音乐 API
  - 搜索
@@ -240,7 +262,20 @@
         "method": "baidu.ting.album.getAlbumInfo", 
         "platform": "darwin", 
         "version": "11.2.1"
-        ```    
+        ```  
+ - 艺人
+    > http://musicapi.taihe.com/v1/restserver/ting?version=11.2.1&artistid=362&from=qianqianmini&method=baidu.ting.artist.getSongList&limits=50&platform=darwin&offset=0&tinguid=0
+      - 请求方式: GET
+        ```aidl
+        "artistid": "艺人ID", 
+        "from": "qianqianmini", 
+        "method": "baidu.ting.artist.getSongList", 
+        "limits": "50", 
+        "platform": "darwin", 
+        "offset": "0", 
+        "tinguid": "0", 
+        "version": "11.2.1"
+        ```         
                  
  - 下载
     > http://musicapi.taihe.com/v1/restserver/ting?version=1.0.0&e=vchaKgAigShr/UkgYA0bw1nX9xQpRiZHIzBqV/lBoBUDS2QfPcumcfd92CJXkVA2&songid=578055564&from=qianqianmini&method=baidu.ting.song.getInfos&res=1&platform=darwin
