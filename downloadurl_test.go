@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-const testAll4url, index4url = false, 4
+const testAll4url, index4url = false, 1
 
 func Test_downloadurl(t *testing.T) {
 
@@ -32,5 +32,5 @@ func Test_downloadurl(t *testing.T) {
 TODO:
 	网易云音乐无法获取到下载直链，提示参数错误
 
-	QQ音乐获取到的直链打开提示不被允许
+	QQ音乐获取到的直链打开报403
 */

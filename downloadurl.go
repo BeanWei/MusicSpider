@@ -10,9 +10,8 @@ func downloadurl(site, id string) map[string]string {
 	switch site {
 	case "netease":
 		reqMethod := "POST"
-		//url := "http://music.163.com/api/song/enhance/player/url"
 		url := "http://music.163.com/weapi/song/enhance/player/url?csrf_token="
-		br := 320 * 1000
+		br := 320000
 		data := fmt.Sprintf(`{"ids": "%s", "br": "%d", "csrf_token": ""}`, id, br)
 		return reqHandler("netease", reqMethod, url, data, true)
 	case "tencent":
@@ -77,7 +76,7 @@ func tencentURL(result string) map[string]string {
 	}
 	//https://dl.stream.qqmusic.qq.com/'.$vo[1].$data['data'][0]['file']['media_mid'].'.'.$vo[2].'?vkey='.$key.'&guid='.$guid.'&uid=0&fromtag=30
 	//http://dl.stream.qqmusic.qq.com/%s?vkey=%s&guid=%s&uin=0&fromtag=66' % (filename, vkey, guid)  # 获取直链
-	url := fmt.Sprintf("http://dl.stream.qqmusic.qq.com/C400%s.m4a?vkey=%s&guid=%s&uin=0&fromtag=66", media_mid, key, guid)
+	url := fmt.Sprintf("http://dl.stream.qqmusic.qq.com/C400%s.m4a?vkey=%s&guid=%s&uid=0&fromtag=30", media_mid, key, guid)
 	return map[string]string{"url": url}
 }
 

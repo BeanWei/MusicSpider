@@ -126,7 +126,37 @@
         "format": "json", 
         "newsong": "1", 
         "platform": "jqspaframe.json"
-        ```              
+        ```    
+ - 下载 \
+    step1: 请求如下链接, 由歌曲ID获取media_mid
+    > https://c.y.qq.com/v8/fcg-bin/fcg_play_single_song.fcg?format=json&songmid=000bdxcy3ta8Q3&platform=yqq
+      - 请求方式: GET
+      ```aidl
+       "songmid": "歌曲ID", 
+       "platform": "yqq", 
+       "format": "json"
+      ```
+    step2: 将上一步拿到的media_mid做以下的拼接，即为直链
+    > http://dl.stream.qqmusic.qq.com/C400002L04aB1h7eDw.m4a?vkey=58A42A941AEC67EDC9792B5A824F8E8AAB5D3F5641628A002364306E7796FE98CAE45F2F1EEC7BAB5DD6F6C158C08D24471C31CB6200B625&guid=1896377264&uid=0&fromtag=30  
+      - :lock: 暂时不可用, 此方法获取到的直链报403.
+     ```aidl
+     拼接说明:
+       C400002L04aB1h7eDw.m4a = C400 歌曲品质 + 002L04aB1h7eDw media_mid + .m4a
+       vkey 固定
+       guid 随机数 固定
+       uid 固定
+       fromtag 固定
+     ```
+     ```aidl
+     歌曲品质:
+      'size_320mp3' => (320, 'M800', 'mp3'),
+      'size_192aac' => (192, 'C600', 'm4a'),
+      'size_128mp3' => (128, 'M500', 'mp3'),
+      'size_96aac'  => (96, 'C400', 'm4a'),
+      'size_48aac'  => (48, 'C200', 'm4a'),
+      'size_24aac'  => (24, 'C100', 'm4a'), 
+     ```
+                      
  
  ### 虾米音乐 API
  - 搜索
