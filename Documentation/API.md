@@ -209,6 +209,17 @@
         "pagesize": "-1", 
         "version": "8990"
         ```   
+ - 艺人
+    > http://mobilecdn.kugou.com/api/v3/singer/song?version=8990&singerid=3520&area_code=1&page=1&plat=0&pagesize=50
+      - 请求方式: GET       
+        ```aidl
+         "singerid": "艺人ID", 
+         "area_code": "1", 
+         "page": "1", 
+         "plat": "0", 
+         "pagesize": "50", 
+         "version": "8990"
+        ``` 
  - 歌单
    > http://mobilecdn.kugou.com/api/v3/special/song?specialid=119859&area_code=1&plat=2&page=1&pagesize=-1&version=8990
      - 请求方式: GET
