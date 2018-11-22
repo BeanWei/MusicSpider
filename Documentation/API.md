@@ -104,7 +104,34 @@
           "cmd": "playInfo",
           "from": "mkugou"
         }    
-        ```    
+        ```
+ - 下载
+    step1:请求如下URL获取hash值
+    > http://media.store.kugou.com/v1/get_res_privilege
+     - 请求方式: POST
+       ```aidl
+        {
+           "relate":"1",
+           "userid":"0",
+           "vip":"0",
+           "appid":"1000",
+           "token":"",
+           "behavior":"download",
+           "area_code":"1",
+           "clientver":"8990",
+           "resource":[{"id":0,"type":"audio","hash":"歌曲的id(酷狗的歌曲id是hash加密的)"}]}
+       ```  
+    step2: 将获取到的hash值加盐(kugouv2)后进行MD5加密, 然后请求如下URL获取下载直链
+    > http://trackercdn.kugou.com/i/v2/
+     - 请求方式: GET
+     ```aidl
+    "hash": "D2BB1EE2952B8EC60EAAFBE129190101", 
+    "key": "1e08e8c8b68f98598654863732b25a7c", 
+    "pid": "3", 
+    "behavior": "play",   这里传play和download结果是一样的
+    "cmd": "25", 
+    "version": "8990"
+    ```             
      
  ### 百度音乐 API
  - 搜索
@@ -131,4 +158,16 @@
          platform: 平台
          version: 版本号
          e: 将音乐ID和时间戳合并与密钥进行加密处理得出来的加密字符串   
-         ```        
+         ```   
+ - 下载
+    > http://musicapi.taihe.com/v1/restserver/ting?version=1.0.0&e=vchaKgAigShr/UkgYA0bw1nX9xQpRiZHIzBqV/lBoBUDS2QfPcumcfd92CJXkVA2&songid=578055564&from=qianqianmini&method=baidu.ting.song.getInfos&res=1&platform=darwin
+     - 请求方式: GET
+     ```aidl
+       "songid": "歌曲ID",
+       "from": "qianqianmini", 
+       "method": "baidu.ting.song.getInfos", 
+       "res": "1", 
+       "platform": "darwin", 
+       "version": "1.0.0", 
+       "e": "将音乐ID和时间戳合并与密钥进行加密处理得出来的加密字符串"
+    ```             
