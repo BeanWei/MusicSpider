@@ -39,15 +39,17 @@ func downloadurl(site, id string) map[string]string {
 		reqMethod := "POST"
 		url := "http://media.store.kugou.com/v1/get_res_privilege"
 		relate, userid, vip, appid, token, behavior, area_code, clientver, rid, rtype := 1, 0, 0, 1000, "", "download", 1, 8990, 0, "audio"
-		data := fmt.Sprintf(`{"hash": "%s", "relate": "%d", "userid": "%d", "vip": "%d", "appid": "%d", "token": "%s", "behavior": "%s", "area_code": "%d", "clientver": "%d", "id": "%d", "type": "%s"}`,
-			id, relate, userid, vip, appid, token, behavior, area_code, clientver, rid, rtype)
-		return reqHandler("kugou", reqMethod, url, data)
+		data := fmt.Sprintf(`{"relate":"%d","userid":"%d","vip":"%d","appid":"%d","token":"%s","behavior":"%s","area_code":"%d","clientver":"%d","resource":[{"id":%d,"type":"%s","hash":"%s"}]}`,
+			relate, userid, vip, appid, token, behavior, area_code, clientver, rid, rtype, id)
+		reqResp := reqHandler("kugou", reqMethod, url, data)
+		return kugouURL(reqResp["result"])
 	case "baidu":
 		reqMethod := "GET"
 		url := "http://musicapi.taihe.com/v1/restserver/ting"
+		e := BaiduAESCBC(id)
 		from, method, res, platform, version := "qianqianmini", "baidu.ting.song.getInfos", 1, "darwin", "1.0.0"
-		data := fmt.Sprintf(`{"songid": "%s", "from": "%s", "method": "%s", "res": "%d", "platform": "%s", "version": "%s"}`,
-			id, from, method, res, platform, version)
+		data := fmt.Sprintf(`{"songid": "%s", "from": "%s", "method": "%s", "res": "%d", "platform": "%s", "version": "%s", "e": "%s"}`,
+			id, from, method, res, platform, version, e)
 		return reqHandler("baidu", reqMethod, url, data)
 	default:
 		return map[string]string{"status": "404", "result": "暂不支持此站点"}
@@ -82,8 +84,8 @@ func kugouURL(result string) map[string]string {
 	hashStr := gojsonq.New().JSONString(result).Find("data.[0].relate_goods.[0].hash").(string)
 	reqMethod := "GET"
 	req4fownurl := "http://trackercdn.kugou.com/i/v2/"
-	key, pid, behavior, cmd, version := md5Encrpyt(hashStr+"kgcloudv2"), 3, "play", "25", 8990
-	data := fmt.Sprintf(`{"hash": "%s", "key": "%s", "pid": "%d", "behavior": "%s", "cmd": "%s", "version": %d}`, hashStr, key, pid, behavior, cmd, version)
+	key, pid, behavior, cmd, version := md5Encrpyt(hashStr+"kgcloudv2"), 3, "play", 25, 8990
+	data := fmt.Sprintf(`{"hash": "%s", "key": "%s", "pid": "%d", "behavior": "%s", "cmd": "%d", "version": "%d"}`, hashStr, key, pid, behavior, cmd, version)
 	strResp := reqHandler("kugou", reqMethod, req4fownurl, data)
 	res := strResp["result"]
 	if res == "" {
