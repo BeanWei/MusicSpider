@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-const testAll4artist, index4artist = false, 4
+const testAll4artist, index4artist = false, 3
 
 func Test_artist(t *testing.T) {
 
@@ -13,7 +13,7 @@ func Test_artist(t *testing.T) {
 		"netease": "3681",
 		"tencent": "003Nz2So3XXYek",
 		"xiami":   "23485",
-		"kugou":   "d3520",
+		"kugou":   "3520",
 		"baidu":   "362"}
 
 	if testAll4artist {
@@ -29,7 +29,5 @@ func Test_artist(t *testing.T) {
 }
 
 /*
-TODO:
-	虾米接口待完善
-	酷狗接口提示参数不合法
+TODO: 虾米接口待完善
 */

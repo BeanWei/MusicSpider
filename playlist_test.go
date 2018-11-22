@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-const testAll4playlist, index4playlist = false, 4
+const testAll4playlist, index4playlist = false, 2
 
 func Test_playlist(t *testing.T) {
 

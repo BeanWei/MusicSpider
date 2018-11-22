@@ -29,5 +29,5 @@ func Test_album(t *testing.T) {
 }
 
 /*
-TODO: 虾米专辑详情接口容易背ban，待完善。
+TODO: 虾米专辑详情接口容易被ban，待完善。
 */

@@ -21,11 +21,8 @@ func playlist(site, id string) map[string]string {
 		return reqHandler("tencent", reqMethod, url, data)
 	case "xiami":
 		reqMethod := "GET"
-		url := "http://h5api.m.xiami.com/h5/mtop.alimusic.music.list.collectservice.getcollectdetail/1.0/"
-		isFullTags, page, pageSize := "false", 1, 1000
-		data := fmt.Sprintf(`{"listId": "%s", "isFullTags": "%s", "page": "%d", "pageSize": "%d"}`,
-			id, isFullTags, page, pageSize)
-		return reqHandler("xiami", reqMethod, url, data)
+		url := fmt.Sprintf(`http://h5api.m.xiami.com/h5/mtop.alimusic.music.list.collectservice.getcollectdetail/1.0/?data=[{"listId":%s,"isFullTags":false,"pagingVO":["page":1,"pageSize":1000]}]&r=mtop.alimusic.music.list.collectservice.getcollectdetail`, id)
+		return reqHandler("xiami", reqMethod, url, "")
 	case "kugou":
 		reqMethod := "GET"
 		url := "http://mobilecdn.kugou.com/api/v3/special/song"
