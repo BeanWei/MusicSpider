@@ -4,64 +4,91 @@ import (
 	"encoding/base64"
 	"fmt"
 	"github.com/thedevsaddam/gojsonq"
+	"regexp"
 )
 
 func lyric(site, id string) map[string]string {
 	switch site {
 	case "netease":
-		reqMethod := "POST"
+		reqMethod := "GET"
 		url := "http://music.163.com/api/song/lyric"
 		os, lv, kv, tv := "linux", "-1", "-1", "-1"
-		data := fmt.Sprintf(`{"id": "%s", "os": "%s", "lv": "%s", "kv": "%s", "tv": %s}`,
+		data := fmt.Sprintf(`{"id": "%s", "os": "%s", "lv": "%s", "kv": "%s", "tv": "%s"}`,
 			id, os, lv, kv, tv)
-		return reqHandler("netease", reqMethod, url, data)
+		reqResp := reqHandler("netease", reqMethod, url, data)
+		return neteaseLyric(reqResp["result"])
 	case "tencent":
 		reqMethod := "GET"
 		url := "https://c.y.qq.com/lyric/fcgi-bin/fcg_query_lyric_new.fcg"
 		g_tk := "5381"
 		data := fmt.Sprintf(`{"songmid": "%s", "g_tk": %s}`, id, g_tk)
-		return reqHandler("tencent", reqMethod, url, data)
+		reqResp := reqHandler("tencent", reqMethod, url, data)
+		return tencentLyric(reqResp["result"])
 	case "xiami":
+		// TODO: 虾米音乐歌词链接暂时只在歌曲信息内找得到，这里只能先请求歌曲信息然后再提取出歌词链接
+		/*/
 		reqMethod := "GET"
 		url := "http://h5api.m.xiami.com/h5/mtop.alimusic.music.lyricservice.getsonglyrics/1.0/"
 		data := fmt.Sprintf(`{"songId": %s}`, id)
 		return reqHandler("xiami", reqMethod, url, data)
+		*/
+		songInfo := song("xiami", id)
+		lrcURI := gojsonq.New().JSONString(songInfo["result"]).Find("data.trackList.[0].lyric")
+		var lyricLink string
+		if lrcURI == nil {
+			return map[string]string{"lyric": "", "tlyric": ""}
+		} else {
+			lyricLink = "https:" + lrcURI.(string)
+		}
+		reqResp := reqHandler("xiami", "GET", lyricLink, "")
+		return xiamiLyric(reqResp["result"])
 	case "kugou":
 		reqMethod := "GET"
-		url := "http://krcs.kugou.com/search"
-		keyword, ver, client, man := "%20-%20", 1, "mobi", "yes"
-		data := fmt.Sprintf(`{"hash": "%s", "keyword": "%s", "ver": "%d", "client": "%s", "man": %s}`,
-			id, keyword, ver, client, man)
-		return reqHandler("kugou", reqMethod, url, data)
+		//url := "http://krcs.kugou.com/search"
+		url := "http://www.kugou.com/yy/index.php"
+		r := "play/getdata"
+		data := fmt.Sprintf(`{"r": "%s", "hash": "%s"}`, r, id)
+		reqResp := reqHandler("kugou", reqMethod, url, data)
+		return kugouLyric(reqResp["result"])
 	case "baidu":
 		reqMethod := "GET"
 		url := "http://musicapi.taihe.com/v1/restserver/ting"
 		from, method, platform, version := "qianqianmini", "baidu.ting.song.lry", "darwin", "1.0.0"
-		data := fmt.Sprintf(`{"songid": "%s", "from": "%s", "method": "%s", "platform": "%s", "version": %s}`,
+		data := fmt.Sprintf(`{"songid": "%s", "from": "%s", "method": "%s", "platform": "%s", "version": "%s"}`,
 			id, from, method, platform, version)
-		return reqHandler("baidu", reqMethod, url, data)
+		reqResp := reqHandler("baidu", reqMethod, url, data)
+		return baiduLyric(reqResp["result"])
 	default:
 		return map[string]string{"status": "404", "result": "暂不支持此站点"}
 	}
 }
 
-func neteaseLyric(result string) string {
+func neteaseLyric(result string) map[string]string {
+	var lyricStr, tlyricStr string
 	lyric := gojsonq.New().JSONString(result).Find("lrc.lyric")
 	if lyric == nil {
-		lyric = ""
+		lyricStr = ""
+	} else {
+		lyricStr = lyric.(string)
 	}
 	tlyric := gojsonq.New().JSONString(result).Find("tlyric.lyric")
 	if tlyric == nil {
-		tlyric = ""
+		tlyricStr = ""
+	} else {
+		tlyricStr = tlyric.(string)
 	}
-	return fmt.Sprintf(`{"lyric": "%s", "tlyric": %s}`, lyric.(string), tlyric.(string))
+	return map[string]string{"lyric": lyricStr, "tlyric": tlyricStr}
 }
 
-func tencentLyric(result string) string {
-	// TODO: 获取完整的json返回
+func tencentLyric(result string) map[string]string {
 	var lyricStr, tlyricStr string
-	lyric := gojsonq.New().JSONString(result).Find("tlyric")
-	if lyric == nil {
+	reg, err := regexp.Compile(`MusicJsonCallback\((.*?)\)`)
+	if err != nil {
+		return map[string]string{"lyric": "", "tlyric": ""}
+	}
+	jsRes := reg.FindStringSubmatch(result)[1]
+	lyric := gojsonq.New().JSONString(jsRes).Find("lyric")
+	if lyric == nil || lyric == "" {
 		lyricStr = ""
 	} else {
 		lyricByte, err := base64.StdEncoding.DecodeString(lyric.(string))
@@ -71,8 +98,8 @@ func tencentLyric(result string) string {
 			lyricStr = ""
 		}
 	}
-	tlyric := gojsonq.New().JSONString(result).Find("trans")
-	if tlyric == nil {
+	tlyric := gojsonq.New().JSONString(jsRes).Find("trans")
+	if tlyric == nil || tlyric == "" {
 		tlyricStr = ""
 	} else {
 		tlyricByte, err := base64.StdEncoding.DecodeString(tlyric.(string))
@@ -82,45 +109,32 @@ func tencentLyric(result string) string {
 			tlyricStr = ""
 		}
 	}
-	return fmt.Sprintf(`{"lyric": "%s", "tlyric": %s}`, lyricStr, tlyricStr)
+	return map[string]string{"lyric": lyricStr, "tlyric": tlyricStr}
 }
 
-func xiamiLyric(result string) string {
-	return fmt.Sprintf(`{"lyric": "%s", "tlyric": %s}`, "", "")
+func xiamiLyric(result string) map[string]string {
+	// 可能需要扩展虾米歌词格式解析
+	return map[string]string{"lyric": result, "tlyric": ""}
 }
 
-func kugouLyric(result string) string {
-	accesskey := gojsonq.New().JSONString(result).Find("candidates.[0].accesskey")
-	id := gojsonq.New().JSONString(result).Find("candidates.[0].id")
-	reqMethod := "GET"
-	url := "http://lyrics.kugou.com/download"
-	charset, client, _fmt, ver := "utf-8", "mobi", "lrc", 1
-	data := fmt.Sprintf(`{"charset: %s", "accesskey": "%s", "id": "%s", "client": "%s", "fmt", "%s", "ver": %d}`,
-		charset, accesskey.(string), id.(string), client, _fmt, ver)
-	resp := reqHandler("kugou", reqMethod, url, data)
-	res := resp["result"]
+func kugouLyric(result string) map[string]string {
 	var lyricStr string
-	lyric := gojsonq.New().JSONString(res).Find("content")
-	if lyric == nil {
+	lyric := gojsonq.New().JSONString(result).Find("data.lyrics")
+	if lyric == nil || lyric == "" {
 		lyricStr = ""
 	} else {
-		lyricByte, err := base64.StdEncoding.DecodeString(lyric.(string))
-		if err == nil {
-			lyricStr = string(lyricByte)
-		} else {
-			lyricStr = ""
-		}
+		lyricStr = lyric.(string)
 	}
-	return fmt.Sprintf(`{"lyric": "%s", "tlyric": %s}`, lyricStr, "")
+	return map[string]string{"lyric": lyricStr, "tlyric": ""}
 }
 
-func baiduLyric(result string) string {
-	var lyricStr string
+func baiduLyric(result string) map[string]string {
 	lyric := gojsonq.New().JSONString(result).Find("lrcContent")
+	var lyricStr string
 	if lyric == nil {
 		lyricStr = ""
 	} else {
 		lyricStr = lyric.(string)
 	}
-	return fmt.Sprintf(`{"lyric": "%s", "tlyric": %s}`, lyricStr, "")
+	return map[string]string{"lyric": lyricStr, "tlyric": ""}
 }
