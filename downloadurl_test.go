@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-const testAll4url, index4url = false, 1
+const testAll4url, index4url = false, 4
 
 func Test_downloadurl(t *testing.T) {
 
@@ -33,4 +33,8 @@ TODO:
 	网易云音乐无法获取到下载直链，提示参数错误
 
 	QQ音乐获取到的直链打开报403
+
+    百度音乐不定时出现参数错误？
+	- 尝试方法：固定参数位置
+		http://musicapi.taihe.com/v1/restserver/ting?songid=578055564&from=qianqianmini&method=baidu.ting.song.getInfos&res=1&platform=darwin&version=1.0.0&e=vchaKgAigShr/UkgYA0bwxDE0Hm2/vlKdduDvpvcUnTsl8B9LLCdEybUWP3Tgznl
 */

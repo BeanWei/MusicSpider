@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-const testAll4song, index4song = false, 3
+const testAll4song, index4song = false, 4
 
 func Test_song(t *testing.T) {
 
@@ -29,5 +29,5 @@ func Test_song(t *testing.T) {
 }
 
 /*
-TODO: 百度音乐歌曲详情获取响应结果提示IP不允许 (测试的环境是在VPN下测试的，需要普通环境下具体测试)
+TODO: 百度音乐歌曲详情获取响应结果提示IP不允许 (测试的环境是在VPN下测试的，需要普通环境下具体测试), 不定时出现参数错误？
 */
