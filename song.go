@@ -23,10 +23,10 @@ func song(site, id string) map[string]string {
 		url := fmt.Sprintf("http://www.xiami.com/song/playlist/id/%s/object_name/default/object_id/0/cat/json", id)
 		return reqHandler("xiami", reqMethod, url, "")
 	case "kugou":
-		reqMethod := "POST"
+		reqMethod := "GET"
 		url := "http://m.kugou.com/app/i/getSongInfo.php"
-		cmd, from := "playInfo", "mkugou"
-		data := fmt.Sprintf(`{"hash": "%s", "cmd": "%s", "from": "%s"}`, id, cmd, from)
+		cmd := "playInfo"
+		data := fmt.Sprintf(`{"cmd": "%s", "hash": "%s"}`, cmd, id)
 		return reqHandler("kugou", reqMethod, url, data)
 	case "baidu":
 		reqMethod := "GET"
