@@ -32,7 +32,19 @@
     "kv": "-1", 
     "tv": "-1"
     ```      
-     
+- 专辑
+   > http://music.163.com/api/v1/album/专辑ID
+     - 请求方式: POST
+     ```aidl
+      {
+          "id": "专辑ID", 
+          "total": "true", 
+          "offset": "0", 
+          "limit": "1000", 
+          "ext": "true", 
+          "private_cloud": "true"
+      }
+     ```     
 
  ### QQ音乐 API
  - 搜索
@@ -63,7 +75,15 @@
          "songmid": "歌曲ID", 
          "g_tk": 5381
          ```         
-    
+ - 专辑
+   > https://c.y.qq.com/v8/fcg-bin/fcg_v8_album_detail_cp.fcg?newsong=1&albummid=专辑ID号&platform=mac&format=json
+     - 请求方式: GET
+        ```aidl
+        "albummid": "专辑ID", 
+        "platform": "mac", 
+        "format": "json", 
+        "newsong": "1"
+        ```   
  
  ### 虾米音乐 API
  - 搜索
@@ -89,6 +109,11 @@
     暂时只知道可以在歌曲详情中获取对应歌词，其他方法尚未成功。\
     从 `详情` 中获取歌词的链接, 这里有点特别奇怪的是，我代码里面请求歌词链接获取到的歌词
     是不需要做额外的处理，但是在浏览器上看到的歌词返回值是有<数字>这种符号的。
+    
+ - 专辑
+    > https://www.xiami.com/album/songs/id/专辑ID
+      - 请求方式: GET \
+      :lock: 此接口待更换，不建议使用, 频繁请求便会被ban掉禁止访问。 
    
  - 下载   
     虾米下载直链获取方法：\
@@ -130,8 +155,19 @@
       "r": "play/getdata", 
       "hash": "歌曲 Hash ID"
       ```  
+ - 专辑
+    > http://mobilecdn.kugou.com/api/v3/album/song?albumid=1645030&area_code=1&plat=2&page=1&pagesize=-1&version=8990
+      - 请求方式: GET
+        ```aidl
+        "albumid": "专辑ID", 
+        "area_code": "1", 
+        "plat": "2", 
+        "page": "1", 
+        "pagesize": "-1", 
+        "version": "8990"
+        ```     
            
- - 下载
+ - 下载\
     step1:请求如下URL获取hash值
     > http://media.store.kugou.com/v1/get_res_privilege
      - 请求方式: POST
@@ -194,7 +230,18 @@
          "method": "baidu.ting.song.lry", 
          "platform": "darwin", 
          "version": "1.0.0"   
-         ```     
+         ``` 
+ - 专辑
+    > http://musicapi.taihe.com/v1/restserver/ting?album_id=541223882&from=qianqianmini&method=baidu.ting.album.getAlbumInfo&platform=darwin&version=11.2.1
+      - 请求方式: GET
+        ```aidl
+        "album_id": "专辑ID", 
+        "from": "qianqianmini", 
+        "method": "baidu.ting.album.getAlbumInfo", 
+        "platform": "darwin", 
+        "version": "11.2.1"
+        ```    
+                 
  - 下载
     > http://musicapi.taihe.com/v1/restserver/ting?version=1.0.0&e=vchaKgAigShr/UkgYA0bw1nX9xQpRiZHIzBqV/lBoBUDS2QfPcumcfd92CJXkVA2&songid=578055564&from=qianqianmini&method=baidu.ting.song.getInfos&res=1&platform=darwin
      - 请求方式: GET
