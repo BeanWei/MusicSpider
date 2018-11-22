@@ -55,7 +55,19 @@
            "private_cloud": "true", 
            "top": 50
         }
-       ```          
+       ```
+- 歌单
+   > http://music.163.com/weapi/v3/playlist/detail
+     - 请求方式: POST 
+     - 请求参数需要加密 
+       ```aidl
+       {
+           "s": "0",
+           "id": 歌单ID,
+           "n": '1000',
+           "t": '0',
+       }    
+       ```               
 
  ### QQ音乐 API
  - 搜索
@@ -105,7 +117,16 @@
         "order": "listen", 
         "platform": "mac", 
         "newsong": "1"
-        ```        
+        ``` 
+ - 歌单
+    > https://c.y.qq.com/v8/fcg-bin/fcg_v8_playlist_cp.fcg?id=1144188779&format=json&newsong=1&platform=jqspaframe.json
+      - 请求方式: GET
+        ```aidl
+        "id": "歌单ID", 
+        "format": "json", 
+        "newsong": "1", 
+        "platform": "jqspaframe.json"
+        ```              
  
  ### 虾米音乐 API
  - 搜索
@@ -187,7 +208,18 @@
         "page": "1", 
         "pagesize": "-1", 
         "version": "8990"
-        ```     
+        ```   
+ - 歌单
+   > http://mobilecdn.kugou.com/api/v3/special/song?specialid=119859&area_code=1&plat=2&page=1&pagesize=-1&version=8990
+     - 请求方式: GET
+       ```aidl
+       "specialid": "歌单ID", 
+       "area_code": "1", 
+       "plat": "2", 
+       "page": "1", 
+       "pagesize": "-1", 
+       "version": "8990" 
+       ```         
            
  - 下载\
     step1:请求如下URL获取hash值
@@ -275,7 +307,17 @@
         "offset": "0", 
         "tinguid": "0", 
         "version": "11.2.1"
-        ```         
+        ```  
+ - 歌单
+    > http://musicapi.taihe.com/v1/restserver/ting?method=baidu.ting.diy.gedanInfo&platform=darwin&version=11.2.1&listid=364201689&from=qianqianmini
+      - 请求方式: GET
+        ```aidl
+         "listid": "歌单ID", 
+         "from": "qianqianmini", 
+         "method": "baidu.ting.diy.gedanInfo", 
+         "platform": "darwin", 
+         "version": "11.2.1"   
+        ```              
                  
  - 下载
     > http://musicapi.taihe.com/v1/restserver/ting?version=1.0.0&e=vchaKgAigShr/UkgYA0bw1nX9xQpRiZHIzBqV/lBoBUDS2QfPcumcfd92CJXkVA2&songid=578055564&from=qianqianmini&method=baidu.ting.song.getInfos&res=1&platform=darwin
