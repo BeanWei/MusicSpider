@@ -333,6 +333,7 @@
  - 下载
     > http://musicapi.taihe.com/v1/restserver/ting?version=1.0.0&e=vchaKgAigShr/UkgYA0bw1nX9xQpRiZHIzBqV/lBoBUDS2QfPcumcfd92CJXkVA2&songid=578055564&from=qianqianmini&method=baidu.ting.song.getInfos&res=1&platform=darwin
      - 请求方式: GET
+     - :lock:注意: 非大陆IP似乎无法请求获得下载直链
      ```aidl
        "songid": "歌曲ID",
        "from": "qianqianmini", 

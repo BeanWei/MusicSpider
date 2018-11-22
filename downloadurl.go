@@ -50,7 +50,8 @@ func downloadurl(site, id string) map[string]string {
 		from, method, res, platform, version := "qianqianmini", "baidu.ting.song.getInfos", 1, "darwin", "1.0.0"
 		data := fmt.Sprintf(`{"songid": "%s", "from": "%s", "method": "%s", "res": "%d", "platform": "%s", "version": "%s", "e": "%s"}`,
 			id, from, method, res, platform, version, e)
-		return reqHandler("baidu", reqMethod, url, data)
+		reqResp := reqHandler("baidu", reqMethod, url, data)
+		return baiduURL(reqResp["result"])
 	default:
 		return map[string]string{"status": "404", "result": "暂不支持此站点"}
 	}
@@ -99,9 +100,21 @@ func kugouURL(result string) map[string]string {
 }
 
 func baiduURL(result string) map[string]string {
-	url := gojsonq.New().JSONString(result).Find("songurl.url.[0].file_link")
-	if url == nil {
-		return map[string]string{"url": ""}
+	var downloadLink string
+	for i := 0; i >= 0; i++ {
+		path := fmt.Sprintf("songurl.url.[%d].file_link", i)
+		matchText := gojsonq.New().JSONString(result).Find(path)
+		if i == 0 {
+			if matchText == nil || matchText == "" {
+				downloadLink = ""
+				break
+			}
+		} else {
+			if matchText == nil || matchText == "" {
+				break
+			}
+		}
+		downloadLink = matchText.(string)
 	}
-	return map[string]string{"url": url.(string)}
+	return map[string]string{"url": downloadLink}
 }
