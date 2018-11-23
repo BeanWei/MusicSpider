@@ -11,6 +11,9 @@ import (
 var sites = [5]string{"netease", "tencent", "xiami", "kugou", "baidu"}
 
 func checkDicKey(dict map[string]int, thisKey ...string) bool {
+	if dict == nil {
+		return false
+	}
 	for _, k := range thisKey {
 		_, ok := dict[k]
 		if !ok {

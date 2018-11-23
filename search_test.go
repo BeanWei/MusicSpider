@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-const testAll4search, index4search = false, 0
+const testAll4search, index4search = true, 0
 
 func Test_search(t *testing.T) {
 	if testAll4search {
