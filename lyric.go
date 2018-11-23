@@ -7,7 +7,7 @@ import (
 	"regexp"
 )
 
-func lyric(site, id string) map[string]string {
+func Lyric(site, id string) map[string]string {
 	switch site {
 	case "netease":
 		reqMethod := "GET"
@@ -32,7 +32,7 @@ func lyric(site, id string) map[string]string {
 		data := fmt.Sprintf(`{"songId": %s}`, id)
 		return reqHandler("xiami", reqMethod, url, data)
 		*/
-		songInfo := song("xiami", id)
+		songInfo := Song("xiami", id)
 		lrcURI := gojsonq.New().JSONString(songInfo["result"]).Find("data.trackList.[0].lyric")
 		var lyricLink string
 		if lrcURI == nil {

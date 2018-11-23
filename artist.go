@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func artist(site, id string) map[string]string {
+func Artist(site, id string) map[string]string {
 	switch site {
 	case "netease":
 		reqMethod := "POST"

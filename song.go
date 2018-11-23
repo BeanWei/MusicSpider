@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func song(site, id string) map[string]string {
+func Song(site, id string) map[string]string {
 	switch site {
 	case "netease":
 		reqMethod := "GET"

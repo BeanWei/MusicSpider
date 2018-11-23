@@ -18,11 +18,11 @@ func Test_album(t *testing.T) {
 
 	if testAll4album {
 		for _, s := range sites {
-			resp := album(s, albumID[s])
+			resp := Album(s, albumID[s])
 			fmt.Println(resp)
 		}
 	} else {
-		resp := album(sites[index4album], albumID[sites[index4album]])
+		resp := Album(sites[index4album], albumID[sites[index4album]])
 		fmt.Println(resp)
 	}
 

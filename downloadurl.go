@@ -6,7 +6,7 @@ import (
 	"regexp"
 )
 
-func downloadurl(site, id string) map[string]string {
+func Downloadurl(site, id string) map[string]string {
 	switch site {
 	case "netease":
 		reqMethod := "POST"

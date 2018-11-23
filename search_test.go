@@ -10,11 +10,11 @@ const testAll4search, index4search = false, 0
 func Test_search(t *testing.T) {
 	if testAll4search {
 		for _, s := range sites {
-			resp := search(s, "hello", map[string]int{"limit": 10})
+			resp := Search(s, "hello", map[string]int{"limit": 10})
 			fmt.Println(resp)
 		}
 	} else {
-		resp := search(sites[index4search], "hello", map[string]int{"limit": 10})
+		resp := Search(sites[index4search], "hello", map[string]int{"limit": 10})
 		fmt.Println(resp)
 	}
 }

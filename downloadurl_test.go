@@ -18,11 +18,11 @@ func Test_downloadurl(t *testing.T) {
 
 	if testAll4url {
 		for _, s := range sites {
-			resp := downloadurl(s, songID[s])
+			resp := Downloadurl(s, songID[s])
 			fmt.Println(resp)
 		}
 	} else {
-		resp := downloadurl(sites[index4url], songID[sites[index4url]])
+		resp := Downloadurl(sites[index4url], songID[sites[index4url]])
 		fmt.Println(resp)
 	}
 

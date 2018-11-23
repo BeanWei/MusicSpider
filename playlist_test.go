@@ -18,11 +18,11 @@ func Test_playlist(t *testing.T) {
 
 	if testAll4playlist {
 		for _, s := range sites {
-			resp := playlist(s, playlistID[s])
+			resp := Playlist(s, playlistID[s])
 			fmt.Println(resp)
 		}
 	} else {
-		resp := playlist(sites[index4playlist], playlistID[sites[index4playlist]])
+		resp := Playlist(sites[index4playlist], playlistID[sites[index4playlist]])
 		fmt.Println(resp)
 	}
 

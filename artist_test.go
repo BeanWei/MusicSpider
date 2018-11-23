@@ -18,11 +18,11 @@ func Test_artist(t *testing.T) {
 
 	if testAll4artist {
 		for _, s := range sites {
-			resp := artist(s, artistID[s])
+			resp := Artist(s, artistID[s])
 			fmt.Println(resp)
 		}
 	} else {
-		resp := artist(sites[index4artist], artistID[sites[index4artist]])
+		resp := Artist(sites[index4artist], artistID[sites[index4artist]])
 		fmt.Println(resp)
 	}
 

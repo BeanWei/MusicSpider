@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func playlist(site, id string) map[string]string {
+func Playlist(site, id string) map[string]string {
 	switch site {
 	case "netease":
 		reqMethod := "POST"

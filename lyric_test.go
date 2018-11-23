@@ -18,11 +18,11 @@ func Test_lyric(t *testing.T) {
 
 	if testAll4lyric {
 		for _, s := range sites {
-			resp := lyric(s, lyricID[s])
+			resp := Lyric(s, lyricID[s])
 			fmt.Println(resp)
 		}
 	} else {
-		resp := lyric(sites[index4lyric], lyricID[sites[index4lyric]])
+		resp := Lyric(sites[index4lyric], lyricID[sites[index4lyric]])
 		fmt.Println(resp)
 	}
 

@@ -18,11 +18,11 @@ func Test_song(t *testing.T) {
 
 	if testAll4song {
 		for _, s := range sites {
-			resp := song(s, songID[s])
+			resp := Song(s, songID[s])
 			fmt.Println(resp)
 		}
 	} else {
-		resp := song(sites[index4song], songID[sites[index4song]])
+		resp := Song(sites[index4song], songID[sites[index4song]])
 		fmt.Println(resp)
 	}
 
