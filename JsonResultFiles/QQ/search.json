@@ -1,0 +1,1021 @@
+{
+	"code": 0,
+	"data": {
+		"keyword": "hello",
+		"priority": 0,
+		"qc": [],
+		"semantic": {
+			"curnum": 0,
+			"curpage": 1,
+			"list": [],
+			"totalnum": 0
+		},
+		"song": {
+			"curnum": 13,
+			"curpage": 1,
+			"list": [{
+				"action": {
+					"alert": 24,
+					"icons": 540540,
+					"msg": 23,
+					"switch": 1
+				},
+				"album": {
+					"id": 1827049,
+					"mid": "003ywHJv2BfIgW",
+					"name": "2017 GRAMMY® Nominees",
+					"subtitle": "",
+					"title": "2017 GRAMMY® Nominees",
+					"title_hilight": "2017 GRAMMY® Nominees"
+				},
+				"chinesesinger": 0,
+				"desc": "",
+				"desc_hilight": "",
+				"docid": "3255972729128140311",
+				"file": {
+					"media_mid": "002VIrhZ0VySJH",
+					"size_128": 4074922,
+					"size_320": 10186948,
+					"size_aac": 6116168,
+					"size_ape": 25453084,
+					"size_dts": 0,
+					"size_flac": 25530614,
+					"size_ogg": 5192481,
+					"size_try": 0,
+					"strMediaMid": "002VIrhZ0VySJH",
+					"try_begin": 0,
+					"try_end": 0
+				},
+				"fnote": 4009,
+				"genre": 1,
+				"grp": [{
+					"action": {
+						"alert": 0,
+						"icons": 524289,
+						"msg": 23,
+						"switch": 1
+					},
+					"album": {
+						"id": 1190847,
+						"mid": "0042Mr2q0474NU",
+						"name": "Music Sounds Better Fundamentals",
+						"subtitle": "",
+						"title": "Music Sounds Better Fundamentals",
+						"title_hilight": "Music Sounds Better Fundamentals"
+					},
+					"chinesesinger": 0,
+					"desc": "",
+					"desc_hilight": "",
+					"docid": "8968151091003066099",
+					"file": {
+						"media_mid": "002svlZI42n9Xy",
+						"size_128": 4729468,
+						"size_320": 11823280,
+						"size_aac": 6300660,
+						"size_ape": 29132040,
+						"size_dts": 0,
+						"size_flac": 29249471,
+						"size_ogg": 6002609,
+						"size_try": 0,
+						"strMediaMid": "002svlZI42n9Xy",
+						"try_begin": 0,
+						"try_end": 0
+					},
+					"fnote": 4010,
+					"genre": 1,
+					"id": 104869413,
+					"index_album": 8,
+					"index_cd": 0,
+					"interval": 295,
+					"isonly": 0,
+					"ksong": {
+						"id": 179045,
+						"mid": "001pLJ562xiq5F"
+					},
+					"language": 5,
+					"lyric": "",
+					"lyric_hilight": "",
+					"mid": "003Mmt194PNGMH",
+					"mv": {
+						"id": 0,
+						"vid": ""
+					},
+					"name": "Hello",
+					"newStatus": 2,
+					"nt": 10001,
+					"pay": {
+						"pay_down": 0,
+						"pay_month": 0,
+						"pay_play": 0,
+						"pay_status": 0,
+						"price_album": 0,
+						"price_track": 0,
+						"time_free": 0
+					},
+					"pure": 0,
+					"singer": [{
+						"id": 12578,
+						"mid": "003CoxJh1zFPpx",
+						"name": "Adele",
+						"title": "Adele",
+						"title_hilight": "Adele",
+						"type": 1,
+						"uin": 0
+					}],
+					"status": 0,
+					"subtitle": "",
+					"t": 1,
+					"tag": 10,
+					"time_public": "2015-10-20",
+					"title": "Hello",
+					"title_hilight": "<em>Hello</em>",
+					"type": 0,
+					"url": "http://stream10.qqmusic.qq.com/104869413.wma",
+					"ver": 0,
+					"volume": {
+						"gain": -10.88700008392334,
+						"lra": 17.07099914550781,
+						"peak": 0.9990000128746033
+					}
+				}],
+				"id": 200533607,
+				"index_album": 5,
+				"index_cd": 0,
+				"interval": 254,
+				"isonly": 1,
+				"ksong": {
+					"id": 179045,
+					"mid": "001pLJ562xiq5F"
+				},
+				"language": 5,
+				"lyric": "",
+				"lyric_hilight": "",
+				"mid": "001LBA5r1o4Ca0",
+				"mv": {
+					"id": 0,
+					"vid": ""
+				},
+				"name": "Hello",
+				"newStatus": 2,
+				"nt": 10001,
+				"pay": {
+					"pay_down": 0,
+					"pay_month": 0,
+					"pay_play": 0,
+					"pay_status": 0,
+					"price_album": 0,
+					"price_track": 0,
+					"time_free": 0
+				},
+				"pure": 0,
+				"singer": [{
+					"id": 12578,
+					"mid": "003CoxJh1zFPpx",
+					"name": "Adele",
+					"title": "Adele",
+					"title_hilight": "Adele",
+					"type": 1,
+					"uin": 0
+				}],
+				"status": 0,
+				"subtitle": "",
+				"t": 1,
+				"tag": 11,
+				"time_public": "2017-01-20",
+				"title": "Hello",
+				"title_hilight": "<em>Hello</em>",
+				"type": 0,
+				"url": "http://stream10.qqmusic.qq.com/200533607.wma",
+				"ver": 0,
+				"volume": {
+					"gain": -10.46100044250488,
+					"lra": 16.86100006103516,
+					"peak": 0.9980000257492065
+				}
+			}, {
+				"action": {
+					"alert": 0,
+					"icons": 528968,
+					"msg": 18,
+					"switch": 1
+				},
+				"album": {
+					"id": 965573,
+					"mid": "004OO21n2siodi",
+					"name": "Hello",
+					"subtitle": "",
+					"title": "Hello",
+					"title_hilight": "<em>Hello</em>"
+				},
+				"chinesesinger": 0,
+				"desc": "",
+				"desc_hilight": "",
+				"docid": "14775552655674468002",
+				"file": {
+					"media_mid": "0011KeSv1qxJ5W",
+					"size_128": 3609281,
+					"size_320": 9022898,
+					"size_aac": 5470150,
+					"size_ape": 0,
+					"size_dts": 0,
+					"size_flac": 0,
+					"size_ogg": 7199941,
+					"size_try": 0,
+					"strMediaMid": "0011KeSv1qxJ5W",
+					"try_begin": 0,
+					"try_end": 0
+				},
+				"fnote": 8013,
+				"genre": 1,
+				"grp": [],
+				"id": 102206145,
+				"index_album": 1,
+				"index_cd": 0,
+				"interval": 225,
+				"isonly": 0,
+				"ksong": {
+					"id": 0,
+					"mid": ""
+				},
+				"language": 7,
+				"lyric": "",
+				"lyric_hilight": "",
+				"mid": "001OVLez2EeB4g",
+				"mv": {
+					"id": 0,
+					"vid": ""
+				},
+				"name": "Hello",
+				"newStatus": 2,
+				"nt": 10000,
+				"pay": {
+					"pay_down": 0,
+					"pay_month": 0,
+					"pay_play": 0,
+					"pay_status": 0,
+					"price_album": 0,
+					"price_track": 0,
+					"time_free": 0
+				},
+				"pure": 0,
+				"singer": [{
+					"id": 952160,
+					"mid": "001Dgcva0OqlNC",
+					"name": "OMFG",
+					"title": "OMFG",
+					"title_hilight": "OMFG",
+					"type": 0,
+					"uin": 0
+				}],
+				"status": 0,
+				"subtitle": "",
+				"t": 1,
+				"tag": 10,
+				"time_public": "2013-11-23",
+				"title": "Hello",
+				"title_hilight": "<em>Hello</em>",
+				"type": 0,
+				"url": "http://stream10.qqmusic.qq.com/102206145.wma",
+				"ver": 0,
+				"volume": {
+					"gain": -11.10499954223633,
+					"lra": 3.237999916076660,
+					"peak": 1.0
+				}
+			}, {
+				"action": {
+					"alert": 0,
+					"icons": 532348,
+					"msg": 18,
+					"switch": 1
+				},
+				"album": {
+					"id": 4910508,
+					"mid": "003o6YTa2hccry",
+					"name": "Hello",
+					"subtitle": "",
+					"title": "Hello",
+					"title_hilight": "<em>Hello</em>"
+				},
+				"chinesesinger": 0,
+				"desc": "",
+				"desc_hilight": "",
+				"docid": "9415081501090553609",
+				"file": {
+					"media_mid": "0010RGw54A4y89",
+					"size_128": 3501466,
+					"size_320": 8752992,
+					"size_aac": 5299175,
+					"size_ape": 0,
+					"size_dts": 0,
+					"size_flac": 44024515,
+					"size_ogg": 4666545,
+					"size_try": 0,
+					"strMediaMid": "0010RGw54A4y89",
+					"try_begin": 0,
+					"try_end": 0
+				},
+				"fnote": 4009,
+				"genre": 33,
+				"grp": [],
+				"id": 219070136,
+				"index_album": 1,
+				"index_cd": 0,
+				"interval": 218,
+				"isonly": 0,
+				"ksong": {
+					"id": 4967547,
+					"mid": "003X0o7J3JO3C8"
+				},
+				"language": 4,
+				"lyric": "",
+				"lyric_hilight": "",
+				"mid": "0010RGw54A4y89",
+				"mv": {
+					"id": 0,
+					"vid": ""
+				},
+				"name": "Hello",
+				"newStatus": 1,
+				"nt": 10008,
+				"pay": {
+					"pay_down": 0,
+					"pay_month": 0,
+					"pay_play": 0,
+					"pay_status": 0,
+					"price_album": 0,
+					"price_track": 0,
+					"time_free": 0
+				},
+				"pure": 0,
+				"singer": [{
+					"id": 5669,
+					"mid": "000xtF4c4ajGbA",
+					"name": "소울스타",
+					"title": "소울스 타 (Soulstar)",
+					"title_hilight": "소울스타 (Soulstar)",
+					"type": 2,
+					"uin": 0
+				}],
+				"status": 0,
+				"subtitle": "",
+				"t": 1,
+				"tag": 10,
+				"time_public": "2018-11-06",
+				"title": "Hello",
+				"title_hilight": "<em>Hello</em>",
+				"type": 0,
+				"url": "http://stream10.qqmusic.qq.com/219070136.wma",
+				"ver": 0,
+				"volume": {
+					"gain": -8.593999862670898,
+					"lra": 11.67700004577637,
+					"peak": 1.0
+				}
+			}, {
+				"action": {
+					"alert": 0,
+					"icons": 532348,
+					"msg": 18,
+					"switch": 1
+				},
+				"album": {
+					"id": 1022783,
+					"mid": "002qXKvZ14csK8",
+					"name": "Hello",
+					"subtitle": "",
+					"title": "Hello",
+					"title_hilight": "<em>Hello</em>"
+				},
+				"chinesesinger": 0,
+				"desc": "",
+				"desc_hilight": "",
+				"docid": "11314667083900015782",
+				"file": {
+					"media_mid": "002Q1N4q1mh1qk",
+					"size_128": 3242753,
+					"size_320": 8106544,
+					"size_aac": 5017550,
+					"size_ape": 0,
+					"size_dts": 0,
+					"size_flac": 0,
+					"size_ogg": 5191206,
+					"size_try": 0,
+					"strMediaMid": "002Q1N4q1mh1qk",
+					"try_begin": 0,
+					"try_end": 0
+				},
+				"fnote": 4009,
+				"genre": 1,
+				"grp": [],
+				"id": 102695633,
+				"index_album": 1,
+				"index_cd": 0,
+				"interval": 202,
+				"isonly": 1,
+				"ksong": {
+					"id": 979428,
+					"mid": "001Ml4KH2PGtrP"
+				},
+				"language": 6,
+				"lyric": "",
+				"lyric_hilight": "",
+				"mid": "002Q1N4q1mh1qk",
+				"mv": {
+					"id": 0,
+					"vid": ""
+				},
+				"name": "Hello",
+				"newStatus": 2,
+				"nt": 10015,
+				"pay": {
+					"pay_down": 0,
+					"pay_month": 0,
+					"pay_play": 0,
+					"pay_status": 0,
+					"price_album": 0,
+					"price_track": 0,
+					"time_free": 0
+				},
+				"pure": 0,
+				"singer": [{
+					"id": 953033,
+					"mid": "000W24Dw2nYPDL",
+					"name": "Barbara Opsomer",
+					"title": "Barbara Opsomer",
+					"title_hilight": "Barbara Opsomer",
+					"type": 1,
+					"uin": 0
+				}],
+				"status": 0,
+				"subtitle": "",
+				"t": 1,
+				"tag": 10,
+				"time_public": "2015-06-22",
+				"title": "Hello",
+				"title_hilight": "<em>Hello</em>",
+				"type": 0,
+				"url": "http://stream10.qqmusic.qq.com/102695633.wma",
+				"ver": 0,
+				"volume": {
+					"gain": -9.694000244140625,
+					"lra": 4.110000133514404,
+					"peak": 1.0
+				}
+			}, {
+				"action": {
+					"alert": 0,
+					"icons": 532348,
+					"msg": 18,
+					"switch": 1
+				},
+				"album": {
+					"id": 3896063,
+					"mid": "003ScmK81yzHCR",
+					"name": "歌手第二季 第3期",
+					"subtitle": "",
+					"title": "歌手第二季 第3期",
+					"title_hilight": "歌手第二季 第3期"
+				},
+				"chinesesinger": 0,
+				"desc": "",
+				"desc_hilight": "",
+				"docid": "2347037162398495849",
+				"file": {
+					"media_mid": "002MjXqL1747v9",
+					"size_128": 4520018,
+					"size_320": 11299734,
+					"size_aac": 6839120,
+					"size_ape": 29362366,
+					"size_dts": 0,
+					"size_flac": 29480652,
+					"size_ogg": 6101025,
+					"size_try": 0,
+					"strMediaMid": "002MjXqL1747v9",
+					"try_begin": 0,
+					"try_end": 0
+				},
+				"fnote": 4009,
+				"genre": 1,
+				"grp": [],
+				"id": 212970668,
+				"index_album": 2,
+				"index_cd": 0,
+				"interval": 282,
+				"isonly": 1,
+				"ksong": {
+					"id": 3270669,
+					"mid": "001tAoFA2HGIto"
+				},
+				"language": 5,
+				"lyric": "",
+				"lyric_hilight": "",
+				"mid": "002MjXqL1747v9",
+				"mv": {
+					"id": 0,
+					"vid": ""
+				},
+				"name": "Hello",
+				"newStatus": 2,
+				"nt": 10009,
+				"pay": {
+					"pay_down": 0,
+					"pay_month": 0,
+					"pay_play": 0,
+					"pay_status": 0,
+					"price_album": 0,
+					"price_track": 0,
+					"time_free": 0
+				},
+				"pure": 0,
+				"singer": [{
+					"id": 2089875,
+					"mid": "003mJYns4PGYJE",
+					"name": "张天",
+					"title": "张天",
+					"title_hilight": "张天",
+					"type": 1,
+					"uin": 0
+				}],
+				"status": 0,
+				"subtitle": "",
+				"t": 1,
+				"tag": 12,
+				"time_public": "2018-01-26",
+				"title": "Hello (Live)",
+				"title_hilight": "<em>Hello</em> (Live)",
+				"type": 0,
+				"url": "http://stream10.qqmusic.qq.com/212970668.wma",
+				"ver": 0,
+				"volume": {
+					"gain": -7.945000171661377,
+					"lra": 17.29899978637695,
+					"peak": 0.9810000061988831
+				}
+			}, {
+				"action": {
+					"alert": 0,
+					"icons": 528968,
+					"msg": 23,
+					"switch": 1
+				},
+				"album": {
+					"id": 1259963,
+					"mid": "001WmhhK0Yu1f9",
+					"name": "Hello",
+					"subtitle": "",
+					"title": "Hello",
+					"title_hilight": "<em>Hello</em>"
+				},
+				"chinesesinger": 0,
+				"desc": "",
+				"desc_hilight": "",
+				"docid": "8835648493332617977",
+				"file": {
+					"media_mid": "000bjZu41ccUFu",
+					"size_128": 4813855,
+					"size_320": 12033959,
+					"size_aac": 6365496,
+					"size_ape": 0,
+					"size_dts": 0,
+					"size_flac": 0,
+					"size_ogg": 6278994,
+					"size_try": 0,
+					"strMediaMid": "000bjZu41ccUFu",
+					"try_begin": 67188,
+					"try_end": 115937
+				},
+				"fnote": 8013,
+				"genre": 36,
+				"grp": [],
+				"id": 105404580,
+				"index_album": 1,
+				"index_cd": 0,
+				"interval": 301,
+				"isonly": 0,
+				"ksong": {
+					"id": 204028,
+					"mid": "003djgow2ht8tR"
+				},
+				"language": 5,
+				"lyric": "",
+				"lyric_hilight": "",
+				"mid": "000bjZu41ccUFu",
+				"mv": {
+					"id": 0,
+					"vid": ""
+				},
+				"name": "Hello",
+				"newStatus": 2,
+				"nt": 10003,
+				"pay": {
+					"pay_down": 0,
+					"pay_month": 0,
+					"pay_play": 0,
+					"pay_status": 0,
+					"price_album": 0,
+					"price_track": 0,
+					"time_free": 0
+				},
+				"pure": 0,
+				"singer": [{
+					"id": 174043,
+					"mid": "003se0l702533p",
+					"name": "Tyler Carter",
+					"title": "Tyler Carter",
+					"title_hilight": "Tyler Carter",
+					"type": 0,
+					"uin": 0
+				}],
+				"status": 0,
+				"subtitle": "",
+				"t": 1,
+				"tag": 12,
+				"time_public": "2015-12-22",
+				"title": "Hello",
+				"title_hilight": "<em>Hello</em>",
+				"type": 0,
+				"url": "http://stream10.qqmusic.qq.com/105404580.wma",
+				"ver": 0,
+				"volume": {
+					"gain": -7.002999782562256,
+					"lra": 8.111000061035156,
+					"peak": 1.0
+				}
+			}, {
+				"action": {
+					"alert": 24,
+					"icons": 540540,
+					"msg": 18,
+					"switch": 1
+				},
+				"album": {
+					"id": 4022398,
+					"mid": "000IrNv51KBTM7",
+					"name": "歌手第二季 2018巅峰会",
+					"subtitle": "",
+					"title": "歌手第二季 2018巅峰会",
+					"title_hilight": "歌手第二季 2018巅峰 会"
+				},
+				"chinesesinger": 0,
+				"desc": "",
+				"desc_hilight": "",
+				"docid": "9930942522416265101",
+				"file": {
+					"media_mid": "003luS1i384Emv",
+					"size_128": 5304550,
+					"size_320": 13261030,
+					"size_aac": 8023552,
+					"size_ape": 68230359,
+					"size_dts": 0,
+					"size_flac": 68472010,
+					"size_ogg": 7189707,
+					"size_try": 0,
+					"strMediaMid": "003luS1i384Emv",
+					"try_begin": 0,
+					"try_end": 0
+				},
+				"fnote": 4009,
+				"genre": 1,
+				"grp": [],
+				"id": 213774016,
+				"index_album": 9,
+				"index_cd": 0,
+				"interval": 331,
+				"isonly": 1,
+				"ksong": {
+					"id": 3704598,
+					"mid": "002mMdpQ2r4qQv"
+				},
+				"language": 5,
+				"lyric": "",
+				"lyric_hilight": "",
+				"mid": "002wr4yE0FOEMP",
+				"mv": {
+					"id": 0,
+					"vid": ""
+				},
+				"name": "Hello",
+				"newStatus": 2,
+				"nt": 3428940357,
+				"pay": {
+					"pay_down": 0,
+					"pay_month": 0,
+					"pay_play": 0,
+					"pay_status": 0,
+					"price_album": 0,
+					"price_track": 0,
+					"time_free": 0
+				},
+				"pure": 0,
+				"singer": [{
+					"id": 1358209,
+					"mid": "0015sj5d2zFYL8",
+					"name": "迪玛希Dimash",
+					"title": "迪玛希Dimash",
+					"title_hilight": "迪玛希Dimash",
+					"type": 0,
+					"uin": 0
+				}],
+				"status": 0,
+				"subtitle": "",
+				"t": 1,
+				"tag": 12,
+				"time_public": "2018-04-20",
+				"title": "Hello (Live)",
+				"title_hilight": "<em>Hello</em> (Live)",
+				"type": 0,
+				"url": "http://stream10.qqmusic.qq.com/213774016.wma",
+				"ver": 0,
+				"volume": {
+					"gain": -6.004000186920166,
+					"lra": 17.93099975585938,
+					"peak": 0.9570000171661377
+				}
+			}, {
+				"action": {
+					"alert": 0,
+					"icons": 528968,
+					"msg": 18,
+					"switch": 1
+				},
+				"album": {
+					"id": 73147,
+					"mid": "0032YZ841kD2N0",
+					"name": "Replay -君は僕のeverything-",
+					"subtitle": "",
+					"title": "Replay -君は僕のeverything-",
+					"title_hilight": "Replay -君は僕のeverything-"
+				},
+				"chinesesinger": 0,
+				"desc": "",
+				"desc_hilight": "",
+				"docid": "5770478167132367764",
+				"file": {
+					"media_mid": "000CxjtS0yXWEs",
+					"size_128": 2938915,
+					"size_320": 7346921,
+					"size_aac": 4457139,
+					"size_ape": 0,
+					"size_dts": 0,
+					"size_flac": 23820776,
+					"size_ogg": 4487328,
+					"size_try": 0,
+					"strMediaMid": "000CxjtS0yXWEs",
+					"try_begin": 0,
+					"try_end": 0
+				},
+				"fnote": 8013,
+				"genre": 1,
+				"grp": [],
+				"id": 860613,
+				"index_album": 4,
+				"index_cd": 0,
+				"interval": 183,
+				"isonly": 0,
+				"ksong": {
+					"id": 1156005,
+					"mid": "003UTKfY2dE1dP"
+				},
+				"language": 4,
+				"lyric": "",
+				"lyric_hilight": "",
+				"mid": "004WF7bm1g3tXL",
+				"mv": {
+					"id": 0,
+					"vid": ""
+				},
+				"name": "Hello",
+				"newStatus": 2,
+				"nt": 1276183159,
+				"pay": {
+					"pay_down": 0,
+					"pay_month": 0,
+					"pay_play": 0,
+					"pay_status": 0,
+					"price_album": 0,
+					"price_track": 0,
+					"time_free": 0
+				},
+				"pure": 0,
+				"singer": [{
+					"id": 13841,
+					"mid": "004WBoDg0GjEcB",
+					"name": "SHINee",
+					"title": "SHINee (샤이니)",
+					"title_hilight": "SHINee (샤이니)",
+					"type": 2,
+					"uin": 0
+				}],
+				"status": 0,
+				"subtitle": "",
+				"t": 1,
+				"tag": 10,
+				"time_public": "2011-06-22",
+				"title": "Hello (韩语)",
+				"title_hilight": "<em>Hello</em> (韩语)",
+				"type": 0,
+				"url": "http://stream10.qqmusic.qq.com/860613.wma",
+				"ver": 0,
+				"volume": {
+					"gain": -11.21800041198730,
+					"lra": 4.993999958038330,
+					"peak": 1.0
+				}
+			}, {
+				"action": {
+					"alert": 0,
+					"icons": 532348,
+					"msg": 18,
+					"switch": 1
+				},
+				"album": {
+					"id": 3975882,
+					"mid": "002o35t61qwiP0",
+					"name": "Hello",
+					"subtitle": "",
+					"title": "Hello",
+					"title_hilight": "<em>Hello</em>"
+				},
+				"chinesesinger": 0,
+				"desc": "",
+				"desc_hilight": "",
+				"docid": "9569379213899548745",
+				"file": {
+					"media_mid": "000Gahah0nvYcq",
+					"size_128": 3136153,
+					"size_320": 7839559,
+					"size_aac": 4748954,
+					"size_ape": 45052641,
+					"size_dts": 0,
+					"size_flac": 45052644,
+					"size_ogg": 4663738,
+					"size_try": 0,
+					"strMediaMid": "000Gahah0nvYcq",
+					"try_begin": 0,
+					"try_end": 0
+				},
+				"fnote": 4009,
+				"genre": 1,
+				"grp": [],
+				"id": 213468224,
+				"index_album": 1,
+				"index_cd": 0,
+				"interval": 195,
+				"isonly": 1,
+				"ksong": {
+					"id": 3488855,
+					"mid": "002mwpSt3NzmZj"
+				},
+				"language": 0,
+				"lyric": "",
+				"lyric_hilight": "",
+				"mid": "000Gahah0nvYcq",
+				"mv": {
+					"id": 0,
+					"vid": ""
+				},
+				"name": "Hello",
+				"newStatus": 2,
+				"nt": 10016,
+				"pay": {
+					"pay_down": 0,
+					"pay_month": 0,
+					"pay_play": 0,
+					"pay_status": 0,
+					"price_album": 0,
+					"price_track": 0,
+					"time_free": 0
+				},
+				"pure": 0,
+				"singer": [{
+					"id": 2131389,
+					"mid": "000eroB22g9xG5",
+					"name": "Hello",
+					"title": "Hello",
+					"title_hilight": "Hello",
+					"type": 2,
+					"uin": 0
+				}],
+				"status": 0,
+				"subtitle": "",
+				"t": 1,
+				"tag": 10,
+				"time_public": "2018-04-03",
+				"title": "Hello",
+				"title_hilight": "<em>Hello</em>",
+				"type": 0,
+				"url": "http://stream10.qqmusic.qq.com/213468224.wma",
+				"ver": 0,
+				"volume": {
+					"gain": -10.18500041961670,
+					"lra": 4.488999843597412,
+					"peak": 1.0
+				}
+			}, {
+				"action": {
+					"alert": 24,
+					"icons": 540540,
+					"msg": 18,
+					"switch": 1
+				},
+				"album": {
+					"id": 85573,
+					"mid": "002gdMon4TSvA9",
+					"name": "Stronger (Deluxe Version)",
+					"subtitle": "",
+					"title": "Stronger (Deluxe Version)",
+					"title_hilight": "Stronger (Deluxe Version)"
+				},
+				"chinesesinger": 0,
+				"desc": "",
+				"desc_hilight": "",
+				"docid": "17445013359792507674",
+				"file": {
+					"media_mid": "003YqBns2HJ4YJ",
+					"size_128": 2874620,
+					"size_320": 7182868,
+					"size_aac": 4434440,
+					"size_ape": 22834463,
+					"size_dts": 0,
+					"size_flac": 23501846,
+					"size_ogg": 4159794,
+					"size_try": 0,
+					"strMediaMid": "003YqBns2HJ4YJ",
+					"try_begin": 0,
+					"try_end": 0
+				},
+				"fnote": 4009,
+				"genre": 1,
+				"grp": [],
+				"id": 1005901,
+				"index_album": 9,
+				"index_cd": 0,
+				"interval": 179,
+				"isonly": 1,
+				"ksong": {
+					"id": 232223,
+					"mid": "004PJWF53wh0Du"
+				},
+				"language": 5,
+				"lyric": "",
+				"lyric_hilight": "",
+				"mid": "003YqBns2HJ4YJ",
+				"mv": {
+					"id": 0,
+					"vid": ""
+				},
+				"name": "Hello",
+				"newStatus": 2,
+				"nt": 3186826965,
+				"pay": {
+					"pay_down": 0,
+					"pay_month": 0,
+					"pay_play": 0,
+					"pay_status": 0,
+					"price_album": 0,
+					"price_track": 0,
+					"time_free": 0
+				},
+				"pure": 0,
+				"singer": [{
+					"id": 4659,
+					"mid": "0034b6ah1V4ZPk",
+					"name": "Kelly Clarkson",
+					"title": "Kelly Clarkson",
+					"title_hilight": "Kelly Clarkson",
+					"type": 1,
+					"uin": 0
+				}],
+				"status": 0,
+				"subtitle": "",
+				"t": 1,
+				"tag": 10,
+				"time_public": "2011-10-21",
+				"title": "Hello",
+				"title_hilight": "<em>Hello</em>",
+				"type": 0,
+				"url": "http://stream10.qqmusic.qq.com/1005901.wma",
+				"ver": 0,
+				"volume": {
+					"gain": -11.52200031280518,
+					"lra": 3.957000017166138,
+					"peak": 0.9990000128746033
+				}
+			}],
+			"totalnum": 391
+		},
+		"tab": 0,
+		"taglist": [],
+		"totaltime": 0,
+		"zhida": {
+			"chinesesinger": 0,
+			"type": 0
+		}
+	},
+	"message": "",
+	"notice": "",
+	"subcode": 0,
+	"time": 1542941455,
+	"tips": ""
+}

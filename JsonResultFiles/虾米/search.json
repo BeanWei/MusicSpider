@@ -1,0 +1,631 @@
+{
+	"state": 0,
+	"message": "",
+	"request_id": "0b15379d15429414565914412e0a5d",
+	"data": {
+		"songs": [{
+			"song_id": 1774998338,
+			"song_name": "Hello",
+			"album_id": 2100226190,
+			"album_name": "Hello",
+			"album_logo": "http:\/\/pic.xiami.net\/images\/album\/img85\/23485\/21002261901445585261.jpeg",
+			"artist_id": 23485,
+			"artist_name": "Adele",
+			"artist_logo": "http:\/\/pic.xiami.net\/images\/artistlogo\/70\/15415622605670_1.jpg",
+			"listen_file": "http:\/\/m128.xiami.net\/485\/23485\/2100226190\/1774998338_1494755480490.mp3?auth_key=1543546800-0-0-86f6870655bc0b46a622eb10b64a2398",
+			"demo": 0,
+			"need_pay_flag": 0,
+			"lyric": "http:\/\/img.xiami.net\/lyric\/38\/1774998338_1448200934_4409.xtrc",
+			"purview_roles": [{
+				"quality": "e",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "f",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "l",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "h",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "s",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}],
+			"is_play": 0,
+			"play_counts": 0,
+			"singer": ""
+		}, {
+			"song_id": 1769792994,
+			"song_name": "Hello",
+			"album_id": 390629,
+			"album_name": "Hello [Repackage]",
+			"album_logo": "http:\/\/pic.xiami.net\/images\/album\/img75\/23575\/3906291474873144_1.jpg",
+			"artist_id": 23575,
+			"artist_name": "SHINee",
+			"artist_logo": "http:\/\/pic.xiami.net\/images\/artistlogo\/19\/14966512884219_1.jpg",
+			"listen_file": "http:\/\/m128.xiami.net\/575\/23575\/390629\/1769792994_1493372488724.mp3?auth_key=1543546800-0-0-a80e168287ebc1e4645aee6fe07f933a",
+			"demo": 0,
+			"need_pay_flag": 2,
+			"lyric": "http:\/\/img.xiami.net\/lyric\/94\/1769792994_1501404870_7667.xtrc",
+			"purview_roles": [{
+				"quality": "e",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 1
+				}, {
+					"purpose": 2,
+					"upgrade_role": 1
+				}]
+			}, {
+				"quality": "f",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 4
+				}]
+			}, {
+				"quality": "l",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 4
+				}]
+			}, {
+				"quality": "h",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 4
+				}, {
+					"purpose": 2,
+					"upgrade_role": 4
+				}]
+			}, {
+				"quality": "s",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 4
+				}, {
+					"purpose": 2,
+					"upgrade_role": 4
+				}]
+			}],
+			"is_play": 0,
+			"play_counts": 0,
+			"singer": ""
+		}, {
+			"song_id": 1773315660,
+			"song_name": "Hello",
+			"album_id": 404099617,
+			"album_name": "Hello",
+			"album_logo": "http:\/\/pic.xiami.net\/images\/album\/img17\/4099617\/4040996171474870556_1.jpg",
+			"artist_id": 4099617,
+			"artist_name": "Mischa",
+			"artist_logo": "http:\/\/pic.xiami.net\/images\/artistlogo\/70\/14040996163570_1.jpg",
+			"listen_file": "http:\/\/m128.xiami.net\/617\/4099617\/404099617\/1773315660_15316197_l.mp3?auth_key=1543546800-0-0-b4b96ec8e17f8f2e7fc346fea5377837",
+			"demo": 0,
+			"need_pay_flag": 0,
+			"lyric": "http:\/\/img.xiami.net\/lyric\/60\/1773315660_1448199399_4105.xtrc",
+			"purview_roles": [{
+				"quality": "e",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "f",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "l",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "h",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "s",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 1
+				}, {
+					"purpose": 2,
+					"upgrade_role": 1
+				}]
+			}],
+			"is_play": 0,
+			"play_counts": 0,
+			"singer": ""
+		}, {
+			"song_id": 1542099,
+			"song_name": "Hello",
+			"album_id": 456051,
+			"album_name": "Can't Slow Down",
+			"album_logo": "http:\/\/pic.xiami.net\/images\/album\/img95\/11695\/4560511469686529_1.jpg",
+			"artist_id": 11695,
+			"artist_name": "Lionel Richie",
+			"artist_logo": "http:\/\/pic.xiami.net\/images\/artistlogo\/9\/14213910538309_1.jpg",
+			"listen_file": "http:\/\/m128.xiami.net\/1\/695\/11695\/456051\/1542099_239909_l.mp3?auth_key=1543546800-0-0-b02a9518435a2f7f1c862f0d7749267b",
+			"demo": 0,
+			"need_pay_flag": 2,
+			"lyric": "http:\/\/img.xiami.net\/lyric\/99\/1542099_1411453896013_1292.xlrc",
+			"purview_roles": [{
+				"quality": "e",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 4
+				}]
+			}, {
+				"quality": "f",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 4
+				}]
+			}, {
+				"quality": "l",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 4
+				}]
+			}, {
+				"quality": "h",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 4
+				}, {
+					"purpose": 2,
+					"upgrade_role": 4
+				}]
+			}, {
+				"quality": "s",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 4
+				}, {
+					"purpose": 2,
+					"upgrade_role": 4
+				}]
+			}],
+			"is_play": 0,
+			"play_counts": 0,
+			"singer": ""
+		}, {
+			"song_id": 1774996124,
+			"song_name": "Hello",
+			"album_id": 2100226048,
+			"album_name": "25",
+			"album_logo": "http:\/\/pic.xiami.net\/images\/album\/img85\/23485\/21002260481445583405_1.jpg",
+			"artist_id": 23485,
+			"artist_name": "Adele",
+			"artist_logo": "http:\/\/pic.xiami.net\/images\/artistlogo\/70\/15415622605670_1.jpg",
+			"listen_file": "http:\/\/m128.xiami.net\/485\/23485\/2100226048\/1774996124_1490784553800.mp3?auth_key=1543546800-0-0-ddb6127672d5781303fe04cd0deb23b6",
+			"demo": 0,
+			"need_pay_flag": 0,
+			"lyric": "http:\/\/img.xiami.net\/lyric\/24\/1774996124_1450925363_1592.xtrc",
+			"purview_roles": [{
+				"quality": "e",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "f",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "l",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "h",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "s",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}],
+			"is_play": 0,
+			"play_counts": 0,
+			"singer": ""
+		}, {
+			"song_id": 1769553663,
+			"song_name": "Hello",
+			"album_id": 383669,
+			"album_name": "I Love Disco Diamonds Collection Vol. 47",
+			"album_logo": "http:\/\/pic.xiami.net\/images\/album\/img58\/23258\/3836691275639479_1.jpg",
+			"artist_id": 23258,
+			"artist_name": "Various Artists",
+			"artist_logo": "http:\/\/pic.xiami.net\/images\/artistlogo\/33\/13517382586833_1.jpg",
+			"listen_file": "http:\/\/m128.xiami.net\/258\/23258\/383669\/1769553663_1334458_l.mp3?auth_key=1543546800-0-0-a85f52c7421b4a3d8e986401ebfe2d7f",
+			"demo": 0,
+			"need_pay_flag": 0,
+			"lyric": "http:\/\/img.xiami.net\/lyric_p\/upload\/63\/1769553663_1375954788.lrc",
+			"purview_roles": [{
+				"quality": "e",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "f",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 1
+				}, {
+					"purpose": 2,
+					"upgrade_role": 1
+				}]
+			}, {
+				"quality": "l",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "h",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "s",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 1
+				}, {
+					"purpose": 2,
+					"upgrade_role": 1
+				}]
+			}],
+			"is_play": 0,
+			"play_counts": 0,
+			"singer": ""
+		}, {
+			"song_id": 1774162632,
+			"song_name": "HELLO",
+			"album_id": 228730871,
+			"album_name": "HELLO,HELLO,HELLO,",
+			"album_logo": "http:\/\/pic.xiami.net\/images\/album\/img70\/730870\/7308701428730870_1.jpg",
+			"artist_id": 1711443342,
+			"artist_name": "uchuu;",
+			"artist_logo": "http:\/\/pic.xiami.net\/images\/artistlogo\/61\/14114433415961_1.jpg",
+			"listen_file": "http:\/\/m128.xiami.net\/342\/1711443342\/228730871\/1774162632_16575953_l.mp3?auth_key=1543546800-0-0-02a2e83e5bddc67d282a193b4660cb0a",
+			"demo": 0,
+			"need_pay_flag": 0,
+			"lyric": "http:\/\/img.xiami.net\/lyric\/32\/1774162632_1429686708_4474.lrc",
+			"purview_roles": [{
+				"quality": "e",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "f",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 1
+				}, {
+					"purpose": 2,
+					"upgrade_role": 1
+				}]
+			}, {
+				"quality": "l",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "h",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "s",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 1
+				}, {
+					"purpose": 2,
+					"upgrade_role": 1
+				}]
+			}],
+			"is_play": 0,
+			"play_counts": 0,
+			"singer": ""
+		}, {
+			"song_id": 1773556422,
+			"song_name": "Hello",
+			"album_id": 1111346957,
+			"album_name": "Vintage Reggae Café",
+			"album_logo": "http:\/\/pic.xiami.net\/images\/album\/img57\/346957\/3469571411346957_1.jpg",
+			"artist_id": 23258,
+			"artist_name": "Various Artists",
+			"artist_logo": "http:\/\/pic.xiami.net\/images\/artistlogo\/33\/13517382586833_1.jpg",
+			"listen_file": "http:\/\/m128.xiami.net\/258\/23258\/1111346957\/1773556422_15811406_l.mp3?auth_key=1543546800-0-0-9b63377810c7b8841ae0907bd7f2f2e1",
+			"demo": 0,
+			"need_pay_flag": 0,
+			"lyric": "http:\/\/img.xiami.net\/lyric\/22\/1773556422_1477586828954_6267.txt",
+			"purview_roles": [{
+				"quality": "e",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "f",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 1
+				}, {
+					"purpose": 2,
+					"upgrade_role": 1
+				}]
+			}, {
+				"quality": "l",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "h",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "s",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 1
+				}, {
+					"purpose": 2,
+					"upgrade_role": 1
+				}]
+			}],
+			"is_play": 0,
+			"play_counts": 0,
+			"singer": ""
+		}, {
+			"song_id": 1769740271,
+			"song_name": "Hello",
+			"album_id": 399791,
+			"album_name": "AQUAPLUS VOCAL COLLECTION VOL.5",
+			"album_logo": "http:\/\/pic.xiami.net\/images\/album\/img73\/93973\/3997911404821321_1.jpg",
+			"artist_id": 93973,
+			"artist_name": "Leaf",
+			"artist_logo": "http:\/\/pic.xiami.net\/images\/artistlogo\/98\/13118447318698_1.png",
+			"listen_file": "http:\/\/m128.xiami.net\/973\/93973\/399791\/1769740271_1574498_l.mp3?auth_key=1543546800-0-0-0c5977c414b387f7dd009b24a9ade98b",
+			"demo": 0,
+			"need_pay_flag": 0,
+			"lyric": "http:\/\/img.xiami.net\/lyric\/71\/1769740271_1477273556336_1451.xlrc",
+			"purview_roles": [{
+				"quality": "e",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "f",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 1
+				}, {
+					"purpose": 2,
+					"upgrade_role": 1
+				}]
+			}, {
+				"quality": "l",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "h",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "s",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 3
+				}, {
+					"purpose": 2,
+					"upgrade_role": 3
+				}]
+			}],
+			"is_play": 0,
+			"play_counts": 0,
+			"singer": ""
+		}, {
+			"song_id": 1772002721,
+			"song_name": "hello",
+			"album_id": 1473263258,
+			"album_name": "ひぐらし×うみねこのなく頃に Piano Collection",
+			"album_logo": "http:\/\/pic.xiami.net\/images\/album\/img33\/86833\/14732632581373263258_1.jpg",
+			"artist_id": 86833,
+			"artist_name": "M.Graveyard",
+			"artist_logo": "http:\/\/pic.xiami.net\/images\/artistlogo\/8\/14213916896408_1.jpg",
+			"listen_file": "http:\/\/m128.xiami.net\/833\/86833\/1473263258\/1772002721_10640836_l.mp3?auth_key=1543546800-0-0-9d4077e015ceb4c370ac935acd691948",
+			"demo": 0,
+			"need_pay_flag": 0,
+			"purview_roles": [{
+				"quality": "e",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "f",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 1
+				}, {
+					"purpose": 2,
+					"upgrade_role": 1
+				}]
+			}, {
+				"quality": "l",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "h",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 0
+				}, {
+					"purpose": 2,
+					"upgrade_role": 0
+				}]
+			}, {
+				"quality": "s",
+				"operation_list": [{
+					"purpose": 1,
+					"upgrade_role": 1
+				}, {
+					"purpose": 2,
+					"upgrade_role": 1
+				}]
+			}],
+			"is_play": 0,
+			"lyric": "",
+			"play_counts": 0,
+			"singer": ""
+		}],
+		"total": 18994,
+		"previous": 0,
+		"next": 0
+	}
+}

@@ -1,0 +1,11 @@
+#search
+source: 输入的站点
+id, 歌曲ID
+name, 歌曲名称
+artists[0][name] 歌手名称 ID?
+album[name] 专辑名称  ID?
+playURL:
+downloadURL: 
+//duration 时长
+
+ 
