@@ -1,0 +1,2325 @@
+{
+  "status": true,
+  "message": "",
+  "data": [
+    {
+      "songId": "1807097894",
+      "songStringId": "U8fsNi2758f",
+      "songName": "8:15pm (Intro)",
+      "subName": "",
+      "newSubName": "",
+      "translation": "",
+      "albumId": 2104242503,
+      "albumStringId": "9cGicX47eb8",
+      "artistId": 135,
+      "singers": "陈奕迅;eason and the duo band",
+      "mvId": 0,
+      "cdSerial": 1,
+      "track": 1,
+      "pinyin": "8:15pm (Intro)",
+      "price": null,
+      "albumPrice": "20.00",
+      "bakSongId": 0,
+      "panFlag": 0,
+      "musicType": "NORMAL",
+      "bakSong": null,
+      "lyricInfo": null,
+      "songwriters": "",
+      "composer": "",
+      "arrangement": "",
+      "boughtCount": 0,
+      "pace": 0,
+      "artistVOs": [
+        {
+          "artistId": 135,
+          "artistStringId": "O9fc383",
+          "artistName": "陈奕迅",
+          "alias": "Eason Chan",
+          "rewardSchemaUrl": null
+        }
+      ],
+      "albumLanguage": "粤语",
+      "playCount": 0,
+      "shareCount": null,
+      "favCount": null,
+      "offline": false,
+      "offlineType": 0,
+      "downloadCount": false,
+      "originOffline": false,
+      "exclusive": false,
+      "canReward": false,
+      "bizTags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "tags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "recommendCount": 0,
+      "collectCount": 0,
+      "artistStringId": "O9fc383",
+      "singerIds": [
+        135,
+        2110464991
+      ],
+      "demoCreateTime": 1542621453000,
+      "offLyric": false,
+      "songOpt": "NORMAL",
+      "packages": [
+        {
+          "id": 2104242503,
+          "packageType": "ALBUM"
+        }
+      ],
+      "purviews": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "publishStatus": "UNPUBLISH",
+      "demo": false,
+      "s": 0,
+      "song_id": "1807097894",
+      "album_id": 2104242503,
+      "name": "陈奕迅",
+      "title": "L.O.V.E.",
+      "album_name": "L.O.V.E.",
+      "sub_title": "",
+      "new_sub_title": "",
+      "song_sub_title": "",
+      "artist_name": "陈奕迅",
+      "artist_id": 135,
+      "cd_serial": 1,
+      "length": 0,
+      "recommends": 0,
+      "collects": 0,
+      "key_words": null,
+      "music_type": 0,
+      "play_volume": null,
+      "flag": null,
+      "purview_flag": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "album_logo": "images/album/img23/12/5bf288a21bf20_648023_1542621346_1.jpg",
+      "needpay": 1,
+      "mvUrl": "",
+      "listen_file": "",
+      "playstatus": 0,
+      "downloadstatus": 0,
+      "downloadjson": "",
+      "can_show": 0,
+      "can_check": 0,
+      "title_c": "L.O.V.E.",
+      "nameurl": "8%3A15pm+%28Intro%29",
+      "artisturl": "%E9%99%88%E5%A5%95%E8%BF%85",
+      "plays": 0,
+      "width": 15
+    },
+    {
+      "songId": "1806321193",
+      "songStringId": "bCndYab4775c",
+      "songName": "破坏王",
+      "subName": "We Zzzid It",
+      "newSubName": "",
+      "translation": "We Zzzid It",
+      "albumId": 2104242503,
+      "albumStringId": "9cGicX47eb8",
+      "artistId": 135,
+      "singers": "eason and the duo band;陈奕迅",
+      "mvId": 726434,
+      "cdSerial": 1,
+      "track": 2,
+      "pinyin": "po huai wang",
+      "price": null,
+      "albumPrice": "20.00",
+      "bakSongId": 0,
+      "panFlag": 0,
+      "musicType": "NORMAL",
+      "bakSong": null,
+      "lyricInfo": {
+        "lyricId": 14430720,
+        "lyricType": 3,
+        "lyricFile": "http://img.xiami.net/lyric/93/1806321193_1539835543_7807.trc",
+        "isOfficial": true,
+        "userId": 0,
+        "userName": null,
+        "gmtModified": 1539835543000
+      },
+      "songwriters": "陈咏谦",
+      "composer": "王双骏",
+      "arrangement": "eason and the duo band",
+      "boughtCount": 0,
+      "pace": 0,
+      "artistVOs": [
+        {
+          "artistId": 135,
+          "artistStringId": "O9fc383",
+          "artistName": "陈奕迅",
+          "alias": "Eason Chan",
+          "rewardSchemaUrl": null
+        }
+      ],
+      "albumLanguage": "粤语",
+      "playCount": 736149,
+      "shareCount": null,
+      "favCount": null,
+      "offline": false,
+      "offlineType": 0,
+      "downloadCount": false,
+      "originOffline": false,
+      "exclusive": false,
+      "canReward": false,
+      "bizTags": [
+        "LOSSLESS",
+        "S_PAY",
+        "ZB_7KL",
+        "X_DI0W"
+      ],
+      "tags": [
+        "LOSSLESS",
+        "S_PAY",
+        "ZB_7KL",
+        "X_DI0W"
+      ],
+      "recommendCount": 3111,
+      "collectCount": 2714,
+      "artistStringId": "O9fc383",
+      "singerIds": [
+        2110464991,
+        135
+      ],
+      "demoCreateTime": 1539833652000,
+      "offLyric": false,
+      "songOpt": "NORMAL",
+      "packages": [
+        {
+          "id": 2104242503,
+          "packageType": "ALBUM"
+        }
+      ],
+      "purviews": {
+        "LISTEN": {
+          "LOW": "NEED_PAY",
+          "HIGH": "NEED_PAY"
+        },
+        "DOWNLOAD": {
+          "LOW": "NEED_PAY",
+          "HIGH": "NEED_PAY"
+        }
+      },
+      "publishStatus": "PUBLISH",
+      "demo": false,
+      "s": 736149,
+      "song_id": "1806321193",
+      "album_id": 2104242503,
+      "name": "陈奕迅",
+      "title": "L.O.V.E.",
+      "album_name": "L.O.V.E.",
+      "sub_title": "We Zzzid It",
+      "new_sub_title": "",
+      "song_sub_title": "We Zzzid It",
+      "artist_name": "陈奕迅",
+      "artist_id": 135,
+      "cd_serial": 1,
+      "length": 259.025,
+      "recommends": 3111,
+      "collects": 2714,
+      "key_words": null,
+      "music_type": 0,
+      "play_volume": 89,
+      "flag": null,
+      "purview_flag": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NEED_PAY"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NEED_PAY"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NEED_PAY"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NEED_PAY"
+        }
+      ],
+      "album_logo": "images/album/img23/12/5bf288a21bf20_648023_1542621346_1.jpg",
+      "needpay": 1,
+      "mvUrl": "K6hYmp",
+      "listen_file": "http://m128.xiami.net/991/2110464991/2104116755/1806321193_1539837723980.mp3?auth_key=1543546800-0-0-39fdb60ede958887a7adb0fe7c50d9c7",
+      "playstatus": 2,
+      "downloadstatus": 2,
+      "downloadjson": "%7B%22LOW%22%3A%22NEED_PAY%22%2C%22HIGH%22%3A%22NEED_PAY%22%7D",
+      "can_show": 1,
+      "can_check": 0,
+      "title_c": "L.O.V.E.",
+      "nameurl": "%E7%A0%B4%E5%9D%8F%E7%8E%8B",
+      "artisturl": "%E9%99%88%E5%A5%95%E8%BF%85",
+      "plays": 0,
+      "width": 15
+    },
+    {
+      "songId": "1807097898",
+      "songStringId": "mTdx6S8f8fb",
+      "songName": "海里睡人",
+      "subName": "",
+      "newSubName": "",
+      "translation": "",
+      "albumId": 2104242503,
+      "albumStringId": "9cGicX47eb8",
+      "artistId": 135,
+      "singers": "陈奕迅;eason and the duo band",
+      "mvId": 0,
+      "cdSerial": 1,
+      "track": 3,
+      "pinyin": "hai li shui ren",
+      "price": null,
+      "albumPrice": "20.00",
+      "bakSongId": 0,
+      "panFlag": 0,
+      "musicType": "NORMAL",
+      "bakSong": null,
+      "lyricInfo": null,
+      "songwriters": "",
+      "composer": "",
+      "arrangement": "",
+      "boughtCount": 0,
+      "pace": 0,
+      "artistVOs": [
+        {
+          "artistId": 135,
+          "artistStringId": "O9fc383",
+          "artistName": "陈奕迅",
+          "alias": "Eason Chan",
+          "rewardSchemaUrl": null
+        }
+      ],
+      "albumLanguage": "粤语",
+      "playCount": 0,
+      "shareCount": null,
+      "favCount": null,
+      "offline": false,
+      "offlineType": 0,
+      "downloadCount": false,
+      "originOffline": false,
+      "exclusive": false,
+      "canReward": false,
+      "bizTags": [
+        "S_PAY",
+        "ZB_7KL",
+        "X_DI0W"
+      ],
+      "tags": [
+        "S_PAY",
+        "ZB_7KL",
+        "X_DI0W"
+      ],
+      "recommendCount": 0,
+      "collectCount": 0,
+      "artistStringId": "O9fc383",
+      "singerIds": [
+        135,
+        2110464991
+      ],
+      "demoCreateTime": 1542621453000,
+      "offLyric": false,
+      "songOpt": "NORMAL",
+      "packages": [
+        {
+          "id": 2104242503,
+          "packageType": "ALBUM"
+        }
+      ],
+      "purviews": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "publishStatus": "UNPUBLISH",
+      "demo": false,
+      "s": 0,
+      "song_id": "1807097898",
+      "album_id": 2104242503,
+      "name": "陈奕迅",
+      "title": "L.O.V.E.",
+      "album_name": "L.O.V.E.",
+      "sub_title": "",
+      "new_sub_title": "",
+      "song_sub_title": "",
+      "artist_name": "陈奕迅",
+      "artist_id": 135,
+      "cd_serial": 1,
+      "length": 0,
+      "recommends": 0,
+      "collects": 0,
+      "key_words": null,
+      "music_type": 0,
+      "play_volume": null,
+      "flag": null,
+      "purview_flag": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "album_logo": "images/album/img23/12/5bf288a21bf20_648023_1542621346_1.jpg",
+      "needpay": 1,
+      "mvUrl": "",
+      "listen_file": "",
+      "playstatus": 0,
+      "downloadstatus": 0,
+      "downloadjson": "",
+      "can_show": 0,
+      "can_check": 0,
+      "title_c": "L.O.V.E.",
+      "nameurl": "%E6%B5%B7%E9%87%8C%E7%9D%A1%E4%BA%BA",
+      "artisturl": "%E9%99%88%E5%A5%95%E8%BF%85",
+      "plays": 0,
+      "width": 15
+    },
+    {
+      "songId": "1803360770",
+      "songStringId": "mSNHuC7d2c4",
+      "songName": "渐渐",
+      "subName": "",
+      "newSubName": "",
+      "translation": "",
+      "albumId": 2104242503,
+      "albumStringId": "9cGicX47eb8",
+      "artistId": 135,
+      "singers": "陈奕迅",
+      "mvId": 715722,
+      "cdSerial": 1,
+      "track": 4,
+      "pinyin": "jian jian",
+      "price": null,
+      "albumPrice": "20.00",
+      "bakSongId": 0,
+      "panFlag": 0,
+      "musicType": "NORMAL",
+      "bakSong": null,
+      "lyricInfo": {
+        "lyricId": 14133532,
+        "lyricType": 3,
+        "lyricFile": "http://img.xiami.net/lyric/70/1803360770_1529668817_243.trc",
+        "isOfficial": true,
+        "userId": 0,
+        "userName": null,
+        "gmtModified": 1529668817000
+      },
+      "songwriters": "陈咏谦",
+      "composer": "张杰邦",
+      "arrangement": "eason and the duo band",
+      "boughtCount": 0,
+      "pace": 0,
+      "artistVOs": [
+        {
+          "artistId": 135,
+          "artistStringId": "O9fc383",
+          "artistName": "陈奕迅",
+          "alias": "Eason Chan",
+          "rewardSchemaUrl": null
+        }
+      ],
+      "albumLanguage": "粤语",
+      "playCount": 2753117,
+      "shareCount": null,
+      "favCount": null,
+      "offline": false,
+      "offlineType": 0,
+      "downloadCount": false,
+      "originOffline": false,
+      "exclusive": false,
+      "canReward": false,
+      "bizTags": [
+        "I_3LSX",
+        "LOSSLESS",
+        "S_PAY",
+        "ZB_7KL",
+        "L_SLWB",
+        "X_DI0W",
+        "FEEL_A"
+      ],
+      "tags": [
+        "I_3LSX",
+        "LOSSLESS",
+        "S_PAY",
+        "ZB_7KL",
+        "L_SLWB",
+        "X_DI0W",
+        "FEEL_A"
+      ],
+      "recommendCount": 24961,
+      "collectCount": 38069,
+      "artistStringId": "O9fc383",
+      "singerIds": [
+        135
+      ],
+      "demoCreateTime": 1529667988000,
+      "offLyric": false,
+      "songOpt": "NORMAL",
+      "packages": [
+        {
+          "id": 2104242503,
+          "packageType": "ALBUM"
+        }
+      ],
+      "purviews": {
+        "LISTEN": {
+          "LOW": "NEED_PAY",
+          "HIGH": "NEED_PAY"
+        },
+        "DOWNLOAD": {
+          "LOW": "NEED_PAY",
+          "HIGH": "NEED_PAY"
+        }
+      },
+      "publishStatus": "PUBLISH",
+      "demo": false,
+      "s": 2753117,
+      "song_id": "1803360770",
+      "album_id": 2104242503,
+      "name": "陈奕迅",
+      "title": "L.O.V.E.",
+      "album_name": "L.O.V.E.",
+      "sub_title": "",
+      "new_sub_title": "",
+      "song_sub_title": "",
+      "artist_name": "陈奕迅",
+      "artist_id": 135,
+      "cd_serial": 1,
+      "length": 278.071,
+      "recommends": 24961,
+      "collects": 38069,
+      "key_words": null,
+      "music_type": 0,
+      "play_volume": 89,
+      "flag": null,
+      "purview_flag": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NEED_PAY"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NEED_PAY"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NEED_PAY"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NEED_PAY"
+        }
+      ],
+      "album_logo": "images/album/img23/12/5bf288a21bf20_648023_1542621346_1.jpg",
+      "needpay": 1,
+      "mvUrl": "K6h6W0",
+      "listen_file": "http://m128.xiami.net/135/135/2103754211/1803360770_1529669823046.mp3?auth_key=1543546800-0-0-80042a6b46799d255ce9966e8c0a6157",
+      "playstatus": 2,
+      "downloadstatus": 2,
+      "downloadjson": "%7B%22LOW%22%3A%22NEED_PAY%22%2C%22HIGH%22%3A%22NEED_PAY%22%7D",
+      "can_show": 1,
+      "can_check": 0,
+      "title_c": "L.O.V.E.",
+      "nameurl": "%E6%B8%90%E6%B8%90",
+      "artisturl": "%E9%99%88%E5%A5%95%E8%BF%85",
+      "plays": 0,
+      "width": 15
+    },
+    {
+      "songId": "1807097901",
+      "songStringId": "U8fsNp29168",
+      "songName": "Devotion (Interlude)",
+      "subName": "",
+      "newSubName": "",
+      "translation": "",
+      "albumId": 2104242503,
+      "albumStringId": "9cGicX47eb8",
+      "artistId": 135,
+      "singers": "陈奕迅;eason and the duo band",
+      "mvId": 0,
+      "cdSerial": 1,
+      "track": 5,
+      "pinyin": "Devotion (Interlude)",
+      "price": null,
+      "albumPrice": "20.00",
+      "bakSongId": 0,
+      "panFlag": 0,
+      "musicType": "NORMAL",
+      "bakSong": null,
+      "lyricInfo": null,
+      "songwriters": "",
+      "composer": "",
+      "arrangement": "",
+      "boughtCount": 0,
+      "pace": 0,
+      "artistVOs": [
+        {
+          "artistId": 135,
+          "artistStringId": "O9fc383",
+          "artistName": "陈奕迅",
+          "alias": "Eason Chan",
+          "rewardSchemaUrl": null
+        }
+      ],
+      "albumLanguage": "粤语",
+      "playCount": 0,
+      "shareCount": null,
+      "favCount": null,
+      "offline": false,
+      "offlineType": 0,
+      "downloadCount": false,
+      "originOffline": false,
+      "exclusive": false,
+      "canReward": false,
+      "bizTags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "tags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "recommendCount": 0,
+      "collectCount": 0,
+      "artistStringId": "O9fc383",
+      "singerIds": [
+        135,
+        2110464991
+      ],
+      "demoCreateTime": 1542621453000,
+      "offLyric": false,
+      "songOpt": "NORMAL",
+      "packages": [
+        {
+          "id": 2104242503,
+          "packageType": "ALBUM"
+        }
+      ],
+      "purviews": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "publishStatus": "UNPUBLISH",
+      "demo": false,
+      "s": 0,
+      "song_id": "1807097901",
+      "album_id": 2104242503,
+      "name": "陈奕迅",
+      "title": "L.O.V.E.",
+      "album_name": "L.O.V.E.",
+      "sub_title": "",
+      "new_sub_title": "",
+      "song_sub_title": "",
+      "artist_name": "陈奕迅",
+      "artist_id": 135,
+      "cd_serial": 1,
+      "length": 0,
+      "recommends": 0,
+      "collects": 0,
+      "key_words": null,
+      "music_type": 0,
+      "play_volume": null,
+      "flag": null,
+      "purview_flag": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "album_logo": "images/album/img23/12/5bf288a21bf20_648023_1542621346_1.jpg",
+      "needpay": 1,
+      "mvUrl": "",
+      "listen_file": "",
+      "playstatus": 0,
+      "downloadstatus": 0,
+      "downloadjson": "",
+      "can_show": 0,
+      "can_check": 0,
+      "title_c": "L.O.V.E.",
+      "nameurl": "Devotion+%28Interlude%29",
+      "artisturl": "%E9%99%88%E5%A5%95%E8%BF%85",
+      "plays": 0,
+      "width": 15
+    },
+    {
+      "songId": "1807097902",
+      "songStringId": "xNOwv6dfe1e",
+      "songName": "敬烟",
+      "subName": "",
+      "newSubName": "",
+      "translation": "",
+      "albumId": 2104242503,
+      "albumStringId": "9cGicX47eb8",
+      "artistId": 135,
+      "singers": "陈奕迅;eason and the duo band",
+      "mvId": 0,
+      "cdSerial": 1,
+      "track": 6,
+      "pinyin": "jing yan",
+      "price": null,
+      "albumPrice": "20.00",
+      "bakSongId": 0,
+      "panFlag": 0,
+      "musicType": "NORMAL",
+      "bakSong": null,
+      "lyricInfo": null,
+      "songwriters": "",
+      "composer": "",
+      "arrangement": "",
+      "boughtCount": 0,
+      "pace": 0,
+      "artistVOs": [
+        {
+          "artistId": 135,
+          "artistStringId": "O9fc383",
+          "artistName": "陈奕迅",
+          "alias": "Eason Chan",
+          "rewardSchemaUrl": null
+        }
+      ],
+      "albumLanguage": "粤语",
+      "playCount": 0,
+      "shareCount": null,
+      "favCount": null,
+      "offline": false,
+      "offlineType": 0,
+      "downloadCount": false,
+      "originOffline": false,
+      "exclusive": false,
+      "canReward": false,
+      "bizTags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "tags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "recommendCount": 0,
+      "collectCount": 0,
+      "artistStringId": "O9fc383",
+      "singerIds": [
+        135,
+        2110464991
+      ],
+      "demoCreateTime": 1542621453000,
+      "offLyric": false,
+      "songOpt": "NORMAL",
+      "packages": [
+        {
+          "id": 2104242503,
+          "packageType": "ALBUM"
+        }
+      ],
+      "purviews": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "publishStatus": "UNPUBLISH",
+      "demo": false,
+      "s": 0,
+      "song_id": "1807097902",
+      "album_id": 2104242503,
+      "name": "陈奕迅",
+      "title": "L.O.V.E.",
+      "album_name": "L.O.V.E.",
+      "sub_title": "",
+      "new_sub_title": "",
+      "song_sub_title": "",
+      "artist_name": "陈奕迅",
+      "artist_id": 135,
+      "cd_serial": 1,
+      "length": 0,
+      "recommends": 0,
+      "collects": 0,
+      "key_words": null,
+      "music_type": 0,
+      "play_volume": null,
+      "flag": null,
+      "purview_flag": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "album_logo": "images/album/img23/12/5bf288a21bf20_648023_1542621346_1.jpg",
+      "needpay": 1,
+      "mvUrl": "",
+      "listen_file": "",
+      "playstatus": 0,
+      "downloadstatus": 0,
+      "downloadjson": "",
+      "can_show": 0,
+      "can_check": 0,
+      "title_c": "L.O.V.E.",
+      "nameurl": "%E6%95%AC%E7%83%9F",
+      "artisturl": "%E9%99%88%E5%A5%95%E8%BF%85",
+      "plays": 0,
+      "width": 15
+    },
+    {
+      "songId": "1807097903",
+      "songStringId": "xNOwv7bb07e",
+      "songName": "蠢",
+      "subName": "",
+      "newSubName": "",
+      "translation": "",
+      "albumId": 2104242503,
+      "albumStringId": "9cGicX47eb8",
+      "artistId": 135,
+      "singers": "陈奕迅;eason and the duo band",
+      "mvId": 0,
+      "cdSerial": 1,
+      "track": 7,
+      "pinyin": "chun",
+      "price": null,
+      "albumPrice": "20.00",
+      "bakSongId": 0,
+      "panFlag": 0,
+      "musicType": "NORMAL",
+      "bakSong": null,
+      "lyricInfo": null,
+      "songwriters": "",
+      "composer": "",
+      "arrangement": "",
+      "boughtCount": 0,
+      "pace": 0,
+      "artistVOs": [
+        {
+          "artistId": 135,
+          "artistStringId": "O9fc383",
+          "artistName": "陈奕迅",
+          "alias": "Eason Chan",
+          "rewardSchemaUrl": null
+        }
+      ],
+      "albumLanguage": "粤语",
+      "playCount": 0,
+      "shareCount": null,
+      "favCount": null,
+      "offline": false,
+      "offlineType": 0,
+      "downloadCount": false,
+      "originOffline": false,
+      "exclusive": false,
+      "canReward": false,
+      "bizTags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "tags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "recommendCount": 0,
+      "collectCount": 0,
+      "artistStringId": "O9fc383",
+      "singerIds": [
+        135,
+        2110464991
+      ],
+      "demoCreateTime": 1542621453000,
+      "offLyric": false,
+      "songOpt": "NORMAL",
+      "packages": [
+        {
+          "id": 2104242503,
+          "packageType": "ALBUM"
+        }
+      ],
+      "purviews": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "publishStatus": "UNPUBLISH",
+      "demo": false,
+      "s": 0,
+      "song_id": "1807097903",
+      "album_id": 2104242503,
+      "name": "陈奕迅",
+      "title": "L.O.V.E.",
+      "album_name": "L.O.V.E.",
+      "sub_title": "",
+      "new_sub_title": "",
+      "song_sub_title": "",
+      "artist_name": "陈奕迅",
+      "artist_id": 135,
+      "cd_serial": 1,
+      "length": 0,
+      "recommends": 0,
+      "collects": 0,
+      "key_words": null,
+      "music_type": 0,
+      "play_volume": null,
+      "flag": null,
+      "purview_flag": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "album_logo": "images/album/img23/12/5bf288a21bf20_648023_1542621346_1.jpg",
+      "needpay": 1,
+      "mvUrl": "",
+      "listen_file": "",
+      "playstatus": 0,
+      "downloadstatus": 0,
+      "downloadjson": "",
+      "can_show": 0,
+      "can_check": 0,
+      "title_c": "L.O.V.E.",
+      "nameurl": "%E8%A0%A2",
+      "artisturl": "%E9%99%88%E5%A5%95%E8%BF%85",
+      "plays": 0,
+      "width": 15
+    },
+    {
+      "songId": "1807097904",
+      "songStringId": "8I9vkif1a5b",
+      "songName": "疯狂的朋友",
+      "subName": "",
+      "newSubName": "",
+      "translation": "",
+      "albumId": 2104242503,
+      "albumStringId": "9cGicX47eb8",
+      "artistId": 135,
+      "singers": "eason and the duo band",
+      "mvId": 0,
+      "cdSerial": 1,
+      "track": 8,
+      "pinyin": "feng kuang de peng you",
+      "price": null,
+      "albumPrice": "20.00",
+      "bakSongId": 0,
+      "panFlag": 0,
+      "musicType": "NORMAL",
+      "bakSong": null,
+      "lyricInfo": null,
+      "songwriters": "",
+      "composer": "",
+      "arrangement": "",
+      "boughtCount": 0,
+      "pace": 0,
+      "artistVOs": [
+        {
+          "artistId": 135,
+          "artistStringId": "O9fc383",
+          "artistName": "陈奕迅",
+          "alias": "Eason Chan",
+          "rewardSchemaUrl": null
+        }
+      ],
+      "albumLanguage": "粤语",
+      "playCount": 0,
+      "shareCount": null,
+      "favCount": null,
+      "offline": false,
+      "offlineType": 0,
+      "downloadCount": false,
+      "originOffline": false,
+      "exclusive": false,
+      "canReward": false,
+      "bizTags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "tags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "recommendCount": 0,
+      "collectCount": 0,
+      "artistStringId": "O9fc383",
+      "singerIds": [
+        2110464991
+      ],
+      "demoCreateTime": 1542621453000,
+      "offLyric": false,
+      "songOpt": "NORMAL",
+      "packages": [
+        {
+          "id": 2104242503,
+          "packageType": "ALBUM"
+        }
+      ],
+      "purviews": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "publishStatus": "UNPUBLISH",
+      "demo": false,
+      "s": 0,
+      "song_id": "1807097904",
+      "album_id": 2104242503,
+      "name": "陈奕迅",
+      "title": "L.O.V.E.",
+      "album_name": "L.O.V.E.",
+      "sub_title": "",
+      "new_sub_title": "",
+      "song_sub_title": "",
+      "artist_name": "陈奕迅",
+      "artist_id": 135,
+      "cd_serial": 1,
+      "length": 0,
+      "recommends": 0,
+      "collects": 0,
+      "key_words": null,
+      "music_type": 0,
+      "play_volume": null,
+      "flag": null,
+      "purview_flag": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "album_logo": "images/album/img23/12/5bf288a21bf20_648023_1542621346_1.jpg",
+      "needpay": 1,
+      "mvUrl": "",
+      "listen_file": "",
+      "playstatus": 0,
+      "downloadstatus": 0,
+      "downloadjson": "",
+      "can_show": 0,
+      "can_check": 0,
+      "title_c": "L.O.V.E.",
+      "nameurl": "%E7%96%AF%E7%8B%82%E7%9A%84%E6%9C%8B%E5%8F%8B",
+      "artisturl": "%E9%99%88%E5%A5%95%E8%BF%85",
+      "plays": 0,
+      "width": 15
+    },
+    {
+      "songId": "1807097905",
+      "songStringId": "xNOwv99fc71",
+      "songName": "Unity (Interlude)",
+      "subName": "",
+      "newSubName": "",
+      "translation": "",
+      "albumId": 2104242503,
+      "albumStringId": "9cGicX47eb8",
+      "artistId": 135,
+      "singers": "陈奕迅;eason and the duo band",
+      "mvId": 0,
+      "cdSerial": 1,
+      "track": 9,
+      "pinyin": "Unity (Interlude)",
+      "price": null,
+      "albumPrice": "20.00",
+      "bakSongId": 0,
+      "panFlag": 0,
+      "musicType": "NORMAL",
+      "bakSong": null,
+      "lyricInfo": null,
+      "songwriters": "",
+      "composer": "",
+      "arrangement": "",
+      "boughtCount": 0,
+      "pace": 0,
+      "artistVOs": [
+        {
+          "artistId": 135,
+          "artistStringId": "O9fc383",
+          "artistName": "陈奕迅",
+          "alias": "Eason Chan",
+          "rewardSchemaUrl": null
+        }
+      ],
+      "albumLanguage": "粤语",
+      "playCount": 0,
+      "shareCount": null,
+      "favCount": null,
+      "offline": false,
+      "offlineType": 0,
+      "downloadCount": false,
+      "originOffline": false,
+      "exclusive": false,
+      "canReward": false,
+      "bizTags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "tags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "recommendCount": 0,
+      "collectCount": 0,
+      "artistStringId": "O9fc383",
+      "singerIds": [
+        135,
+        2110464991
+      ],
+      "demoCreateTime": 1542621453000,
+      "offLyric": false,
+      "songOpt": "NORMAL",
+      "packages": [
+        {
+          "id": 2104242503,
+          "packageType": "ALBUM"
+        }
+      ],
+      "purviews": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "publishStatus": "UNPUBLISH",
+      "demo": false,
+      "s": 0,
+      "song_id": "1807097905",
+      "album_id": 2104242503,
+      "name": "陈奕迅",
+      "title": "L.O.V.E.",
+      "album_name": "L.O.V.E.",
+      "sub_title": "",
+      "new_sub_title": "",
+      "song_sub_title": "",
+      "artist_name": "陈奕迅",
+      "artist_id": 135,
+      "cd_serial": 1,
+      "length": 0,
+      "recommends": 0,
+      "collects": 0,
+      "key_words": null,
+      "music_type": 0,
+      "play_volume": null,
+      "flag": null,
+      "purview_flag": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "album_logo": "images/album/img23/12/5bf288a21bf20_648023_1542621346_1.jpg",
+      "needpay": 1,
+      "mvUrl": "",
+      "listen_file": "",
+      "playstatus": 0,
+      "downloadstatus": 0,
+      "downloadjson": "",
+      "can_show": 0,
+      "can_check": 0,
+      "title_c": "L.O.V.E.",
+      "nameurl": "Unity+%28Interlude%29",
+      "artisturl": "%E9%99%88%E5%A5%95%E8%BF%85",
+      "plays": 0,
+      "width": 15
+    },
+    {
+      "songId": "1807097906",
+      "songStringId": "xNOwvAaf7fa",
+      "songName": "R U N",
+      "subName": "",
+      "newSubName": "",
+      "translation": "",
+      "albumId": 2104242503,
+      "albumStringId": "9cGicX47eb8",
+      "artistId": 135,
+      "singers": "陈奕迅;eason and the duo band",
+      "mvId": 0,
+      "cdSerial": 1,
+      "track": 10,
+      "pinyin": "R U N",
+      "price": null,
+      "albumPrice": "20.00",
+      "bakSongId": 0,
+      "panFlag": 0,
+      "musicType": "NORMAL",
+      "bakSong": null,
+      "lyricInfo": null,
+      "songwriters": "",
+      "composer": "",
+      "arrangement": "",
+      "boughtCount": 0,
+      "pace": 0,
+      "artistVOs": [
+        {
+          "artistId": 135,
+          "artistStringId": "O9fc383",
+          "artistName": "陈奕迅",
+          "alias": "Eason Chan",
+          "rewardSchemaUrl": null
+        }
+      ],
+      "albumLanguage": "粤语",
+      "playCount": 0,
+      "shareCount": null,
+      "favCount": null,
+      "offline": false,
+      "offlineType": 0,
+      "downloadCount": false,
+      "originOffline": false,
+      "exclusive": false,
+      "canReward": false,
+      "bizTags": [
+        "S_PAY",
+        "ZB_7KL",
+        "X_DI0W"
+      ],
+      "tags": [
+        "S_PAY",
+        "ZB_7KL",
+        "X_DI0W"
+      ],
+      "recommendCount": 0,
+      "collectCount": 0,
+      "artistStringId": "O9fc383",
+      "singerIds": [
+        135,
+        2110464991
+      ],
+      "demoCreateTime": 1542621453000,
+      "offLyric": false,
+      "songOpt": "NORMAL",
+      "packages": [
+        {
+          "id": 2104242503,
+          "packageType": "ALBUM"
+        }
+      ],
+      "purviews": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "publishStatus": "UNPUBLISH",
+      "demo": false,
+      "s": 0,
+      "song_id": "1807097906",
+      "album_id": 2104242503,
+      "name": "陈奕迅",
+      "title": "L.O.V.E.",
+      "album_name": "L.O.V.E.",
+      "sub_title": "",
+      "new_sub_title": "",
+      "song_sub_title": "",
+      "artist_name": "陈奕迅",
+      "artist_id": 135,
+      "cd_serial": 1,
+      "length": 0,
+      "recommends": 0,
+      "collects": 0,
+      "key_words": null,
+      "music_type": 0,
+      "play_volume": null,
+      "flag": null,
+      "purview_flag": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "album_logo": "images/album/img23/12/5bf288a21bf20_648023_1542621346_1.jpg",
+      "needpay": 1,
+      "mvUrl": "",
+      "listen_file": "",
+      "playstatus": 0,
+      "downloadstatus": 0,
+      "downloadjson": "",
+      "can_show": 0,
+      "can_check": 0,
+      "title_c": "L.O.V.E.",
+      "nameurl": "R+U+N",
+      "artisturl": "%E9%99%88%E5%A5%95%E8%BF%85",
+      "plays": 0,
+      "width": 15
+    },
+    {
+      "songId": "1807100969",
+      "songStringId": "mTdyuzb4d2e",
+      "songName": "龙舌兰",
+      "subName": "",
+      "newSubName": "",
+      "translation": "",
+      "albumId": 2104242503,
+      "albumStringId": "9cGicX47eb8",
+      "artistId": 135,
+      "singers": "eason and the duo band;陈奕迅",
+      "mvId": 728762,
+      "cdSerial": 1,
+      "track": 11,
+      "pinyin": "long she lan",
+      "price": null,
+      "albumPrice": "20.00",
+      "bakSongId": 0,
+      "panFlag": 0,
+      "musicType": "NORMAL",
+      "bakSong": null,
+      "lyricInfo": {
+        "lyricId": 14485780,
+        "lyricType": 3,
+        "lyricFile": "http://img.xiami.net/lyric/69/1807100969_1542630100_2061.trc",
+        "isOfficial": true,
+        "userId": 0,
+        "userName": null,
+        "gmtModified": 1542630101000
+      },
+      "songwriters": "陈咏谦",
+      "composer": "Chris Polanco (陈杰)",
+      "arrangement": "the duo band",
+      "boughtCount": 0,
+      "pace": 0,
+      "artistVOs": [
+        {
+          "artistId": 135,
+          "artistStringId": "O9fc383",
+          "artistName": "陈奕迅",
+          "alias": "Eason Chan",
+          "rewardSchemaUrl": null
+        }
+      ],
+      "albumLanguage": "粤语",
+      "playCount": 13960,
+      "shareCount": null,
+      "favCount": null,
+      "offline": false,
+      "offlineType": 0,
+      "downloadCount": false,
+      "originOffline": false,
+      "exclusive": false,
+      "canReward": false,
+      "bizTags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "tags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "recommendCount": 921,
+      "collectCount": 449,
+      "artistStringId": "O9fc383",
+      "singerIds": [
+        2110464991,
+        135
+      ],
+      "demoCreateTime": 1542627811000,
+      "offLyric": false,
+      "songOpt": "NORMAL",
+      "packages": [
+        {
+          "id": 2104242503,
+          "packageType": "ALBUM"
+        }
+      ],
+      "purviews": {
+        "LISTEN": {
+          "LOW": "NEED_PAY",
+          "HIGH": "NEED_PAY"
+        },
+        "DOWNLOAD": {
+          "LOW": "NEED_PAY",
+          "HIGH": "NEED_PAY"
+        }
+      },
+      "publishStatus": "PUBLISH",
+      "demo": false,
+      "s": 13960,
+      "song_id": "1807100969",
+      "album_id": 2104242503,
+      "name": "陈奕迅",
+      "title": "L.O.V.E.",
+      "album_name": "L.O.V.E.",
+      "sub_title": "",
+      "new_sub_title": "",
+      "song_sub_title": "",
+      "artist_name": "陈奕迅",
+      "artist_id": 135,
+      "cd_serial": 1,
+      "length": 285.041,
+      "recommends": 921,
+      "collects": 449,
+      "key_words": null,
+      "music_type": 0,
+      "play_volume": 89,
+      "flag": null,
+      "purview_flag": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NEED_PAY"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NEED_PAY"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NEED_PAY"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NEED_PAY"
+        }
+      ],
+      "album_logo": "images/album/img23/12/5bf288a21bf20_648023_1542621346_1.jpg",
+      "needpay": 1,
+      "mvUrl": "K6hhPH",
+      "listen_file": "http://m128.xiami.net/991/2110464991/2104242503/1807100969_1542628151074.mp3?auth_key=1543546800-0-0-b3eecb30e756dd6d856397eae28d551d",
+      "playstatus": 2,
+      "downloadstatus": 2,
+      "downloadjson": "%7B%22LOW%22%3A%22NEED_PAY%22%2C%22HIGH%22%3A%22NEED_PAY%22%7D",
+      "can_show": 1,
+      "can_check": 0,
+      "title_c": "L.O.V.E.",
+      "nameurl": "%E9%BE%99%E8%88%8C%E5%85%B0",
+      "artisturl": "%E9%99%88%E5%A5%95%E8%BF%85",
+      "plays": 0,
+      "width": 15
+    },
+    {
+      "songId": "1807097908",
+      "songStringId": "mTdx7c52663",
+      "songName": "我们万岁",
+      "subName": "",
+      "newSubName": "",
+      "translation": "",
+      "albumId": 2104242503,
+      "albumStringId": "9cGicX47eb8",
+      "artistId": 135,
+      "singers": "陈奕迅;eason and the duo band",
+      "mvId": 0,
+      "cdSerial": 1,
+      "track": 12,
+      "pinyin": "wo men wan sui",
+      "price": null,
+      "albumPrice": "20.00",
+      "bakSongId": 0,
+      "panFlag": 0,
+      "musicType": "NORMAL",
+      "bakSong": null,
+      "lyricInfo": null,
+      "songwriters": "",
+      "composer": "",
+      "arrangement": "",
+      "boughtCount": 0,
+      "pace": 0,
+      "artistVOs": [
+        {
+          "artistId": 135,
+          "artistStringId": "O9fc383",
+          "artistName": "陈奕迅",
+          "alias": "Eason Chan",
+          "rewardSchemaUrl": null
+        }
+      ],
+      "albumLanguage": "粤语",
+      "playCount": 2,
+      "shareCount": null,
+      "favCount": null,
+      "offline": false,
+      "offlineType": 0,
+      "downloadCount": false,
+      "originOffline": false,
+      "exclusive": false,
+      "canReward": false,
+      "bizTags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "tags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "recommendCount": 0,
+      "collectCount": 0,
+      "artistStringId": "O9fc383",
+      "singerIds": [
+        135,
+        2110464991
+      ],
+      "demoCreateTime": 1542621454000,
+      "offLyric": false,
+      "songOpt": "NORMAL",
+      "packages": [
+        {
+          "id": 2104242503,
+          "packageType": "ALBUM"
+        }
+      ],
+      "purviews": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "publishStatus": "UNPUBLISH",
+      "demo": false,
+      "s": 2,
+      "song_id": "1807097908",
+      "album_id": 2104242503,
+      "name": "陈奕迅",
+      "title": "L.O.V.E.",
+      "album_name": "L.O.V.E.",
+      "sub_title": "",
+      "new_sub_title": "",
+      "song_sub_title": "",
+      "artist_name": "陈奕迅",
+      "artist_id": 135,
+      "cd_serial": 1,
+      "length": 0,
+      "recommends": 0,
+      "collects": 0,
+      "key_words": null,
+      "music_type": 0,
+      "play_volume": null,
+      "flag": null,
+      "purview_flag": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "album_logo": "images/album/img23/12/5bf288a21bf20_648023_1542621346_1.jpg",
+      "needpay": 1,
+      "mvUrl": "",
+      "listen_file": "",
+      "playstatus": 0,
+      "downloadstatus": 0,
+      "downloadjson": "",
+      "can_show": 0,
+      "can_check": 0,
+      "title_c": "L.O.V.E.",
+      "nameurl": "%E6%88%91%E4%BB%AC%E4%B8%87%E5%B2%81",
+      "artisturl": "%E9%99%88%E5%A5%95%E8%BF%85",
+      "plays": 0,
+      "width": 15
+    },
+    {
+      "songId": "1807097895",
+      "songStringId": "mTdx6P8bc7d",
+      "songName": "Originality (Interlude)",
+      "subName": "",
+      "newSubName": "",
+      "translation": "",
+      "albumId": 2104242503,
+      "albumStringId": "9cGicX47eb8",
+      "artistId": 135,
+      "singers": "陈奕迅;eason and the duo band",
+      "mvId": 0,
+      "cdSerial": 1,
+      "track": 13,
+      "pinyin": "Originality (Interlude)",
+      "price": null,
+      "albumPrice": "20.00",
+      "bakSongId": 0,
+      "panFlag": 0,
+      "musicType": "NORMAL",
+      "bakSong": null,
+      "lyricInfo": null,
+      "songwriters": "",
+      "composer": "",
+      "arrangement": "",
+      "boughtCount": 0,
+      "pace": 0,
+      "artistVOs": [
+        {
+          "artistId": 135,
+          "artistStringId": "O9fc383",
+          "artistName": "陈奕迅",
+          "alias": "Eason Chan",
+          "rewardSchemaUrl": null
+        }
+      ],
+      "albumLanguage": "粤语",
+      "playCount": 0,
+      "shareCount": null,
+      "favCount": null,
+      "offline": false,
+      "offlineType": 0,
+      "downloadCount": false,
+      "originOffline": false,
+      "exclusive": false,
+      "canReward": false,
+      "bizTags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "tags": [
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "XN_BJ9QM"
+      ],
+      "recommendCount": 0,
+      "collectCount": 0,
+      "artistStringId": "O9fc383",
+      "singerIds": [
+        135,
+        2110464991
+      ],
+      "demoCreateTime": 1542621453000,
+      "offLyric": false,
+      "songOpt": "NORMAL",
+      "packages": [
+        {
+          "id": 2104242503,
+          "packageType": "ALBUM"
+        }
+      ],
+      "purviews": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "publishStatus": "UNPUBLISH",
+      "demo": false,
+      "s": 0,
+      "song_id": "1807097895",
+      "album_id": 2104242503,
+      "name": "陈奕迅",
+      "title": "L.O.V.E.",
+      "album_name": "L.O.V.E.",
+      "sub_title": "",
+      "new_sub_title": "",
+      "song_sub_title": "",
+      "artist_name": "陈奕迅",
+      "artist_id": 135,
+      "cd_serial": 1,
+      "length": 0,
+      "recommends": 0,
+      "collects": 0,
+      "key_words": null,
+      "music_type": 0,
+      "play_volume": null,
+      "flag": null,
+      "purview_flag": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NO_PERMISSION"
+        }
+      ],
+      "album_logo": "images/album/img23/12/5bf288a21bf20_648023_1542621346_1.jpg",
+      "needpay": 1,
+      "mvUrl": "",
+      "listen_file": "",
+      "playstatus": 0,
+      "downloadstatus": 0,
+      "downloadjson": "",
+      "can_show": 0,
+      "can_check": 0,
+      "title_c": "L.O.V.E.",
+      "nameurl": "Originality+%28Interlude%29",
+      "artisturl": "%E9%99%88%E5%A5%95%E8%BF%85",
+      "plays": 0,
+      "width": 15
+    },
+    {
+      "songId": "1803120527",
+      "songStringId": "mSMGPJ711cb",
+      "songName": "与你常在",
+      "subName": "All About Love",
+      "newSubName": "",
+      "translation": "All About Love",
+      "albumId": 2104242503,
+      "albumStringId": "9cGicX47eb8",
+      "artistId": 135,
+      "singers": "陈奕迅;eason and the duo band",
+      "mvId": 713180,
+      "cdSerial": 1,
+      "track": 14,
+      "pinyin": "yu ni chang zai",
+      "price": null,
+      "albumPrice": "20.00",
+      "bakSongId": 0,
+      "panFlag": 0,
+      "musicType": "NORMAL",
+      "bakSong": null,
+      "lyricInfo": {
+        "lyricId": 14073139,
+        "lyricType": 3,
+        "lyricFile": "http://img.xiami.net/lyric/27/1803120527_1527586088_4895.trc",
+        "isOfficial": true,
+        "userId": 0,
+        "userName": null,
+        "gmtModified": 1527586088000
+      },
+      "songwriters": "陈咏谦",
+      "composer": "Charles Arthur Huntley;Mark James Fortin",
+      "arrangement": "eason and the duo band",
+      "boughtCount": 0,
+      "pace": 0,
+      "artistVOs": [
+        {
+          "artistId": 135,
+          "artistStringId": "O9fc383",
+          "artistName": "陈奕迅",
+          "alias": "Eason Chan",
+          "rewardSchemaUrl": null
+        }
+      ],
+      "albumLanguage": "粤语",
+      "playCount": 1212552,
+      "shareCount": null,
+      "favCount": null,
+      "offline": false,
+      "offlineType": 0,
+      "downloadCount": false,
+      "originOffline": false,
+      "exclusive": false,
+      "canReward": false,
+      "bizTags": [
+        "LOSSLESS",
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "L_SLWB",
+        "XN_BJ9QM",
+        "OW_V41EI",
+        "Q_QK"
+      ],
+      "tags": [
+        "LOSSLESS",
+        "S_PAY",
+        "ZB_7KL",
+        "RI_A5YY",
+        "X_DI0W",
+        "L_SLWB",
+        "XN_BJ9QM",
+        "OW_V41EI",
+        "Q_QK"
+      ],
+      "recommendCount": 9141,
+      "collectCount": 16021,
+      "artistStringId": "O9fc383",
+      "singerIds": [
+        135,
+        2110464991
+      ],
+      "demoCreateTime": 1527175573000,
+      "offLyric": false,
+      "songOpt": "NORMAL",
+      "packages": [
+        {
+          "id": 2104242503,
+          "packageType": "ALBUM"
+        }
+      ],
+      "purviews": {
+        "LISTEN": {
+          "LOW": "NEED_PAY",
+          "HIGH": "NEED_PAY"
+        },
+        "DOWNLOAD": {
+          "LOW": "NEED_PAY",
+          "HIGH": "NEED_PAY"
+        }
+      },
+      "publishStatus": "PUBLISH",
+      "demo": false,
+      "s": 1212552,
+      "song_id": "1803120527",
+      "album_id": 2104242503,
+      "name": "陈奕迅",
+      "title": "L.O.V.E.",
+      "album_name": "L.O.V.E.",
+      "sub_title": "All About Love",
+      "new_sub_title": "",
+      "song_sub_title": "All About Love",
+      "artist_name": "陈奕迅",
+      "artist_id": 135,
+      "cd_serial": 1,
+      "length": 299.083,
+      "recommends": 9141,
+      "collects": 16021,
+      "key_words": null,
+      "music_type": 0,
+      "play_volume": 89,
+      "flag": null,
+      "purview_flag": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NEED_PAY"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NEED_PAY"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NEED_PAY"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NEED_PAY"
+        }
+      ],
+      "album_logo": "images/album/img23/12/5bf288a21bf20_648023_1542621346_1.jpg",
+      "needpay": 1,
+      "mvUrl": "K6YrV0",
+      "listen_file": "http://m128.xiami.net/991/2110464991/2103718262/1803120527_1527303126420.mp3?auth_key=1543546800-0-0-56655c6c965e7e440aa729b01eb6090e",
+      "playstatus": 2,
+      "downloadstatus": 2,
+      "downloadjson": "%7B%22LOW%22%3A%22NEED_PAY%22%2C%22HIGH%22%3A%22NEED_PAY%22%7D",
+      "can_show": 1,
+      "can_check": 0,
+      "title_c": "L.O.V.E.",
+      "nameurl": "%E4%B8%8E%E4%BD%A0%E5%B8%B8%E5%9C%A8",
+      "artisturl": "%E9%99%88%E5%A5%95%E8%BF%85",
+      "plays": 0,
+      "width": 15
+    },
+    {
+      "songId": "1804997872",
+      "songStringId": "mSU9n482558",
+      "songName": "可一可再",
+      "subName": "The Album",
+      "newSubName": "",
+      "translation": "The Album",
+      "albumId": 2104242503,
+      "albumStringId": "9cGicX47eb8",
+      "artistId": 135,
+      "singers": "陈奕迅;eason and the duo band",
+      "mvId": 721676,
+      "cdSerial": 1,
+      "track": 15,
+      "pinyin": "ke yi ke zai",
+      "price": null,
+      "albumPrice": "20.00",
+      "bakSongId": 0,
+      "panFlag": 0,
+      "musicType": "NORMAL",
+      "bakSong": null,
+      "lyricInfo": {
+        "lyricId": 14317758,
+        "lyricType": 3,
+        "lyricFile": "http://img.xiami.net/lyric/72/1804997872_1535113205_6340.trc",
+        "isOfficial": true,
+        "userId": 0,
+        "userName": null,
+        "gmtModified": 1535113205000
+      },
+      "songwriters": "陈咏谦",
+      "composer": "陈奕迅",
+      "arrangement": "eason and the duo band",
+      "boughtCount": 0,
+      "pace": 0,
+      "artistVOs": [
+        {
+          "artistId": 135,
+          "artistStringId": "O9fc383",
+          "artistName": "陈奕迅",
+          "alias": "Eason Chan",
+          "rewardSchemaUrl": null
+        }
+      ],
+      "albumLanguage": "粤语",
+      "playCount": 1623026,
+      "shareCount": null,
+      "favCount": null,
+      "offline": false,
+      "offlineType": 0,
+      "downloadCount": false,
+      "originOffline": false,
+      "exclusive": false,
+      "canReward": false,
+      "bizTags": [
+        "LOSSLESS",
+        "S_PAY",
+        "ZB_7KL",
+        "X_DI0W"
+      ],
+      "tags": [
+        "LOSSLESS",
+        "S_PAY",
+        "ZB_7KL",
+        "X_DI0W"
+      ],
+      "recommendCount": 16073,
+      "collectCount": 24661,
+      "artistStringId": "O9fc383",
+      "singerIds": [
+        135,
+        2110464991
+      ],
+      "demoCreateTime": 1535109317000,
+      "offLyric": false,
+      "songOpt": "NORMAL",
+      "packages": [
+        {
+          "id": 2104242503,
+          "packageType": "ALBUM"
+        }
+      ],
+      "purviews": {
+        "LISTEN": {
+          "LOW": "NEED_PAY",
+          "HIGH": "NEED_PAY"
+        },
+        "DOWNLOAD": {
+          "LOW": "NEED_PAY",
+          "HIGH": "NEED_PAY"
+        }
+      },
+      "publishStatus": "PUBLISH",
+      "demo": false,
+      "s": 1623026,
+      "song_id": "1804997872",
+      "album_id": 2104242503,
+      "name": "陈奕迅",
+      "title": "L.O.V.E.",
+      "album_name": "L.O.V.E.",
+      "sub_title": "The Album",
+      "new_sub_title": "",
+      "song_sub_title": "The Album",
+      "artist_name": "陈奕迅",
+      "artist_id": 135,
+      "cd_serial": 1,
+      "length": 284.075,
+      "recommends": 16073,
+      "collects": 24661,
+      "key_words": null,
+      "music_type": 0,
+      "play_volume": 89,
+      "flag": null,
+      "purview_flag": [
+        {
+          "audioQuality": "LOW",
+          "action": "LISTEN",
+          "opt": "NEED_PAY"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "LISTEN",
+          "opt": "NEED_PAY"
+        },
+        {
+          "audioQuality": "LOW",
+          "action": "DOWNLOAD",
+          "opt": "NEED_PAY"
+        },
+        {
+          "audioQuality": "HIGH",
+          "action": "DOWNLOAD",
+          "opt": "NEED_PAY"
+        }
+      ],
+      "album_logo": "images/album/img23/12/5bf288a21bf20_648023_1542621346_1.jpg",
+      "needpay": 1,
+      "mvUrl": "K6hK3Q",
+      "listen_file": "http://m128.xiami.net/991/2110464991/2103946998/1804997872_1535463893070.mp3?auth_key=1543546800-0-0-24e6a6c19a39acff4d720d01c84bf298",
+      "playstatus": 2,
+      "downloadstatus": 2,
+      "downloadjson": "%7B%22LOW%22%3A%22NEED_PAY%22%2C%22HIGH%22%3A%22NEED_PAY%22%7D",
+      "can_show": 1,
+      "can_check": 0,
+      "title_c": "L.O.V.E.",
+      "nameurl": "%E5%8F%AF%E4%B8%80%E5%8F%AF%E5%86%8D",
+      "artisturl": "%E9%99%88%E5%A5%95%E8%BF%85",
+      "plays": 0,
+      "width": 15
+    }
+  ],
+  "jumpurl": null
+}

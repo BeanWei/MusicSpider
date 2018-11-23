@@ -1,0 +1,114 @@
+{
+  "code": 0,
+  "data": [{
+    "action": {
+      "alert": 0,
+      "icons": 524289,
+      "msgdown": 3,
+      "msgfav": 0,
+      "msgid": 3,
+      "msgpay": 0,
+      "msgshare": 0,
+      "switch": 65537
+    },
+    "album": {
+      "id": 1859097,
+      "mid": "0012k9gI2svr9R",
+      "name": "亚洲通车",
+      "subtitle": "",
+      "time_public": "2017-03-02",
+      "title": "亚洲通车"
+    },
+    "bpm": 86,
+    "data_type": 0,
+    "file": {
+      "b_30s": 0,
+      "e_30s": 0,
+      "hires_bitdepth": 0,
+      "hires_sample": 0,
+      "media_mid": "002L04aB1h7eDw",
+      "size_128mp3": 4327747,
+      "size_192aac": 6500861,
+      "size_192ogg": 6341915,
+      "size_24aac": 862811,
+      "size_320mp3": 10819071,
+      "size_48aac": 1742782,
+      "size_96aac": 3492597,
+      "size_ape": 31370219,
+      "size_dts": 0,
+      "size_flac": 31532562,
+      "size_hires": 0,
+      "size_try": 0,
+      "try_begin": 76079,
+      "try_end": 110054,
+      "url": ""
+    },
+    "fnote": 3020,
+    "genre": 1,
+    "id": 200778585,
+    "index_album": 2,
+    "index_cd": 0,
+    "interval": 270,
+    "isonly": 0,
+    "ksong": {
+      "id": 0,
+      "mid": ""
+    },
+    "label": "0",
+    "language": 0,
+    "mid": "000bdxcy3ta8Q3",
+    "modify_stamp": 0,
+    "mv": {
+      "id": 1095713,
+      "name": "",
+      "title": "",
+      "vid": "r0023ixgaba"
+    },
+    "name": "飘向北方",
+    "pay": {
+      "pay_down": 0,
+      "pay_month": 0,
+      "pay_play": 0,
+      "pay_status": 0,
+      "price_album": 0,
+      "price_track": 0,
+      "time_free": 0
+    },
+    "singer": [{
+      "id": 89833,
+      "mid": "000UCOXZ4ZpIgg",
+      "name": "黄明志",
+      "title": "黄明志",
+      "type": 0,
+      "uin": 0
+    }, {
+      "id": 265,
+      "mid": "001JDzPT3JdvqK",
+      "name": "王力宏",
+      "title": "王力宏",
+      "type": 0,
+      "uin": 0
+    }],
+    "status": 0,
+    "subtitle": "",
+    "time_public": "2017-03-02",
+    "title": "飘向北方",
+    "trace": "",
+    "type": 0,
+    "url": "http://stream7.qqmusic.qq.com/212778585.wma",
+    "version": 0,
+    "volume": {
+      "gain": -8.880000000000001,
+      "lra": 8.005000000000001,
+      "peak": 0.9890
+    }
+  }],
+  "url": {
+    "200778585": "ws.stream.qqmusic.qq.com/C100000bdxcy3ta8Q3.m4a?fromtag=38"
+  },
+  "url1": {},
+  "extra_data": [],
+  "joox": 0,
+  "joox_login": 0,
+  "msgid": 0
+}

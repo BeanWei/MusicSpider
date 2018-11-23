@@ -1,0 +1,4090 @@
+{
+  "accessed_favbase": 0,
+  "accessed_plaza_cache": 1,
+  "code": 0,
+  "data": {
+    "cdlist": [{
+      "album_pic_mid": "",
+      "buynum": 0,
+      "cm_count": 19,
+      "cmtnum": 0,
+      "coveradurl": "",
+      "ctime": 1483355158,
+      "cur_song_num": 50,
+      "desc": "伴随新年钟声地敲响，2017年已悄然而至。新的一年，新的起点，新的征程，希望大家元气满满，迎接新的挑战。2017年第一张歌单，我想用这张带着梦想，满怀憧憬，饱含正能量的歌单，为大家加油鼓劲，迎接更加美好的自己。寻梦的路上会有坎坷，但坚持一下，可能一下站就是成真的一天。把握现在，活出自我。愿收听愉快。",
+      "dir_pic_url2": "",
+      "dirid": 56,
+      "dissid": 1144188,
+      "dissname": "华语：你好2017 从“新”出发",
+      "disstid": "1144188779",
+      "disstype": 0,
+      "encrypt_uin": "owSz7Kvl7Kv5",
+      "headurl": "http://y.gtimg.cn/music/common/upload/t_taoge_mingren/59096.jpg",
+      "ifpicurl": "https://y.gtimg.cn/music/common/upload/t_cm3_photo_publish/114042.png",
+      "isAd": 0,
+      "isdj": 0,
+      "isvip": 1,
+      "likeit": 0,
+      "login": "on**",
+      "logo": "http://p.qpic.cn/music_cover/ZkTFMk21KjWj9o0kZH0sPPThwnoVoBpsR8nicwT6IzdWMmfjWaZgLNg/300?n=1",
+      "mtime": 0,
+      "nick": "刹那微蓝",
+      "nickname": "刹那微蓝",
+      "owndir": 0,
+      "pic_dpi": 300,
+      "pic_mid": "",
+      "scoreavage": "0.0",
+      "scoreusercount": 0,
+      "singerid": 0,
+      "singermid": "",
+      "song_begin": 0,
+      "song_update_num": 0,
+      "song_update_time": 0,
+      "songids": "3586264,101592,105526948,200263633,105044366,5094174,102429508,656043,102081407,102822120,764263,5407886,200282766,7109361,4983108,1333807,2450221,5220731,106158933,5121150,4966543,144230,8159486,700051,4829901,1248426,108922894,102070026,105624399,200281307,3571369,874517,104252610,5407896,5238166,106450973,106451316,432446,127812,105828689,102815394,102361245,7019723,109467185,108958589,102216290,125111,105391001,5193,101902209",
+      "songlist": [{
+        "action": {
+          "alert": 2,
+          "icons": 147324,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 194021,
+          "mid": "003Ow85E3pnoqi",
+          "name": "十二新作",
+          "subtitle": "",
+          "title": "十二新作"
+        },
+        "file": {
+          "media_mid": "001QnhDT0UJJIT",
+          "size_128": 3288700,
+          "size_128mp3": 3288700,
+          "size_192aac": 5031451,
+          "size_192ogg": 5010375,
+          "size_24aac": 657816,
+          "size_320": 8221455,
+          "size_320mp3": 8221455,
+          "size_48aac": 1317183,
+          "size_96aac": 2725390,
+          "size_aac": 1317183,
+          "size_ape": 22944651,
+          "size_dts": 0,
+          "size_flac": 23145826,
+          "size_ogg": 5010375,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 3586264,
+        "index_album": 9,
+        "index_cd": 0,
+        "interval": 205,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "002eGFV43Sox9r"
+        },
+        "language": 0,
+        "mid": "001QnhDT0UJJIT",
+        "mv": {
+          "id": 192983,
+          "vid": "d0011e6gwvo"
+        },
+        "name": "梦想启动",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 4558,
+          "mid": "0025NhlN2yWrP4",
+          "name": "周杰伦",
+          "title": "周杰伦"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2012-12-28",
+        "title": "梦想启动",
+        "type": 0,
+        "url": "http://stream1.qqmusic.qq.com/15586264.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 147324,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 8494,
+          "mid": "003W3sH205CWuu",
+          "name": "音乐密码",
+          "subtitle": "《精武飞鸿》电视剧主题曲",
+          "title": "音乐密码"
+        },
+        "file": {
+          "media_mid": "003dDpLY3IinWv",
+          "size_128": 3771628,
+          "size_128mp3": 3771628,
+          "size_192aac": 5851135,
+          "size_192ogg": 5628508,
+          "size_24aac": 768433,
+          "size_320": 9424451,
+          "size_320mp3": 9424451,
+          "size_48aac": 1554692,
+          "size_96aac": 3170691,
+          "size_aac": 1554692,
+          "size_ape": 28001854,
+          "size_dts": 0,
+          "size_flac": 29581764,
+          "size_ogg": 5628508,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 101592,
+        "index_album": 8,
+        "index_cd": 0,
+        "interval": 235,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "003u8sbU4JRvaC"
+        },
+        "language": 0,
+        "mid": "003dDpLY3IinWv",
+        "mv": {
+          "id": 65768,
+          "vid": "n0090G4NSWH"
+        },
+        "name": "愿望",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 159,
+          "mid": "0022VU5J1D8BRP",
+          "name": "胡彦斌",
+          "title": "胡彦斌"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2006-03-11",
+        "title": "愿望",
+        "type": 0,
+        "url": "http://stream1.qqmusic.qq.com/12101592.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 147324,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 1276189,
+          "mid": "001fi1zG0EjU2u",
+          "name": "有理想",
+          "subtitle": "",
+          "title": "有理想"
+        },
+        "file": {
+          "media_mid": "002EgEwY30Wf2t",
+          "size_128": 3660680,
+          "size_128mp3": 3660680,
+          "size_192aac": 5705363,
+          "size_192ogg": 5464876,
+          "size_24aac": 743862,
+          "size_320": 9151410,
+          "size_320mp3": 9151410,
+          "size_48aac": 1502988,
+          "size_96aac": 3122969,
+          "size_aac": 1502988,
+          "size_ape": 28267871,
+          "size_dts": 0,
+          "size_flac": 28365992,
+          "size_ogg": 5464876,
+          "size_try": 0,
+          "try_begin": 65740,
+          "try_end": 81527
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 105526948,
+        "index_album": 3,
+        "index_cd": 0,
+        "interval": 228,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "003aJBm23zfdLA"
+        },
+        "language": 0,
+        "mid": "002EgEwY30Wf2t",
+        "mv": {
+          "id": 667983,
+          "vid": "a0019yjawn2"
+        },
+        "name": "有理想",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 60505,
+          "mid": "000aHmbL2aPXWH",
+          "name": "李荣浩",
+          "title": "李荣浩"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2016-01-22",
+        "title": "有理想",
+        "type": 0,
+        "url": "http://stream9.qqmusic.qq.com/117526948.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 3768767,
+          "mid": "004W38Gk1rrlOk",
+          "name": "我们的时光",
+          "subtitle": "《我们的少年时代》电视剧片尾曲",
+          "title": "我们的时光"
+        },
+        "file": {
+          "media_mid": "004DdzMX3NiIiL",
+          "size_128": 4041861,
+          "size_128mp3": 4041861,
+          "size_192aac": 6251385,
+          "size_192ogg": 6197659,
+          "size_24aac": 816932,
+          "size_320": 10103976,
+          "size_320mp3": 10103976,
+          "size_48aac": 1650057,
+          "size_96aac": 3468642,
+          "size_aac": 1650057,
+          "size_ape": 32676232,
+          "size_dts": 0,
+          "size_flac": 32874261,
+          "size_ogg": 6197659,
+          "size_try": 0,
+          "try_begin": 70200,
+          "try_end": 109163
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 200263633,
+        "index_album": 10,
+        "index_cd": 0,
+        "interval": 252,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "000fTFMh1sJeLA"
+        },
+        "language": 0,
+        "mid": "004DdzMX3NiIiL",
+        "mv": {
+          "id": 1340497,
+          "vid": "e0024iggz2e"
+        },
+        "name": "萤火",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 34412,
+          "mid": "000zmpju02bEBm",
+          "name": "TFBOYS",
+          "title": "TFBOYS"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2017-12-15",
+        "title": "萤火",
+        "type": 0,
+        "url": "http://stream1.qqmusic.qq.com/212263633.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 1213329,
+          "mid": "002JsU5q10jUBt",
+          "name": "我的梦",
+          "subtitle": "华为手机主题曲|《为了你我愿意热爱整个世界》影视剧主题曲|《Dream It Possible》中文版",
+          "title": "我的梦"
+        },
+        "file": {
+          "media_mid": "003FIqDQ0xyaGF",
+          "size_128": 3513976,
+          "size_128mp3": 3513976,
+          "size_192aac": 5047653,
+          "size_192ogg": 4738684,
+          "size_24aac": 698008,
+          "size_320": 8784651,
+          "size_320mp3": 8784651,
+          "size_48aac": 1365231,
+          "size_96aac": 2694824,
+          "size_aac": 1365231,
+          "size_ape": 22886065,
+          "size_dts": 0,
+          "size_flac": 23069313,
+          "size_ogg": 4738684,
+          "size_try": 0,
+          "try_begin": 43940,
+          "try_end": 68724
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 105044366,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 219,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "000PUkhD2EI94s"
+        },
+        "language": 0,
+        "mid": "003FIqDQ0xyaGF",
+        "mv": {
+          "id": 1058494,
+          "vid": "a00229izdld"
+        },
+        "name": "我的梦",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 4607,
+          "mid": "000aw4WC2EQYTv",
+          "name": "张靓颖",
+          "title": "张靓颖"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2015-11-26",
+        "title": "我的梦",
+        "type": 0,
+        "url": "http://stream9.qqmusic.qq.com/117044366.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 11,
+          "icons": 135752,
+          "msgid": 0,
+          "msgpay": 0,
+          "switch": 81683
+        },
+        "album": {
+          "id": 33518,
+          "mid": "0045NCyG06IpUL",
+          "name": "哪里怕",
+          "subtitle": "",
+          "title": "哪里怕"
+        },
+        "file": {
+          "media_mid": "001DvOIJ4RShNL",
+          "size_128": 3537802,
+          "size_128mp3": 3537802,
+          "size_192aac": 5244058,
+          "size_192ogg": 4872119,
+          "size_24aac": 711601,
+          "size_320": 8844212,
+          "size_320mp3": 8844212,
+          "size_48aac": 1470011,
+          "size_96aac": 2968883,
+          "size_aac": 1470011,
+          "size_ape": 27641648,
+          "size_dts": 0,
+          "size_flac": 27933276,
+          "size_ogg": 4872119,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 8013,
+        "genre": 1,
+        "id": 5094174,
+        "index_album": 10,
+        "index_cd": 0,
+        "interval": 221,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "002OLAxt0vRDqS"
+        },
+        "language": 0,
+        "mid": "001DvOIJ4RShNL",
+        "mv": {
+          "id": 81490,
+          "vid": "n0090smm285"
+        },
+        "name": "梦想巴士",
+        "pay": {
+          "pay_down": 0,
+          "pay_month": 0,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 0,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 7197,
+          "mid": "004BJyNV0GOm77",
+          "name": "棒棒堂",
+          "title": "棒棒堂"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2007-12-28",
+        "title": "梦想巴士",
+        "type": 0,
+        "url": "http://stream8.qqmusic.qq.com/17094174.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 990467,
+          "mid": "003T7iHE0YRutP",
+          "name": "你就是梦想",
+          "subtitle": "",
+          "title": "你就是梦想"
+        },
+        "file": {
+          "media_mid": "001Hc6Fj3PUouu",
+          "size_128": 3597576,
+          "size_128mp3": 3597576,
+          "size_192aac": 5546798,
+          "size_192ogg": 5357542,
+          "size_24aac": 725827,
+          "size_320": 8993638,
+          "size_320mp3": 8993638,
+          "size_48aac": 1497921,
+          "size_96aac": 3153104,
+          "size_aac": 1497921,
+          "size_ape": 29371617,
+          "size_dts": 0,
+          "size_flac": 29450495,
+          "size_ogg": 5357542,
+          "size_try": 0,
+          "try_begin": 64305,
+          "try_end": 81292
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 102429508,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 224,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "000SEvkY31ZOiV"
+        },
+        "language": 0,
+        "mid": "001Hc6Fj3PUouu",
+        "mv": {
+          "id": 0,
+          "vid": ""
+        },
+        "name": "你就是梦想",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 62490,
+          "mid": "003qTNq628d2QP",
+          "name": "吴莫愁",
+          "title": "吴莫愁"
+        }, {
+          "id": 4190,
+          "mid": "003gGlyh37bnFM",
+          "name": "GALA",
+          "title": "GALA"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2015-05-20",
+        "title": "你就是梦想",
+        "type": 0,
+        "url": "http://stream7.qqmusic.qq.com/114429508.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 11,
+          "icons": 135752,
+          "msgid": 0,
+          "msgpay": 0,
+          "switch": 605971
+        },
+        "album": {
+          "id": 8936,
+          "mid": "001oCP5O3rT4ok",
+          "name": "爱情花园",
+          "subtitle": "",
+          "title": "爱情花园"
+        },
+        "file": {
+          "media_mid": "002w2Zja4SrY0t",
+          "size_128": 4029170,
+          "size_128mp3": 4029170,
+          "size_192aac": 6332416,
+          "size_192ogg": 5942435,
+          "size_24aac": 800383,
+          "size_320": 10060455,
+          "size_320mp3": 10060455,
+          "size_48aac": 1605751,
+          "size_96aac": 3349979,
+          "size_aac": 1605751,
+          "size_ape": 30437809,
+          "size_dts": 0,
+          "size_flac": 31057297,
+          "size_ogg": 5942435,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 0,
+        "genre": 1,
+        "id": 656043,
+        "index_album": 9,
+        "index_cd": 0,
+        "interval": 251,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "001p5zcy15adiE"
+        },
+        "language": 0,
+        "mid": "002w2Zja4SrY0t",
+        "mv": {
+          "id": 255749,
+          "vid": "z0013fsbxfg"
+        },
+        "name": "梦的翅膀",
+        "pay": {
+          "pay_down": 0,
+          "pay_month": 0,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 0,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 4674,
+          "mid": "003x77MM2iIg6c",
+          "name": "刘惜君",
+          "title": "刘惜君"
+        }],
+        "songtype": 13,
+        "status": 31,
+        "subtitle": "",
+        "time_public": "2010-02-11",
+        "title": "梦的翅膀",
+        "type": 0,
+        "url": "http://stream7.qqmusic.qq.com/12656043.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 11,
+          "icons": 135752,
+          "msgid": 0,
+          "msgpay": 0,
+          "switch": 605971
+        },
+        "album": {
+          "id": 953709,
+          "mid": "003cwGWf2MNE8M",
+          "name": "星梦之光",
+          "subtitle": "原曲：The End of the World",
+          "title": "星梦之光"
+        },
+        "file": {
+          "media_mid": "002lhrwY4Qvy8m",
+          "size_128": 3558706,
+          "size_128mp3": 3558706,
+          "size_192aac": 5139323,
+          "size_192ogg": 4679061,
+          "size_24aac": 710386,
+          "size_320": 8896463,
+          "size_320mp3": 8896463,
+          "size_48aac": 1409625,
+          "size_96aac": 2751369,
+          "size_aac": 1409625,
+          "size_ape": 22098391,
+          "size_dts": 0,
+          "size_flac": 21983977,
+          "size_ogg": 4679061,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 0,
+        "genre": 1,
+        "id": 102081407,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 222,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "002qwNlk3T3LVy"
+        },
+        "language": 0,
+        "mid": "002lhrwY4Qvy8m",
+        "mv": {
+          "id": 0,
+          "vid": ""
+        },
+        "name": "星梦之光",
+        "pay": {
+          "pay_down": 0,
+          "pay_month": 0,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 0,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 92117,
+          "mid": "003BLxYj1Smxh4",
+          "name": "SNH48",
+          "title": "SNH48"
+        }],
+        "songtype": 13,
+        "status": 31,
+        "subtitle": "",
+        "time_public": "2015-02-11",
+        "title": "星梦之光",
+        "type": 0,
+        "url": "http://stream9.qqmusic.qq.com/114081407.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 1196826,
+          "mid": "003c616O2Zlswm",
+          "name": "新的心跳",
+          "subtitle": "《极速前进 第二季》真人秀主题曲",
+          "title": "新的心跳"
+        },
+        "file": {
+          "media_mid": "004LHkGL1GVdZo",
+          "size_128": 3464257,
+          "size_128mp3": 3464257,
+          "size_192aac": 5477511,
+          "size_192ogg": 5183228,
+          "size_24aac": 702873,
+          "size_320": 8660167,
+          "size_320mp3": 8660167,
+          "size_48aac": 1417334,
+          "size_96aac": 3040333,
+          "size_aac": 1417334,
+          "size_ape": 28056464,
+          "size_dts": 0,
+          "size_flac": 28135644,
+          "size_ogg": 5183228,
+          "size_try": 0,
+          "try_begin": 34859,
+          "try_end": 69427
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 102822120,
+        "index_album": 3,
+        "index_cd": 0,
+        "interval": 216,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "002aC2vn3vKDIV"
+        },
+        "language": 0,
+        "mid": "004LHkGL1GVdZo",
+        "mv": {
+          "id": 536550,
+          "vid": "f001700eiv3"
+        },
+        "name": "新的心跳",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 13948,
+          "mid": "001fNHEf1SFEFN",
+          "name": "G.E.M. 邓紫棋",
+          "title": "G.E.M. 邓紫棋"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2015-11-06",
+        "title": "新的心跳",
+        "type": 0,
+        "url": "http://stream5.qqmusic.qq.com/114822120.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 62342,
+          "mid": "000TuW8h0AH2n4",
+          "name": "她说 概念自选辑",
+          "subtitle": "《完美世界国际版2012》网游主题曲",
+          "title": "她说 概念自选辑"
+        },
+        "file": {
+          "media_mid": "0008ANSn4e8gEG",
+          "size_128": 4440188,
+          "size_128mp3": 4440188,
+          "size_192aac": 6633970,
+          "size_192ogg": 6095088,
+          "size_24aac": 853507,
+          "size_320": 11100159,
+          "size_320mp3": 11100159,
+          "size_48aac": 1672527,
+          "size_96aac": 3342070,
+          "size_aac": 1672527,
+          "size_ape": 30786658,
+          "size_dts": 0,
+          "size_flac": 30972693,
+          "size_ogg": 6095088,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 764263,
+        "index_album": 12,
+        "index_cd": 1,
+        "interval": 277,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "002bGIFX2HGAKv"
+        },
+        "language": 0,
+        "mid": "004ZvNC44DR6QT",
+        "mv": {
+          "id": 63630,
+          "vid": "a0024i8bevv"
+        },
+        "name": "完美新世界",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 4286,
+          "mid": "001BLpXF2DyJe2",
+          "name": "林俊杰",
+          "title": "林俊杰"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2010-12-08",
+        "title": "完美新世界",
+        "type": 0,
+        "url": "http://stream2.qqmusic.qq.com/12764263.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 482867,
+          "mid": "001xokwI0UpvRA",
+          "name": "梁博 同名专辑",
+          "subtitle": "",
+          "title": "梁博 同名专辑"
+        },
+        "file": {
+          "media_mid": "001wipWG0TtUDV",
+          "size_128": 4378310,
+          "size_128mp3": 4378310,
+          "size_192aac": 6741882,
+          "size_192ogg": 6732041,
+          "size_24aac": 893605,
+          "size_320": 10945494,
+          "size_320mp3": 10945494,
+          "size_48aac": 1843029,
+          "size_96aac": 3779726,
+          "size_aac": 1843029,
+          "size_ape": 31483976,
+          "size_dts": 0,
+          "size_flac": 32713873,
+          "size_ogg": 6732041,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 36,
+        "id": 5407886,
+        "index_album": 7,
+        "index_cd": 0,
+        "interval": 273,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "000byKwR0QFHIw"
+        },
+        "language": 0,
+        "mid": "001wipWG0TtUDV",
+        "mv": {
+          "id": 340319,
+          "vid": "y00269ztzny"
+        },
+        "name": "新的",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 68632,
+          "mid": "003CNC9D00CaVx",
+          "name": "梁博",
+          "title": "梁博"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2014-04-24",
+        "title": "新的",
+        "type": 0,
+        "url": "http://stream7.qqmusic.qq.com/17407886.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 1799779,
+          "mid": "001r0o4V24qmhF",
+          "name": "New Day",
+          "subtitle": "",
+          "title": "New Day"
+        },
+        "file": {
+          "media_mid": "0026Yjoo2a6rbq",
+          "size_128": 3183387,
+          "size_128mp3": 3183387,
+          "size_192aac": 4951140,
+          "size_192ogg": 4900748,
+          "size_24aac": 657188,
+          "size_320": 7958153,
+          "size_320mp3": 7958153,
+          "size_48aac": 1333819,
+          "size_96aac": 2735474,
+          "size_aac": 1333819,
+          "size_ape": 23487549,
+          "size_dts": 0,
+          "size_flac": 23622648,
+          "size_ogg": 4900748,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 200282766,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 198,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "001m7HvN4EWjtT"
+        },
+        "language": 0,
+        "mid": "0026Yjoo2a6rbq",
+        "mv": {
+          "id": 0,
+          "vid": ""
+        },
+        "name": "New day",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 116322,
+          "mid": "003XriCI0OfGYj",
+          "name": "黄子韬",
+          "title": "黄子韬"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2017-01-02",
+        "title": "New day",
+        "type": 0,
+        "url": "http://stream9.qqmusic.qq.com/212282766.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 147324,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 75139,
+          "mid": "003K4mFV3B9UfM",
+          "name": "Lost & Found去寻找",
+          "subtitle": "《加油吧实习生》电视剧插曲",
+          "title": "Lost & Found去寻找"
+        },
+        "file": {
+          "media_mid": "002OrhQA0bNYFg",
+          "size_128": 4350319,
+          "size_128mp3": 4350319,
+          "size_192aac": 6530902,
+          "size_192ogg": 6509450,
+          "size_24aac": 856747,
+          "size_320": 10875498,
+          "size_320mp3": 10875498,
+          "size_48aac": 1703212,
+          "size_96aac": 3484183,
+          "size_aac": 1703212,
+          "size_ape": 28565524,
+          "size_dts": 0,
+          "size_flac": 29182620,
+          "size_ogg": 6509450,
+          "size_try": 0,
+          "try_begin": 60926,
+          "try_end": 103574
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 7109361,
+        "index_album": 2,
+        "index_cd": 0,
+        "interval": 271,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "00258T9c1kVD7x"
+        },
+        "language": 0,
+        "mid": "002OrhQA0bNYFg",
+        "mv": {
+          "id": 133650,
+          "vid": "I0010NL1U5Y"
+        },
+        "name": "明天，你好",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 4422,
+          "mid": "0012bj8d36Xkw1",
+          "name": "牛奶咖啡",
+          "title": "牛奶咖啡"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2011-07-11",
+        "title": "明天，你好",
+        "type": 0,
+        "url": "http://stream9.qqmusic.qq.com/19109361.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 11,
+          "icons": 135752,
+          "msgid": 0,
+          "msgpay": 0,
+          "switch": 81683
+        },
+        "album": {
+          "id": 433870,
+          "mid": "002RR0DG3CRPX7",
+          "name": "相信未来",
+          "subtitle": "《偷星九月天》动漫舞台剧主题曲",
+          "title": "相信未来"
+        },
+        "file": {
+          "media_mid": "0018N0BP0KM93b",
+          "size_128": 3221831,
+          "size_128mp3": 3221831,
+          "size_192aac": 5000771,
+          "size_192ogg": 4576183,
+          "size_24aac": 659530,
+          "size_320": 8053761,
+          "size_320mp3": 8053761,
+          "size_48aac": 1364840,
+          "size_96aac": 2843162,
+          "size_aac": 1364840,
+          "size_ape": 26876707,
+          "size_dts": 0,
+          "size_flac": 27038630,
+          "size_ogg": 4576183,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 8013,
+        "genre": 1,
+        "id": 4983108,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 201,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "002YosVj3MNSBI"
+        },
+        "language": 0,
+        "mid": "0018N0BP0KM93b",
+        "mv": {
+          "id": 344456,
+          "vid": "u00167oraov"
+        },
+        "name": "相信未来",
+        "pay": {
+          "pay_down": 0,
+          "pay_month": 0,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 0,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 4231,
+          "mid": "000HUopz4NEeb5",
+          "name": "MIC男团",
+          "title": "MIC男团"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2013-08-01",
+        "title": "相信未来",
+        "type": 0,
+        "url": "http://stream10.qqmusic.qq.com/16983108.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 147324,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 51504,
+          "mid": "003mUYW22JXKVK",
+          "name": "薛之谦",
+          "subtitle": "",
+          "title": "薛之谦"
+        },
+        "file": {
+          "media_mid": "0008Pk9f3mSKIY",
+          "size_128": 3419114,
+          "size_128mp3": 3419114,
+          "size_192aac": 5049567,
+          "size_192ogg": 4706709,
+          "size_24aac": 689241,
+          "size_320": 8547473,
+          "size_320mp3": 8547473,
+          "size_48aac": 1412269,
+          "size_96aac": 2853190,
+          "size_aac": 1412269,
+          "size_ape": 25404938,
+          "size_dts": 0,
+          "size_flac": 25387308,
+          "size_ogg": 4706709,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 1333807,
+        "index_album": 6,
+        "index_cd": 0,
+        "interval": 213,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "003gwBvX18bLIC"
+        },
+        "language": 0,
+        "mid": "0008Pk9f3mSKIY",
+        "mv": {
+          "id": 83617,
+          "vid": "e00907fHxz1"
+        },
+        "name": "我的Show",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 5062,
+          "mid": "002J4UUk29y8BY",
+          "name": "薛之谦",
+          "title": "薛之谦"
+        }, {
+          "id": 13857,
+          "mid": "002tbIBG0duNox",
+          "name": "君君",
+          "title": "君君"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2006-06-09",
+        "title": "我的Show",
+        "type": 0,
+        "url": "http://stream4.qqmusic.qq.com/13333807.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 147324,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 191187,
+          "mid": "0004s7lS3pRqOy",
+          "name": "自由灵魂",
+          "subtitle": "",
+          "title": "自由灵魂"
+        },
+        "file": {
+          "media_mid": "0011JjLR1Usq76",
+          "size_128": 3185582,
+          "size_128mp3": 3185582,
+          "size_192aac": 4833961,
+          "size_192ogg": 4694553,
+          "size_24aac": 634940,
+          "size_320": 7961226,
+          "size_320mp3": 7961226,
+          "size_48aac": 1274683,
+          "size_96aac": 2659833,
+          "size_aac": 1274683,
+          "size_ape": 22558776,
+          "size_dts": 0,
+          "size_flac": 22200747,
+          "size_ogg": 4694553,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 2450221,
+        "index_album": 6,
+        "index_cd": 0,
+        "interval": 199,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "001AMQG13gevH1"
+        },
+        "language": 0,
+        "mid": "0011JjLR1Usq76",
+        "mv": {
+          "id": 1404039,
+          "vid": "c0025233fpf"
+        },
+        "name": "蜕变",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 7311,
+          "mid": "00489l610k75Z2",
+          "name": "梁心颐",
+          "title": "梁心颐"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2012-10-29",
+        "title": "蜕变",
+        "type": 0,
+        "url": "http://stream7.qqmusic.qq.com/14450221.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 0,
+          "icons": 524289,
+          "msgid": 3,
+          "msgpay": 0,
+          "switch": 65537
+        },
+        "album": {
+          "id": 100385,
+          "mid": "004L8XvZ0Ex6hc",
+          "name": "再不疯狂我们就老了",
+          "subtitle": "",
+          "title": "再不疯狂我们就老了"
+        },
+        "file": {
+          "media_mid": "003M6ZXz32OZc6",
+          "size_128": 3939901,
+          "size_128mp3": 3939901,
+          "size_192aac": 5804964,
+          "size_192ogg": 5573062,
+          "size_24aac": 783121,
+          "size_320": 9849305,
+          "size_320mp3": 9849305,
+          "size_48aac": 1562455,
+          "size_96aac": 3092910,
+          "size_aac": 1562455,
+          "size_ape": 26519581,
+          "size_dts": 0,
+          "size_flac": 28024445,
+          "size_ogg": 5573062,
+          "size_try": 0,
+          "try_begin": 54436,
+          "try_end": 75293
+        },
+        "fnote": 4011,
+        "genre": 1,
+        "id": 5220731,
+        "index_album": 10,
+        "index_cd": 0,
+        "interval": 246,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "000EhyvZ1XpJWE"
+        },
+        "language": 0,
+        "mid": "003M6ZXz32OZc6",
+        "mv": {
+          "id": 145473,
+          "vid": "n0011nze0e1"
+        },
+        "name": "再不疯狂我们就老了",
+        "pay": {
+          "pay_down": 0,
+          "pay_month": 0,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 0,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 4615,
+          "mid": "002ZOuVm3Qn20Y",
+          "name": "李宇春",
+          "title": "李宇春"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2012-09-04",
+        "title": "再不疯狂我们就老了",
+        "type": 0,
+        "url": "http://stream5.qqmusic.qq.com/17220731.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 1353321,
+          "mid": "004Ecfpr3JyfPw",
+          "name": "人生是一次热血的流浪",
+          "subtitle": "",
+          "title": "人生是一次热血的流浪"
+        },
+        "file": {
+          "media_mid": "003PfGUH1YFNrN",
+          "size_128": 4547615,
+          "size_128mp3": 4547615,
+          "size_192aac": 6957925,
+          "size_192ogg": 6645118,
+          "size_24aac": 913738,
+          "size_320": 11368709,
+          "size_320mp3": 11368709,
+          "size_48aac": 1825105,
+          "size_96aac": 3671517,
+          "size_aac": 1825105,
+          "size_ape": 33065836,
+          "size_dts": 0,
+          "size_flac": 33348792,
+          "size_ogg": 6645118,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 106158933,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 284,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "0049S2974FgFtI"
+        },
+        "language": 0,
+        "mid": "003PfGUH1YFNrN",
+        "mv": {
+          "id": 680429,
+          "vid": "n0020aqhnih"
+        },
+        "name": "人生是一次热血的流浪",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 1012038,
+          "mid": "004eaDNU1nfRO0",
+          "name": "张磊",
+          "title": "张磊"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2016-04-29",
+        "title": "人生是一次热血的流浪",
+        "type": 0,
+        "url": "http://stream1.qqmusic.qq.com/118158933.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 11,
+          "icons": 135752,
+          "msgid": 0,
+          "msgpay": 0,
+          "switch": 605971
+        },
+        "album": {
+          "id": 450622,
+          "mid": "001MvNzb3kNe2e",
+          "name": "趁你还年轻",
+          "subtitle": "《等风来》电影推广曲",
+          "title": "趁你还年轻"
+        },
+        "file": {
+          "media_mid": "000mncFy1jnbwZ",
+          "size_128": 3361011,
+          "size_128mp3": 3361011,
+          "size_192aac": 5225201,
+          "size_192ogg": 4774750,
+          "size_24aac": 690524,
+          "size_320": 8401815,
+          "size_320mp3": 8401815,
+          "size_48aac": 1391470,
+          "size_96aac": 2901298,
+          "size_aac": 1391470,
+          "size_ape": 26561997,
+          "size_dts": 0,
+          "size_flac": 26724001,
+          "size_ogg": 4774750,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 0,
+        "genre": 36,
+        "id": 5121150,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 209,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "0045VCuD0vaPDy"
+        },
+        "language": 0,
+        "mid": "000mncFy1jnbwZ",
+        "mv": {
+          "id": 276025,
+          "vid": "y0013mcdxyx"
+        },
+        "name": "趁你还年轻",
+        "pay": {
+          "pay_down": 0,
+          "pay_month": 0,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 0,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 163550,
+          "mid": "002Vcz8F2hpBQj",
+          "name": "华晨宇",
+          "title": "华晨宇"
+        }],
+        "songtype": 13,
+        "status": 31,
+        "subtitle": "",
+        "time_public": "2013-12-23",
+        "title": "趁你还年轻",
+        "type": 0,
+        "url": "http://stream2.qqmusic.qq.com/17121150.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 147324,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 665,
+          "mid": "002PjDkE14OUkV",
+          "name": "I'm OK",
+          "subtitle": "",
+          "title": "I'm OK"
+        },
+        "file": {
+          "media_mid": "003uKKf71WF3v1",
+          "size_128": 4909128,
+          "size_128mp3": 4909128,
+          "size_192aac": 7298534,
+          "size_192ogg": 6985683,
+          "size_24aac": 986498,
+          "size_320": 12272524,
+          "size_320mp3": 12272524,
+          "size_48aac": 1993679,
+          "size_96aac": 4047976,
+          "size_aac": 1993679,
+          "size_ape": 36315419,
+          "size_dts": 0,
+          "size_flac": 36770353,
+          "size_ogg": 6985683,
+          "size_try": 0,
+          "try_begin": 83828,
+          "try_end": 112071
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 4966543,
+        "index_album": 2,
+        "index_cd": 0,
+        "interval": 306,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "000IOhbB01ulCq"
+        },
+        "language": 0,
+        "mid": "003uKKf71WF3v1",
+        "mv": {
+          "id": 168479,
+          "vid": "l0011xhlu3j"
+        },
+        "name": "找自己",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 101,
+          "mid": "002cK0F12szD9T",
+          "name": "陶喆",
+          "title": "陶喆"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "1999-12-10",
+        "title": "找自己",
+        "type": 0,
+        "url": "http://stream5.qqmusic.qq.com/16966543.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 12788,
+          "mid": "001Tk0mo4W5zTI",
+          "name": "失恋无罪",
+          "subtitle": "",
+          "title": "失恋无罪"
+        },
+        "file": {
+          "media_mid": "001rgAdB01BH9g",
+          "size_128": 3297663,
+          "size_128mp3": 3297663,
+          "size_192aac": 0,
+          "size_192ogg": 0,
+          "size_24aac": 662919,
+          "size_320": 0,
+          "size_320mp3": 0,
+          "size_48aac": 1354114,
+          "size_96aac": 2805642,
+          "size_aac": 1354114,
+          "size_ape": 0,
+          "size_dts": 0,
+          "size_flac": 0,
+          "size_ogg": 0,
+          "size_try": 0,
+          "try_begin": 53512,
+          "try_end": 76620
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 144230,
+        "index_album": 5,
+        "index_cd": 0,
+        "interval": 206,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "002slFrH1MbWSp"
+        },
+        "language": 0,
+        "mid": "001rgAdB01BH9g",
+        "mv": {
+          "id": 0,
+          "vid": ""
+        },
+        "name": "新的自我",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 6028,
+          "mid": "003ArN8Z0WpjTz",
+          "name": "A-Lin",
+          "title": "A-Lin"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2006-02-10",
+        "title": "新的自我",
+        "type": 0,
+        "url": "http://stream6.qqmusic.qq.com/12144230.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 147324,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 662736,
+          "mid": "001Iv5R20UDwNz",
+          "name": "大人情歌",
+          "subtitle": "《谎言游戏》电视剧片头曲",
+          "title": "大人情歌"
+        },
+        "file": {
+          "media_mid": "0017kWDJ4MS2Vv",
+          "size_128": 3713791,
+          "size_128mp3": 3713791,
+          "size_192aac": 5592077,
+          "size_192ogg": 5185541,
+          "size_24aac": 718265,
+          "size_320": 9284111,
+          "size_320mp3": 9284111,
+          "size_48aac": 1407014,
+          "size_96aac": 2831385,
+          "size_aac": 1407014,
+          "size_ape": 0,
+          "size_dts": 0,
+          "size_flac": 27447209,
+          "size_ogg": 5185541,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 8159486,
+        "index_album": 3,
+        "index_cd": 0,
+        "interval": 232,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "0007oRfi3gSSrG"
+        },
+        "language": 0,
+        "mid": "0017tTxy2FhMXY",
+        "mv": {
+          "id": 300653,
+          "vid": "e00150wfqof"
+        },
+        "name": "Never Be the Same",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 27578,
+          "mid": "000Z8yMj2MiZs4",
+          "name": "艾怡良",
+          "title": "艾怡良"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2014-10-16",
+        "title": "Never Be the Same",
+        "type": 0,
+        "url": "http://stream6.qqmusic.qq.com/20159486.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 147324,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 58454,
+          "mid": "0040sFkM3Vj6t1",
+          "name": "相反的我",
+          "subtitle": "",
+          "title": "相反的我"
+        },
+        "file": {
+          "media_mid": "000Nrmtj2AXoRI",
+          "size_128": 4570845,
+          "size_128mp3": 4570845,
+          "size_192aac": 7136708,
+          "size_192ogg": 6810338,
+          "size_24aac": 913552,
+          "size_320": 11417777,
+          "size_320mp3": 11417777,
+          "size_48aac": 1859045,
+          "size_96aac": 3885740,
+          "size_aac": 1859045,
+          "size_ape": 35442261,
+          "size_dts": 0,
+          "size_flac": 36219282,
+          "size_ogg": 6810338,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 700051,
+        "index_album": 2,
+        "index_cd": 0,
+        "interval": 285,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "000Jo7yb0ON9cx"
+        },
+        "language": 0,
+        "mid": "000Nrmtj2AXoRI",
+        "mv": {
+          "id": 57311,
+          "vid": "u0013oaqvgj"
+        },
+        "name": "相反的我",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 16012,
+          "mid": "000acPsp0cfUZr",
+          "name": "张芸京",
+          "title": "张芸京"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2010-07-09",
+        "title": "相反的我",
+        "type": 0,
+        "url": "http://stream4.qqmusic.qq.com/12700051.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 89573,
+          "mid": "000XFDkK3mZgf2",
+          "name": "Move On...",
+          "subtitle": "",
+          "title": "Move On..."
+        },
+        "file": {
+          "media_mid": "003rBrza0dv94K",
+          "size_128": 3098953,
+          "size_128mp3": 3098953,
+          "size_192aac": 4572500,
+          "size_192ogg": 4223441,
+          "size_24aac": 613860,
+          "size_320": 7747077,
+          "size_320mp3": 7747077,
+          "size_48aac": 1277464,
+          "size_96aac": 2578975,
+          "size_aac": 1277464,
+          "size_ape": 23151897,
+          "size_dts": 0,
+          "size_flac": 23134296,
+          "size_ogg": 4223441,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 4829901,
+        "index_album": 2,
+        "index_cd": 0,
+        "interval": 193,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "003F9auL1DdfgQ"
+        },
+        "language": 1,
+        "mid": "003rBrza0dv94K",
+        "mv": {
+          "id": 276721,
+          "vid": "q0013bh5s9p"
+        },
+        "name": "放低过去",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 11929,
+          "mid": "001CU1Xt170KKm",
+          "name": "钟欣潼",
+          "title": "钟欣潼"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2010-11-18",
+        "title": "放低过去",
+        "type": 0,
+        "url": "http://stream3.qqmusic.qq.com/16829901.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 11,
+          "icons": 135752,
+          "msgid": 0,
+          "msgpay": 0,
+          "switch": 81683
+        },
+        "album": {
+          "id": 103814,
+          "mid": "000Fo3g62JU11Z",
+          "name": "Love I Am",
+          "subtitle": "",
+          "title": "Love I Am"
+        },
+        "file": {
+          "media_mid": "001LVxLR0duRil",
+          "size_128": 3702110,
+          "size_128mp3": 3702110,
+          "size_192aac": 5535573,
+          "size_192ogg": 5020168,
+          "size_24aac": 710916,
+          "size_320": 9254907,
+          "size_320mp3": 9254907,
+          "size_48aac": 1395807,
+          "size_96aac": 2798414,
+          "size_aac": 1395807,
+          "size_ape": 28394773,
+          "size_dts": 0,
+          "size_flac": 28394318,
+          "size_ogg": 5020168,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 8013,
+        "genre": 1,
+        "id": 1248426,
+        "index_album": 2,
+        "index_cd": 0,
+        "interval": 231,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "00289IBw3h6Og6"
+        },
+        "language": 5,
+        "mid": "000QOwDO0rItFX",
+        "mv": {
+          "id": 256477,
+          "vid": "c0013r0ksjf"
+        },
+        "name": "Everything In the World",
+        "pay": {
+          "pay_down": 0,
+          "pay_month": 0,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 0,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 34703,
+          "mid": "0030RkE50nmpWC",
+          "name": "曲婉婷",
+          "title": "曲婉婷"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2009-04-25",
+        "title": "Everything In the World",
+        "type": 0,
+        "url": "http://stream4.qqmusic.qq.com/13248426.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 1651219,
+          "mid": "001B9NeG0A9ajU",
+          "name": "Xperience",
+          "subtitle": "",
+          "title": "Xperience"
+        },
+        "file": {
+          "media_mid": "000RGNjj0PG8tK",
+          "size_128": 3804930,
+          "size_128mp3": 3804930,
+          "size_192aac": 5505789,
+          "size_192ogg": 5171281,
+          "size_24aac": 773857,
+          "size_320": 9511954,
+          "size_320mp3": 9511954,
+          "size_48aac": 1550721,
+          "size_96aac": 3112731,
+          "size_aac": 1550721,
+          "size_ape": 27174258,
+          "size_dts": 0,
+          "size_flac": 27108459,
+          "size_ogg": 5171281,
+          "size_try": 0,
+          "try_begin": 56469,
+          "try_end": 94833
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 108922894,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 237,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "000Nolst44mO3Z"
+        },
+        "language": 0,
+        "mid": "000RGNjj0PG8tK",
+        "mv": {
+          "id": 1052459,
+          "vid": "i00220l3llw"
+        },
+        "name": "某时某刻 Catch me when I fall",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 204664,
+          "mid": "001SqkF53OEhdO",
+          "name": "鹿晗",
+          "title": "鹿晗"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2016-10-21",
+        "title": "某时某刻 Catch me when I fall",
+        "type": 0,
+        "url": "http://stream9.qqmusic.qq.com/120922894.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 929314,
+          "mid": "0019rBkH0xdGVc",
+          "name": "你的爱。",
+          "subtitle": "",
+          "title": "你的爱。"
+        },
+        "file": {
+          "media_mid": "004FBEMN4XvBIn",
+          "size_128": 4330673,
+          "size_128mp3": 4330673,
+          "size_192aac": 6414442,
+          "size_192ogg": 6102385,
+          "size_24aac": 871251,
+          "size_320": 10826385,
+          "size_320mp3": 10826385,
+          "size_48aac": 1751815,
+          "size_96aac": 3488545,
+          "size_aac": 1751815,
+          "size_ape": 32559351,
+          "size_dts": 0,
+          "size_flac": 32733224,
+          "size_ogg": 6102385,
+          "size_try": 0,
+          "try_begin": 84793,
+          "try_end": 111783
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 102070026,
+        "index_album": 6,
+        "index_cd": 0,
+        "interval": 270,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "003RdmcP3sfdIg"
+        },
+        "language": 0,
+        "mid": "004FBEMN4XvBIn",
+        "mv": {
+          "id": 306020,
+          "vid": "z0015pk7jok"
+        },
+        "name": "就是现在",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 265,
+          "mid": "001JDzPT3JdvqK",
+          "name": "王力宏",
+          "title": "王力宏"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2015-01-23",
+        "title": "就是现在",
+        "type": 0,
+        "url": "http://stream4.qqmusic.qq.com/114070026.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 11,
+          "icons": 135752,
+          "msgid": 0,
+          "msgpay": 0,
+          "switch": 605971
+        },
+        "album": {
+          "id": 1288480,
+          "mid": "002skYED0918Xt",
+          "name": "热血新纪录",
+          "subtitle": "",
+          "title": "热血新纪录"
+        },
+        "file": {
+          "media_mid": "002pK04U2CIYWn",
+          "size_128": 3902688,
+          "size_128mp3": 3902688,
+          "size_192aac": 6129573,
+          "size_192ogg": 5844736,
+          "size_24aac": 788497,
+          "size_320": 9756416,
+          "size_320mp3": 9756416,
+          "size_48aac": 1626629,
+          "size_96aac": 3343638,
+          "size_aac": 1626629,
+          "size_ape": 31815660,
+          "size_dts": 0,
+          "size_flac": 32034234,
+          "size_ogg": 5844736,
+          "size_try": 0,
+          "try_begin": 54926,
+          "try_end": 81850
+        },
+        "fnote": 0,
+        "genre": 1,
+        "id": 105624399,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 243,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "002MkttM3OCwjV"
+        },
+        "language": 0,
+        "mid": "002pK04U2CIYWn",
+        "mv": {
+          "id": 0,
+          "vid": ""
+        },
+        "name": "热血新纪录",
+        "pay": {
+          "pay_down": 0,
+          "pay_month": 0,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 0,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 22820,
+          "mid": "004QC1TT0HOw3X",
+          "name": "海龟先生",
+          "title": "海龟先生"
+        }],
+        "songtype": 13,
+        "status": 31,
+        "subtitle": "",
+        "time_public": "2016-03-01",
+        "title": "热血新纪录",
+        "type": 0,
+        "url": "http://stream10.qqmusic.qq.com/117624399.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 11,
+          "icons": 135752,
+          "msgid": 0,
+          "msgpay": 0,
+          "switch": 605971
+        },
+        "album": {
+          "id": 1799610,
+          "mid": "002wKcgl11GodV",
+          "name": "终点起点",
+          "subtitle": "",
+          "title": "终点起点"
+        },
+        "file": {
+          "media_mid": "000leXo902OOPe",
+          "size_128": 4976004,
+          "size_128mp3": 4976004,
+          "size_192aac": 7587595,
+          "size_192ogg": 7371415,
+          "size_24aac": 1009528,
+          "size_320": 12439710,
+          "size_320mp3": 12439710,
+          "size_48aac": 2049251,
+          "size_96aac": 4191613,
+          "size_aac": 2049251,
+          "size_ape": 38367422,
+          "size_dts": 0,
+          "size_flac": 38515592,
+          "size_ogg": 7371415,
+          "size_try": 0,
+          "try_begin": 115534,
+          "try_end": 139143
+        },
+        "fnote": 0,
+        "genre": 1,
+        "id": 200281307,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 310,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "004BvPpd03qXaD"
+        },
+        "language": 0,
+        "mid": "000leXo902OOPe",
+        "mv": {
+          "id": 0,
+          "vid": ""
+        },
+        "name": "终点起点",
+        "pay": {
+          "pay_down": 0,
+          "pay_month": 0,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 0,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 2082013,
+          "mid": "000kKtZs46UaJv",
+          "name": "LOKEY低调组合",
+          "title": "LOKEY低调组合"
+        }],
+        "songtype": 13,
+        "status": 31,
+        "subtitle": "",
+        "time_public": "2016-12-31",
+        "title": "终点起点",
+        "type": 0,
+        "url": "http://stream10.qqmusic.qq.com/212281307.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 11,
+          "icons": 135752,
+          "msgid": 0,
+          "msgpay": 0,
+          "switch": 81683
+        },
+        "album": {
+          "id": 458866,
+          "mid": "00437DDF0riKL4",
+          "name": "青春没有终点",
+          "subtitle": "Tiger Translate虎牌啤酒",
+          "title": "青春没有终点"
+        },
+        "file": {
+          "media_mid": "000j1EfK3gPnVP",
+          "size_128": 3529651,
+          "size_128mp3": 3529651,
+          "size_192aac": 5471494,
+          "size_192ogg": 5367907,
+          "size_24aac": 708022,
+          "size_320": 8821747,
+          "size_320mp3": 8821747,
+          "size_48aac": 1443440,
+          "size_96aac": 3002111,
+          "size_aac": 1443440,
+          "size_ape": 0,
+          "size_dts": 0,
+          "size_flac": 0,
+          "size_ogg": 5367907,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 8013,
+        "genre": 36,
+        "id": 3571369,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 220,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "003MYIPv2Yn3cx"
+        },
+        "language": 0,
+        "mid": "000j1EfK3gPnVP",
+        "mv": {
+          "id": 119500,
+          "vid": "k0010bTV9hH"
+        },
+        "name": "青春没有终点",
+        "pay": {
+          "pay_down": 0,
+          "pay_month": 0,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 0,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 15514,
+          "mid": "001Yxpxc0OaUUX",
+          "name": "逃跑计划",
+          "title": "逃跑计划"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2012-07-20",
+        "title": "青春没有终点",
+        "type": 0,
+        "url": "http://stream8.qqmusic.qq.com/15571369.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 147324,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 33595,
+          "mid": "001rpte61hJyZy",
+          "name": "隐形超人",
+          "subtitle": "《爱情公寓》电视剧片头曲",
+          "title": "隐形超人"
+        },
+        "file": {
+          "media_mid": "002BIjxb1Erg6e",
+          "size_128": 3151455,
+          "size_128mp3": 3151455,
+          "size_192aac": 4819336,
+          "size_192ogg": 4471740,
+          "size_24aac": 631762,
+          "size_320": 7863373,
+          "size_320mp3": 7863373,
+          "size_48aac": 1298406,
+          "size_96aac": 2731072,
+          "size_aac": 1298406,
+          "size_ape": 25079221,
+          "size_dts": 0,
+          "size_flac": 25173380,
+          "size_ogg": 4471740,
+          "size_try": 0,
+          "try_begin": 35993,
+          "try_end": 48804
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 874517,
+        "index_album": 8,
+        "index_cd": 0,
+        "interval": 196,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "004ZQL4V3aM3aJ"
+        },
+        "language": 0,
+        "mid": "002BIjxb1Erg6e",
+        "mv": {
+          "id": 0,
+          "vid": ""
+        },
+        "name": "我的未来式",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 12322,
+          "mid": "002wWgEi3Yr061",
+          "name": "郭采洁",
+          "title": "郭采洁"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2007-12-25",
+        "title": "我的未来式",
+        "type": 0,
+        "url": "http://stream4.qqmusic.qq.com/12874517.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 1735025,
+          "mid": "000CNwEg0NZEaY",
+          "name": "Black & Golden 黑金",
+          "subtitle": "2015中英文化交流年“创意中国 风尚上海”主题曲|《Fire Bible 有范儿》2015韩火火全球主题曲",
+          "title": "Black & Golden 黑金"
+        },
+        "file": {
+          "media_mid": "004800nG3CEGae",
+          "size_128": 3231894,
+          "size_128mp3": 3231894,
+          "size_192aac": 4866509,
+          "size_192ogg": 4799893,
+          "size_24aac": 625987,
+          "size_320": 8079385,
+          "size_320mp3": 8079385,
+          "size_48aac": 1227898,
+          "size_96aac": 2451560,
+          "size_aac": 1227898,
+          "size_ape": 25056163,
+          "size_dts": 0,
+          "size_flac": 25179507,
+          "size_ogg": 4799893,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 104252610,
+        "index_album": 9,
+        "index_cd": 0,
+        "interval": 201,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "001XpkB41pgmvE"
+        },
+        "language": 5,
+        "mid": "001G9hZy1GlcBb",
+        "mv": {
+          "id": 659572,
+          "vid": "c0024i6sumk"
+        },
+        "name": "big up 咆哮",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 6397,
+          "mid": "002xqNxr0cVp0E",
+          "name": "尚雯婕",
+          "title": "尚雯婕"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2016-12-06",
+        "title": "big up 咆哮",
+        "type": 0,
+        "url": "http://stream3.qqmusic.qq.com/116252610.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 469673,
+          "mid": "0004lFzo4V2FUF",
+          "name": "无所不在",
+          "subtitle": "百事可乐LIVE FOR NOW主题曲|《中国好声音 第二季》集结推广曲",
+          "title": "无所不在"
+        },
+        "file": {
+          "media_mid": "004WdUWj0ckDik",
+          "size_128": 3564969,
+          "size_128mp3": 3564969,
+          "size_192aac": 5247920,
+          "size_192ogg": 4983263,
+          "size_24aac": 712695,
+          "size_320": 8912130,
+          "size_320mp3": 8912130,
+          "size_48aac": 1430969,
+          "size_96aac": 2922207,
+          "size_aac": 1430969,
+          "size_ape": 26010548,
+          "size_dts": 0,
+          "size_flac": 26823743,
+          "size_ogg": 4983263,
+          "size_try": 0,
+          "try_begin": 47451,
+          "try_end": 78651
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 5407896,
+        "index_album": 5,
+        "index_cd": 0,
+        "interval": 222,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "002Ym2RN365NKZ"
+        },
+        "language": 0,
+        "mid": "004WdUWj0ckDik",
+        "mv": {
+          "id": 200735,
+          "vid": "u0012ejq6fj"
+        },
+        "name": "就现在",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 62490,
+          "mid": "003qTNq628d2QP",
+          "name": "吴莫愁",
+          "title": "吴莫愁"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2014-04-18",
+        "title": "就现在",
+        "type": 0,
+        "url": "http://stream3.qqmusic.qq.com/17407896.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 457981,
+          "mid": "000PeKGs3KU8Q4",
+          "name": "吉克隽逸 同名专辑",
+          "subtitle": "《向着胜利前进》电视剧主题曲",
+          "title": "吉克隽逸 同名专辑"
+        },
+        "file": {
+          "media_mid": "00400ChT1yElBn",
+          "size_128": 3191318,
+          "size_128mp3": 3191318,
+          "size_192aac": 4866726,
+          "size_192ogg": 4531631,
+          "size_24aac": 640010,
+          "size_320": 7977996,
+          "size_320mp3": 7977996,
+          "size_48aac": 1295827,
+          "size_96aac": 2691966,
+          "size_aac": 1295827,
+          "size_ape": 24619222,
+          "size_dts": 0,
+          "size_flac": 24609154,
+          "size_ogg": 4531631,
+          "size_try": 0,
+          "try_begin": 35661,
+          "try_end": 61111
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 5238166,
+        "index_album": 5,
+        "index_cd": 0,
+        "interval": 199,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "001dwKex4SD3kg"
+        },
+        "language": 0,
+        "mid": "00400ChT1yElBn",
+        "mv": {
+          "id": 191697,
+          "vid": "v0011eyhh7y"
+        },
+        "name": "即刻出发",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 65313,
+          "mid": "001bv9fL3w7HQj",
+          "name": "吉克隽逸",
+          "title": "吉克隽逸"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2014-02-26",
+        "title": "即刻出发",
+        "type": 0,
+        "url": "http://stream1.qqmusic.qq.com/17238166.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 0,
+          "icons": 524289,
+          "msgid": 3,
+          "msgpay": 0,
+          "switch": 65537
+        },
+        "album": {
+          "id": 81162,
+          "mid": "0014tDFe0iKykd",
+          "name": "女人帮",
+          "subtitle": "",
+          "title": "女人帮"
+        },
+        "file": {
+          "media_mid": "0049W7v02yhi8o",
+          "size_128": 3622678,
+          "size_128mp3": 3622678,
+          "size_192aac": 5514742,
+          "size_192ogg": 5460840,
+          "size_24aac": 743285,
+          "size_320": 9056356,
+          "size_320mp3": 9056356,
+          "size_48aac": 1515302,
+          "size_96aac": 3112193,
+          "size_aac": 1515302,
+          "size_ape": 28288811,
+          "size_dts": 0,
+          "size_flac": 28341764,
+          "size_ogg": 5460840,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4011,
+        "genre": 1,
+        "id": 106450973,
+        "index_album": 5,
+        "index_cd": 0,
+        "interval": 226,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "003MMZJk4ZVDgp"
+        },
+        "language": 0,
+        "mid": "0049W7v02yhi8o",
+        "mv": {
+          "id": 0,
+          "vid": ""
+        },
+        "name": "武装",
+        "pay": {
+          "pay_down": 0,
+          "pay_month": 0,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 0,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 19631,
+          "mid": "002bEYYQ2UFUkI",
+          "name": "江映蓉",
+          "title": "江映蓉"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2011-09-16",
+        "title": "武装",
+        "type": 0,
+        "url": "http://stream6.qqmusic.qq.com/118450973.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 0,
+          "icons": 524289,
+          "msgid": 3,
+          "msgpay": 0,
+          "switch": 65537
+        },
+        "album": {
+          "id": 15668,
+          "mid": "002QpXvo38oDYZ",
+          "name": "崽崽",
+          "subtitle": "",
+          "title": "崽崽"
+        },
+        "file": {
+          "media_mid": "003QH3cM3OXdgM",
+          "size_128": 3174590,
+          "size_128mp3": 3174590,
+          "size_192aac": 4542083,
+          "size_192ogg": 4155393,
+          "size_24aac": 638304,
+          "size_320": 7936190,
+          "size_320mp3": 7936190,
+          "size_48aac": 1311669,
+          "size_96aac": 2719526,
+          "size_aac": 1311669,
+          "size_ape": 0,
+          "size_dts": 0,
+          "size_flac": 0,
+          "size_ogg": 4155393,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4011,
+        "genre": 1,
+        "id": 106451316,
+        "index_album": 8,
+        "index_cd": 0,
+        "interval": 198,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "004SlGYP2lfbEv"
+        },
+        "language": 0,
+        "mid": "003QH3cM3OXdgM",
+        "mv": {
+          "id": 0,
+          "vid": ""
+        },
+        "name": "冒险",
+        "pay": {
+          "pay_down": 0,
+          "pay_month": 0,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 0,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 7131,
+          "mid": "000tBtTl22ucCg",
+          "name": "黄雅莉",
+          "title": "黄雅莉"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2006-12-19",
+        "title": "冒险",
+        "type": 0,
+        "url": "http://stream2.qqmusic.qq.com/118451316.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 147324,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 35182,
+          "mid": "000J1pJ50cDCVE",
+          "name": "不想放手",
+          "subtitle": "",
+          "title": "不想放手"
+        },
+        "file": {
+          "media_mid": "0033R1vD1G05uK",
+          "size_128": 4474451,
+          "size_128mp3": 4474451,
+          "size_192aac": 6720615,
+          "size_192ogg": 6441064,
+          "size_24aac": 862209,
+          "size_320": 11185830,
+          "size_320mp3": 11185830,
+          "size_48aac": 1686526,
+          "size_96aac": 3405956,
+          "size_aac": 1686526,
+          "size_ape": 0,
+          "size_dts": 0,
+          "size_flac": 31951954,
+          "size_ogg": 6441064,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 432446,
+        "index_album": 2,
+        "index_cd": 0,
+        "interval": 279,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "002rxbhG3rOTyU"
+        },
+        "language": 0,
+        "mid": "002ryaGL0mtXtM",
+        "mv": {
+          "id": 156779,
+          "vid": "j001132o0vk"
+        },
+        "name": "路...一直都在",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 143,
+          "mid": "003Nz2So3XXYek",
+          "name": "陈奕迅",
+          "title": "陈奕迅"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2008-06-30",
+        "title": "路...一直都在",
+        "type": 0,
+        "url": "http://stream4.qqmusic.qq.com/12432446.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 11,
+          "icons": 135752,
+          "msgid": 0,
+          "msgpay": 0,
+          "switch": 81683
+        },
+        "album": {
+          "id": 10926,
+          "mid": "004Q4aOT19FVRe",
+          "name": "双声道",
+          "subtitle": "",
+          "title": "双声道"
+        },
+        "file": {
+          "media_mid": "00379TsI3DMRLk",
+          "size_128": 3622648,
+          "size_128mp3": 3622648,
+          "size_192aac": 5481829,
+          "size_192ogg": 5359190,
+          "size_24aac": 703762,
+          "size_320": 9056326,
+          "size_320mp3": 9056326,
+          "size_48aac": 1378462,
+          "size_96aac": 2759688,
+          "size_aac": 1378462,
+          "size_ape": 27093398,
+          "size_dts": 0,
+          "size_flac": 27315664,
+          "size_ogg": 5359190,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 8013,
+        "genre": 1,
+        "id": 127812,
+        "index_album": 2,
+        "index_cd": 0,
+        "interval": 226,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "0031UD2o1G7S7l"
+        },
+        "language": 1,
+        "mid": "001R2vRE05lN7K",
+        "mv": {
+          "id": 206144,
+          "vid": "e00122fb09h"
+        },
+        "name": "海啸",
+        "pay": {
+          "pay_down": 0,
+          "pay_month": 0,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 0,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 4918,
+          "mid": "003s4LyG1MDky5",
+          "name": "Soler",
+          "title": "Soler"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2005-07-01",
+        "title": "海啸",
+        "type": 0,
+        "url": "http://stream6.qqmusic.qq.com/12127812.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 11,
+          "icons": 135752,
+          "msgid": 0,
+          "msgpay": 0,
+          "switch": 605971
+        },
+        "album": {
+          "id": 1315721,
+          "mid": "002sPMWW1LWTc1",
+          "name": "骄傲的少年",
+          "subtitle": "《那年那兔那些事儿 第二季》动画片尾曲",
+          "title": "骄傲的少年"
+        },
+        "file": {
+          "media_mid": "002TDfBm3it0NY",
+          "size_128": 4193232,
+          "size_128mp3": 4193232,
+          "size_192aac": 6472189,
+          "size_192ogg": 6412141,
+          "size_24aac": 841624,
+          "size_320": 10482682,
+          "size_320mp3": 10482682,
+          "size_48aac": 1718792,
+          "size_96aac": 3645073,
+          "size_aac": 1718792,
+          "size_ape": 33304387,
+          "size_dts": 0,
+          "size_flac": 33274402,
+          "size_ogg": 6412141,
+          "size_try": 0,
+          "try_begin": 69032,
+          "try_end": 91792
+        },
+        "fnote": 0,
+        "genre": 37,
+        "id": 105828689,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 262,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "001yv5Hh3LzpXo"
+        },
+        "language": 0,
+        "mid": "002TDfBm3it0NY",
+        "mv": {
+          "id": 878814,
+          "vid": "m0021d142y7"
+        },
+        "name": "骄傲的少年",
+        "pay": {
+          "pay_down": 0,
+          "pay_month": 0,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 0,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 69205,
+          "mid": "003ZQQb64D5317",
+          "name": "南征北战NZBZ",
+          "title": "南征北战NZBZ"
+        }],
+        "songtype": 13,
+        "status": 31,
+        "subtitle": "",
+        "time_public": "2016-04-01",
+        "title": "骄傲的少年",
+        "type": 0,
+        "url": "http://stream1.qqmusic.qq.com/117828689.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 1035064,
+          "mid": "0010SJDu3V6Zxw",
+          "name": "青春留言",
+          "subtitle": "",
+          "title": "青春留言"
+        },
+        "file": {
+          "media_mid": "002ArBxn1G1HxD",
+          "size_128": 3436240,
+          "size_128mp3": 3436240,
+          "size_192aac": 5432116,
+          "size_192ogg": 5214603,
+          "size_24aac": 711171,
+          "size_320": 8590304,
+          "size_320mp3": 8590304,
+          "size_48aac": 1437705,
+          "size_96aac": 3028820,
+          "size_aac": 1437705,
+          "size_ape": 27624285,
+          "size_dts": 0,
+          "size_flac": 27831187,
+          "size_ogg": 5214603,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 102815394,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 214,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "001LBMMy0jeBID"
+        },
+        "language": 0,
+        "mid": "002ArBxn1G1HxD",
+        "mv": {
+          "id": 1407118,
+          "vid": "h0025q69c4y"
+        },
+        "name": "青春留言",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 161444,
+          "mid": "003bQEFA3KrvLI",
+          "name": "刘瑞琦",
+          "title": "刘瑞琦"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2015-07-08",
+        "title": "青春留言",
+        "type": 0,
+        "url": "http://stream4.qqmusic.qq.com/114815394.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 0,
+          "icons": 524289,
+          "msgid": 3,
+          "msgpay": 0,
+          "switch": 65537
+        },
+        "album": {
+          "id": 982857,
+          "mid": "000a9u422YQamv",
+          "name": "发光时代",
+          "subtitle": "",
+          "title": "发光时代"
+        },
+        "file": {
+          "media_mid": "0030xm2h3jMXBw",
+          "size_128": 4280098,
+          "size_128mp3": 4280098,
+          "size_192aac": 6522679,
+          "size_192ogg": 6300812,
+          "size_24aac": 864185,
+          "size_320": 10699951,
+          "size_320mp3": 10699951,
+          "size_48aac": 1723562,
+          "size_96aac": 3612968,
+          "size_aac": 1723562,
+          "size_ape": 31892972,
+          "size_dts": 0,
+          "size_flac": 32011076,
+          "size_ogg": 6300812,
+          "size_try": 0,
+          "try_begin": 65148,
+          "try_end": 89667
+        },
+        "fnote": 4011,
+        "genre": 1,
+        "id": 102361245,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 267,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "003ynOTK0TmjJZ"
+        },
+        "language": 0,
+        "mid": "0030xm2h3jMXBw",
+        "mv": {
+          "id": 311875,
+          "vid": "t0016g09jkf"
+        },
+        "name": "发光时代",
+        "pay": {
+          "pay_down": 0,
+          "pay_month": 0,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 0,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 6499,
+          "mid": "002azErJ0UcDN6",
+          "name": "张杰",
+          "title": "张杰"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2015-04-21",
+        "title": "发光时代",
+        "type": 0,
+        "url": "http://stream7.qqmusic.qq.com/114361245.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 147324,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 493645,
+          "mid": "000NYXek1kaG69",
+          "name": "The Song",
+          "subtitle": "",
+          "title": "The Song"
+        },
+        "file": {
+          "media_mid": "003a9CUy2svJzQ",
+          "size_128": 3702068,
+          "size_128mp3": 3702068,
+          "size_192aac": 5604649,
+          "size_192ogg": 5490457,
+          "size_24aac": 719398,
+          "size_320": 9254865,
+          "size_320mp3": 9254865,
+          "size_48aac": 1412721,
+          "size_96aac": 2824868,
+          "size_aac": 1412721,
+          "size_ape": 31628264,
+          "size_dts": 0,
+          "size_flac": 31836740,
+          "size_ogg": 5490457,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 7019723,
+        "index_album": 7,
+        "index_cd": 0,
+        "interval": 231,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "002Bt8Xm183Dbf"
+        },
+        "language": 0,
+        "mid": "003uLhHo0qKkAc",
+        "mv": {
+          "id": 0,
+          "vid": ""
+        },
+        "name": "我在飞",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 13203,
+          "mid": "004bsIDK0awMOv",
+          "name": "萧敬腾",
+          "title": "萧敬腾"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2014-06-27",
+        "title": "我在飞",
+        "type": 0,
+        "url": "http://stream5.qqmusic.qq.com/19019723.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 1718674,
+          "mid": "0037vYtz49nUOp",
+          "name": "天亮就飞吧",
+          "subtitle": "",
+          "title": "天亮就飞吧"
+        },
+        "file": {
+          "media_mid": "0038Rmsl3p5BG8",
+          "size_128": 4050226,
+          "size_128mp3": 4050226,
+          "size_192aac": 6206791,
+          "size_192ogg": 5992056,
+          "size_24aac": 799020,
+          "size_320": 10125263,
+          "size_320mp3": 10125263,
+          "size_48aac": 1616810,
+          "size_96aac": 3317151,
+          "size_aac": 1616810,
+          "size_ape": 28596397,
+          "size_dts": 0,
+          "size_flac": 28726494,
+          "size_ogg": 5992056,
+          "size_try": 0,
+          "try_begin": 72377,
+          "try_end": 101877
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 109467185,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 253,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "004JUhNG0D0Bo9"
+        },
+        "language": 0,
+        "mid": "0038Rmsl3p5BG8",
+        "mv": {
+          "id": 0,
+          "vid": ""
+        },
+        "name": "天亮就飞吧",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 1195908,
+          "mid": "001YS2uE1TV9qy",
+          "name": "蒋敦豪",
+          "title": "蒋敦豪"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2016-11-30",
+        "title": "天亮就飞吧",
+        "type": 0,
+        "url": "http://stream4.qqmusic.qq.com/121467185.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 1656054,
+          "mid": "003kYXbv2blZ99",
+          "name": "秋收",
+          "subtitle": "",
+          "title": "秋收"
+        },
+        "file": {
+          "media_mid": "004aspxP2tv6wQ",
+          "size_128": 4736499,
+          "size_128mp3": 4736499,
+          "size_192aac": 6670091,
+          "size_192ogg": 6013113,
+          "size_24aac": 938830,
+          "size_320": 11840969,
+          "size_320mp3": 11840969,
+          "size_48aac": 1863060,
+          "size_96aac": 3636622,
+          "size_aac": 1863060,
+          "size_ape": 24576901,
+          "size_dts": 0,
+          "size_flac": 24723702,
+          "size_ogg": 6013113,
+          "size_try": 0,
+          "try_begin": 232748,
+          "try_end": 268134
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 108958589,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 295,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "001jdtpD0HFmUB"
+        },
+        "language": 0,
+        "mid": "004aspxP2tv6wQ",
+        "mv": {
+          "id": 0,
+          "vid": ""
+        },
+        "name": "飞",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 5979,
+          "mid": "000we89k1hzBcA",
+          "name": "谭维维",
+          "title": "谭维维"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2016-10-25",
+        "title": "飞",
+        "type": 0,
+        "url": "http://stream4.qqmusic.qq.com/120958589.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 11,
+          "icons": 135752,
+          "msgid": 0,
+          "msgpay": 0,
+          "switch": 605971
+        },
+        "album": {
+          "id": 966462,
+          "mid": "003iTutw2tQ7bP",
+          "name": "放心去飞",
+          "subtitle": "《左耳》电影推广曲",
+          "title": "放心去飞"
+        },
+        "file": {
+          "media_mid": "000XTid42FXxTW",
+          "size_128": 3969136,
+          "size_128mp3": 3969136,
+          "size_192aac": 5490728,
+          "size_192ogg": 5157433,
+          "size_24aac": 781869,
+          "size_320": 9922337,
+          "size_320mp3": 9922337,
+          "size_48aac": 1541095,
+          "size_96aac": 2896731,
+          "size_aac": 1541095,
+          "size_ape": 22818464,
+          "size_dts": 0,
+          "size_flac": 23095896,
+          "size_ogg": 5157433,
+          "size_try": 0,
+          "try_begin": 70398,
+          "try_end": 94576
+        },
+        "fnote": 0,
+        "genre": 1,
+        "id": 102216290,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 247,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "001P9iDo3Md3su"
+        },
+        "language": 0,
+        "mid": "000XTid42FXxTW",
+        "mv": {
+          "id": 310049,
+          "vid": "y001600htpz"
+        },
+        "name": "放心去飞",
+        "pay": {
+          "pay_down": 0,
+          "pay_month": 0,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 0,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 163563,
+          "mid": "0039FsJP17qr7T",
+          "name": "欧豪",
+          "title": "欧豪"
+        }, {
+          "id": 944274,
+          "mid": "004coWV04C5FCV",
+          "name": "杨洋",
+          "title": "杨洋"
+        }, {
+          "id": 24833,
+          "mid": "002mze3U0NYXOM",
+          "name": "胡夏",
+          "title": "胡夏"
+        }],
+        "songtype": 13,
+        "status": 31,
+        "subtitle": "",
+        "time_public": "2015-03-24",
+        "title": "放心去飞",
+        "type": 0,
+        "url": "http://stream2.qqmusic.qq.com/114216290.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 147324,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 11065,
+          "mid": "002xualM1CLulU",
+          "name": "我要飞 寻梦之途全纪录",
+          "subtitle": "黑松沙士2004年度广告歌",
+          "title": "我要飞 寻梦之途全纪录"
+        },
+        "file": {
+          "media_mid": "00230yFY3WiOs6",
+          "size_128": 3862572,
+          "size_128mp3": 3862572,
+          "size_192aac": 5801831,
+          "size_192ogg": 5557817,
+          "size_24aac": 743279,
+          "size_320": 9656114,
+          "size_320mp3": 9656114,
+          "size_48aac": 1456540,
+          "size_96aac": 2937898,
+          "size_aac": 1456540,
+          "size_ape": 0,
+          "size_dts": 0,
+          "size_flac": 31947373,
+          "size_ogg": 5557817,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 125111,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 241,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "003hCFqA3arqBj"
+        },
+        "language": 0,
+        "mid": "004EAAWH3NzSN9",
+        "mv": {
+          "id": 49414,
+          "vid": "x0013v9ydzp"
+        },
+        "name": "我要飞",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 245,
+          "mid": "0010PLKl2Wgolz",
+          "name": "飞儿乐团",
+          "title": "飞儿乐团"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2004-09-15",
+        "title": "我要飞",
+        "type": 0,
+        "url": "http://stream10.qqmusic.qq.com/12125111.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 1258204,
+          "mid": "003DVAeu2yCDdh",
+          "name": "10 DAY'S",
+          "subtitle": "《旋风十一人》电视剧插曲",
+          "title": "10 DAY'S"
+        },
+        "file": {
+          "media_mid": "002jJSyX0h2FMt",
+          "size_128": 3789432,
+          "size_128mp3": 3789432,
+          "size_192aac": 5718680,
+          "size_192ogg": 5300863,
+          "size_24aac": 757283,
+          "size_320": 9473259,
+          "size_320mp3": 9473259,
+          "size_48aac": 1537699,
+          "size_96aac": 3049607,
+          "size_aac": 1537699,
+          "size_ape": 27092725,
+          "size_dts": 0,
+          "size_flac": 27297956,
+          "size_ogg": 5300863,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 105391001,
+        "index_album": 8,
+        "index_cd": 0,
+        "interval": 236,
+        "isonly": 0,
+        "ksong": {
+          "id": 0,
+          "mid": "0034aQM427umdt"
+        },
+        "language": 0,
+        "mid": "002jJSyX0h2FMt",
+        "mv": {
+          "id": 675702,
+          "vid": "z0019vketxi"
+        },
+        "name": "奔跑在孤傲的路上",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 19010,
+          "mid": "001JYsh131vdGw",
+          "name": "旅行团乐队",
+          "title": "旅行团乐队"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2015-12-21",
+        "title": "奔跑在孤傲的路上",
+        "type": 0,
+        "url": "http://stream4.qqmusic.qq.com/117391001.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 147324,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 451,
+          "mid": "003CS0lX1DwEcN",
+          "name": "Stefanie",
+          "subtitle": "",
+          "title": "Stefanie"
+        },
+        "file": {
+          "media_mid": "001g22jT20FpRN",
+          "size_128": 3535298,
+          "size_128mp3": 3535298,
+          "size_192aac": 5300946,
+          "size_192ogg": 5149146,
+          "size_24aac": 679937,
+          "size_320": 8837947,
+          "size_320mp3": 8837947,
+          "size_48aac": 1333071,
+          "size_96aac": 2667538,
+          "size_aac": 1333071,
+          "size_ape": 27617052,
+          "size_dts": 0,
+          "size_flac": 27910370,
+          "size_ogg": 5149146,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 5193,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 220,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "003ybWEc1NVn8i"
+        },
+        "language": 0,
+        "mid": "001oIhvu3NU2WM",
+        "mv": {
+          "id": 77243,
+          "vid": "i0090goG6jF"
+        },
+        "name": "奔",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 109,
+          "mid": "001pWERg3vFgg8",
+          "name": "孙燕姿",
+          "title": "孙燕姿"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2004-10-29",
+        "title": "奔",
+        "type": 0,
+        "url": "http://stream3.qqmusic.qq.com/12005193.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }, {
+        "action": {
+          "alert": 2,
+          "icons": 139132,
+          "msgid": 14,
+          "msgpay": 6,
+          "switch": 17413891
+        },
+        "album": {
+          "id": 932688,
+          "mid": "002lwbPf0OXsR9",
+          "name": "奔跑吧兄弟",
+          "subtitle": "《奔跑吧兄弟》电影主题曲",
+          "title": "奔跑吧兄弟"
+        },
+        "file": {
+          "media_mid": "001T1uCr0f0b92",
+          "size_128": 3138659,
+          "size_128mp3": 3138659,
+          "size_192aac": 4749428,
+          "size_192ogg": 4414835,
+          "size_24aac": 607993,
+          "size_320": 7846023,
+          "size_320mp3": 7846023,
+          "size_48aac": 1193961,
+          "size_96aac": 2383277,
+          "size_aac": 1193961,
+          "size_ape": 24648738,
+          "size_dts": 0,
+          "size_flac": 24784382,
+          "size_ogg": 4414835,
+          "size_try": 0,
+          "try_begin": 0,
+          "try_end": 0
+        },
+        "fnote": 4009,
+        "genre": 1,
+        "id": 101902209,
+        "index_album": 1,
+        "index_cd": 0,
+        "interval": 196,
+        "isonly": 1,
+        "ksong": {
+          "id": 0,
+          "mid": "000c6Fkh1UEr7H"
+        },
+        "language": 0,
+        "mid": "002aJ6Vg2AEY4J",
+        "mv": {
+          "id": 306660,
+          "vid": "i0015klkjke"
+        },
+        "name": "奔跑吧兄弟",
+        "pay": {
+          "pay_down": 1,
+          "pay_month": 1,
+          "pay_play": 0,
+          "pay_status": 0,
+          "price_album": 0,
+          "price_track": 200,
+          "time_free": 0
+        },
+        "singer": [{
+          "id": 11761,
+          "mid": "002Sm9iK4RIsCr",
+          "name": "筷子兄弟",
+          "title": "筷子兄弟"
+        }],
+        "songtype": 13,
+        "status": 0,
+        "subtitle": "",
+        "time_public": "2015-01-27",
+        "title": "奔跑吧兄弟",
+        "type": 0,
+        "url": "http://stream8.qqmusic.qq.com/113902209.wma",
+        "volume": {
+          "gain": 0.0,
+          "lra": 0.0,
+          "peak": 0.0
+        }
+      }],
+      "songnum": 50,
+      "songtypes": "13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13",
+      "tags": [{
+        "id": 165,
+        "name": "国语",
+        "pid": 165
+      }, {
+        "id": 6,
+        "name": "流行",
+        "pid": 6
+      }, {
+        "id": 125,
+        "name": "励志",
+        "pid": 125
+      }],
+      "total_song_num": 50,
+      "type": 2,
+      "uin": "270547541",
+      "visitnum": 999975
+    }],
+    "cdnum": 1,
+    "realcdnum": 1
+  },
+  "login_check": "0",
+  "subcode": 0
+}

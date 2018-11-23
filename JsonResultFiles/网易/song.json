@@ -1,0 +1,81 @@
+{
+  "songs": [{
+    "name": "Hello",
+    "id": 35847388,
+    "pst": 0,
+    "t": 0,
+    "ar": [{
+      "id": 46487,
+      "name": "Adele",
+      "tns": [],
+      "alias": []
+    }],
+    "alia": [],
+    "pop": 100.0,
+    "st": 0,
+    "rt": null,
+    "fee": 8,
+    "v": 22,
+    "crbt": null,
+    "cf": "",
+    "al": {
+      "id": 3377030,
+      "name": "Hello",
+      "picUrl": "http://p2.music.126.net/PrO7oPvnjvH4xdujdGbf2w==/1407374890649284.jpg",
+      "tns": [],
+      "pic": 1407374890649284
+    },
+    "dt": 295502,
+    "h": {
+      "br": 320000,
+      "fid": 0,
+      "size": 11823064,
+      "vd": -3.39
+    },
+    "m": {
+      "br": 160000,
+      "fid": 0,
+      "size": 5911555,
+      "vd": -2.95
+    },
+    "l": {
+      "br": 96000,
+      "fid": 0,
+      "size": 3546951,
+      "vd": -2.98
+    },
+    "a": null,
+    "cd": "1",
+    "no": 1,
+    "rtUrl": null,
+    "ftype": 0,
+    "rtUrls": [],
+    "djId": 0,
+    "copyright": 0,
+    "s_id": 0,
+    "rtype": 0,
+    "rurl": null,
+    "mst": 9,
+    "cp": 390012,
+    "mv": 501053,
+    "publishTime": 1445529600007
+  }],
+  "privileges": [{
+    "id": 35847388,
+    "fee": 8,
+    "payed": 0,
+    "st": 0,
+    "pl": 128000,
+    "dl": 0,
+    "sp": 7,
+    "cp": 1,
+    "subp": 1,
+    "cs": false,
+    "maxbr": 999000,
+    "fl": 128000,
+    "toast": false,
+    "flag": 129,
+    "preSell": false
+  }],
+  "code": 200
+}

@@ -1,0 +1,173 @@
+{
+  "status": true,
+  "message": null,
+  "data": {
+    "trackList": [
+      {
+        "songId": "1807124714",
+        "songStringId": "bf2QyAs2e5cf",
+        "songName": "楼台",
+        "subName": "Butterfly Lovers",
+        "newSubName": "",
+        "translation": "Butterfly Lovers",
+        "albumId": 2104245668,
+        "albumStringId": "9cGiSaeb825",
+        "artistId": 7204,
+        "singers": "周深;朱七",
+        "mvId": 0,
+        "cdSerial": 1,
+        "track": 0,
+        "pinyin": "lou tai",
+        "price": null,
+        "albumPrice": null,
+        "bakSongId": 0,
+        "panFlag": 0,
+        "musicType": "NORMAL",
+        "bakSong": null,
+        "lyricInfo": {
+          "lyricId": 14487793,
+          "lyricType": 7,
+          "lyricFile": "//img.xiami.net/lyric/14/1807124714_1542768989_1442.xtrc",
+          "isOfficial": true,
+          "userId": 0,
+          "userName": null,
+          "gmtModified": 1542768990000
+        },
+        "songwriters": "朱七",
+        "composer": "朱七",
+        "arrangement": "",
+        "boughtCount": 0,
+        "pace": 0,
+        "artistVOs": [
+          {
+            "artistId": 7204,
+            "artistStringId": "heMaabb6",
+            "artistName": "朱七",
+            "alias": "",
+            "rewardSchemaUrl": "xiami://web_dialog?url=https%3A%2F%2Fh5.xiami.com%2Fapp%2Fxiami%2Fh5-xiami-main%2Fpraise%2Findex.html%3FreceiverId%3D7%26title%3D%E6%A5%BC%E5%8F%B0%26xm_height%3D430%26type%3D3%26targetId%3D1807124714&_login=true"
+          }
+        ],
+        "albumLanguage": "国语",
+        "playCount": 113145,
+        "shareCount": 806,
+        "favCount": 1203,
+        "offline": false,
+        "offlineType": 0,
+        "downloadCount": false,
+        "originOffline": false,
+        "exclusive": false,
+        "canReward": true,
+        "bizTags": [
+          "M_MAN",
+          "LOSSLESS",
+          "X_FREE"
+        ],
+        "tags": [
+          "M_MAN",
+          "LOSSLESS",
+          "X_FREE"
+        ],
+        "recommendCount": 806,
+        "collectCount": 1203,
+        "artistStringId": "heMaabb6",
+        "singerIds": [
+          706276007,
+          7204
+        ],
+        "demoCreateTime": 1542698602000,
+        "offLyric": false,
+        "artist": "周深;朱七",
+        "songOpt": "NORMAL",
+        "purviews": {
+          "LISTEN": {
+            "LOW": "FREE",
+            "HIGH": "FREE"
+          },
+          "DOWNLOAD": {
+            "LOW": "FREE",
+            "HIGH": "FREE"
+          }
+        },
+        "publishStatus": "PUBLISH",
+        "demo": false,
+        "s": 113145,
+        "song_id": "1807124714",
+        "album_id": 2104245668,
+        "name": "楼台",
+        "title": "楼台",
+        "album_name": "楼台",
+        "sub_title": "Butterfly Lovers",
+        "new_sub_title": "",
+        "song_sub_title": "Butterfly Lovers",
+        "artist_name": "朱七",
+        "artist_id": 7204,
+        "cd_serial": 1,
+        "singersSource": [
+          {
+            "artistId": 706276007,
+            "artistStringId": "bR3wuL66f6e",
+            "artistName": "周深",
+            "artistLogo": "images/artistlogo/61/15254165485961_1.jpg",
+            "albumCount": 28,
+            "area": "China 中国大陆",
+            "alias": "卡布叻",
+            "pinyin": "zhou shen ",
+            "isMusician": true,
+            "isShow": false,
+            "description": ""
+          },
+          {
+            "artistId": 7204,
+            "artistStringId": "heMaabb6",
+            "artistName": "朱七",
+            "artistLogo": "images/artistlogo/19/13669885761119_1.jpg",
+            "albumCount": 12,
+            "area": "China 中国大陆",
+            "alias": "",
+            "pinyin": "zhu qi ",
+            "isMusician": true,
+            "isShow": false,
+            "description": ""
+          }
+        ],
+        "length": 319,
+        "recommends": 806,
+        "collects": 1203,
+        "key_words": null,
+        "music_type": 0,
+        "play_volume": 89,
+        "flag": null,
+        "album_logo": "images/album/img7/0/5bf3b552482d1_7_1542698322_1.jpg",
+        "needpay": 0,
+        "mvUrl": "",
+        "playstatus": 1,
+        "downloadstatus": 1,
+        "downloadjson": "%7B%22LOW%22%3A%22FREE%22%2C%22HIGH%22%3A%22FREE%22%7D",
+        "can_show": 1,
+        "can_check": 1,
+        "location": "4%22i.%%%242E5%87716%2m3teD38%%%%d4Ebb1bc82F8an252%%1462%115952pFhy15%5555%793f5%43Fm.meFEF52%26F52448E73a_%545EEEE5%5ba852f%1xit247EF5481E4_263.%uk346E---4E514e2Ea1",
+        "lyric": "//img.xiami.net/lyric/14/1807124714_1542702788_1240.lrc",
+        "lyric_url": "//img.xiami.net/lyric/14/1807124714_1542702788_1240.lrc",
+        "object_id": "1807124714",
+        "object_name": "default",
+        "insert_type": 1,
+        "background": "//img.xiami.net/res/player/bimg/bg-5.jpg",
+        "aritst_type": 1,
+        "artist_url": "未知",
+        "grade": -1,
+        "tryhq": 0,
+        "pic": "//img.xiami.net/images/album/img7/0/5bf3b552482d1_7_1542698322_1.jpg",
+        "album_pic": "//img.xiami.net/images/album/img7/0/5bf3b552482d1_7_1542698322.jpg",
+        "rec_note": ""
+      }
+    ],
+    "lastSongId": 0,
+    "type": "default",
+    "type_id": 1,
+    "clearlist": null,
+    "vip": 0,
+    "vip_role": 0,
+    "hqset": 0
+  },
+  "jumpurl": null
+}
