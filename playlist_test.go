@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-const testAll4playlist, index4playlist = false, 2
+const testAll4playlist, index4playlist = true, 2
 
 func Test_playlist(t *testing.T) {
 
@@ -18,8 +18,12 @@ func Test_playlist(t *testing.T) {
 
 	if testAll4playlist {
 		for _, s := range sites {
-			resp := Playlist(s, playlistID[s])
-			fmt.Println(resp)
+			if s == "xiami" {
+				fmt.Println("TODO: 虾米接口待完善")
+			} else {
+				resp := Playlist(s, playlistID[s])
+				fmt.Println(resp)
+			}
 		}
 	} else {
 		resp := Playlist(sites[index4playlist], playlistID[sites[index4playlist]])

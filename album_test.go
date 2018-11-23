@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-const testAll4album, index4album = false, 0
+const testAll4album, index4album = true, 0
 
 func Test_album(t *testing.T) {
 

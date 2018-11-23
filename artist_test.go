@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-const testAll4artist, index4artist = false, 3
+const testAll4artist, index4artist = true, 3
 
 func Test_artist(t *testing.T) {
 
@@ -18,8 +18,13 @@ func Test_artist(t *testing.T) {
 
 	if testAll4artist {
 		for _, s := range sites {
-			resp := Artist(s, artistID[s])
-			fmt.Println(resp)
+			if s == "xiami" {
+				fmt.Println("TODO: 虾米接口待完善")
+			} else {
+				resp := Artist(s, artistID[s])
+				fmt.Println(resp)
+			}
+
 		}
 	} else {
 		resp := Artist(sites[index4artist], artistID[sites[index4artist]])
