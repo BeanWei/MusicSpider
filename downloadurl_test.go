@@ -34,7 +34,5 @@ TODO:
 
 	QQ音乐获取到的直链打开报403
 
-    百度音乐不定时出现参数错误？
-	- 尝试方法：固定参数位置
-		http://musicapi.taihe.com/v1/restserver/ting?songid=578055564&from=qianqianmini&method=baidu.ting.song.getInfos&res=1&platform=darwin&version=1.0.0&e=vchaKgAigShr/UkgYA0bwxDE0Hm2/vlKdduDvpvcUnTsl8B9LLCdEybUWP3Tgznl
+    百度音乐不定时出现参数错误？: 可能因为测试环境是海外IP
 */
