@@ -65,7 +65,7 @@ func Search(c *gin.Context) {
 	if feedBack["result"] == "" {
 		c.JSON(200, gin.H{"status": "ok", "result": "null"})
 	} else {
-		result := ms.Format(site, feedBack["result"])
+		result := ms.SearchFormat(site, feedBack["result"])
 		fmt.Println("Server => the result is: ", result)
 		c.JSON(200, gin.H{"status": "ok", "result": result})
 	}
