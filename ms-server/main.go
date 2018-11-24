@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"github.com/gin-gonic/gin"
 	"strings"
 
@@ -24,15 +23,14 @@ func main() {
 	// api group v1
 	v1 := router.Group("/api/v1")
 	{
-		v1.GET("/search/:site/:key", Search)
-		/*
-			v1.GET("/album/:site/:key")
-			v1.GET("/artist/:site/:key")
-			v1.GET("/playlist/:site/:key")
-			v1.GET("/song/:site/:key")
-			v1.GET("/lyric/:site/:key")
-			v1.GET("/download/:site/:key")
-		*/
+		v1.GET("/search/:site/:key", search)
+		v1.GET("/album/:site/:key", album)
+		v1.GET("/artist/:site/:key", artist)
+		v1.GET("/playlist/:site/:key", playlist)
+		v1.GET("/song/:site/:key", song)
+		v1.GET("/lyric/:site/:key", lyric)
+		v1.GET("/download/:site/:key", downloadurl)
+
 	}
 
 	router.Run(":8080")
@@ -55,7 +53,7 @@ func check(site, key string) (bool, string) {
 	return false, "暂不支持此音乐站点"
 }
 
-func Search(c *gin.Context) {
+func search(c *gin.Context) {
 	site, key := c.Param("site"), c.Param("key")
 	resBool, resStr := check(site, key)
 	if !resBool {
@@ -66,7 +64,86 @@ func Search(c *gin.Context) {
 		c.JSON(200, gin.H{"status": "ok", "result": "null"})
 	} else {
 		result := ms.SearchFormat(site, feedBack["result"])
-		fmt.Println("Server => the result is: ", result)
 		c.JSON(200, gin.H{"status": "ok", "result": result})
 	}
+}
+
+func album(c *gin.Context) {
+	site, key := c.Param("site"), c.Param("key")
+	resBool, resStr := check(site, key)
+	if !resBool {
+		c.JSON(200, gin.H{"status": "error", "result": resStr})
+	}
+	feedBack := ms.Album(site, key)
+	if feedBack["result"] == "" {
+		c.JSON(200, gin.H{"status": "ok", "result": "null"})
+	} else {
+		result := ms.AlbumFormat(site, feedBack["result"])
+		c.JSON(200, gin.H{"status": "ok", "result": result})
+	}
+}
+
+func artist(c *gin.Context) {
+	site, key := c.Param("site"), c.Param("key")
+	resBool, resStr := check(site, key)
+	if !resBool {
+		c.JSON(200, gin.H{"status": "error", "result": resStr})
+	}
+	feedBack := ms.Artist(site, key)
+	if feedBack["result"] == "" {
+		c.JSON(200, gin.H{"status": "ok", "result": "null"})
+	} else {
+		result := ms.ArtistFormat(site, feedBack["result"])
+		c.JSON(200, gin.H{"status": "ok", "result": result})
+	}
+}
+
+func playlist(c *gin.Context) {
+	site, key := c.Param("site"), c.Param("key")
+	resBool, resStr := check(site, key)
+	if !resBool {
+		c.JSON(200, gin.H{"status": "error", "result": resStr})
+	}
+	feedBack := ms.Playlist(site, key)
+	if feedBack["result"] == "" {
+		c.JSON(200, gin.H{"status": "ok", "result": "null"})
+	} else {
+		result := ms.PlaylistFormat(site, feedBack["result"])
+		c.JSON(200, gin.H{"status": "ok", "result": result})
+	}
+}
+
+func song(c *gin.Context) {
+	site, key := c.Param("site"), c.Param("key")
+	resBool, resStr := check(site, key)
+	if !resBool {
+		c.JSON(200, gin.H{"status": "error", "result": resStr})
+	}
+	feedBack := ms.Song(site, key)
+	if feedBack["result"] == "" {
+		c.JSON(200, gin.H{"status": "ok", "result": "null"})
+	} else {
+		result := ms.SongFormat(site, feedBack["result"])
+		c.JSON(200, gin.H{"status": "ok", "result": result})
+	}
+}
+
+func lyric(c *gin.Context) {
+	site, key := c.Param("site"), c.Param("key")
+	resBool, resStr := check(site, key)
+	if !resBool {
+		c.JSON(200, gin.H{"status": "error", "result": resStr})
+	}
+	mapRes := ms.Lyric(site, key)
+	c.JSON(200, gin.H{"status": "ok", "result": mapRes})
+}
+
+func downloadurl(c *gin.Context) {
+	site, key := c.Param("site"), c.Param("key")
+	resBool, resStr := check(site, key)
+	if !resBool {
+		c.JSON(200, gin.H{"status": "error", "result": resStr})
+	}
+	mapRes := ms.Downloadurl(site, key)
+	c.JSON(200, gin.H{"status": "ok", "result": mapRes})
 }

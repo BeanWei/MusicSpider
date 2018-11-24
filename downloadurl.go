@@ -91,7 +91,7 @@ func kugouURL(result string) map[string]string {
 	if res == "" {
 		return map[string]string{"url": ""}
 	}
-	url := gojsonq.New().JSONString(res).Find("url")
+	url := gojsonq.New().JSONString(res).Find("url[0]")
 	if url == nil {
 		return map[string]string{"url": ""}
 	}
