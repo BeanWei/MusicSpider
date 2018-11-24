@@ -10,9 +10,9 @@ func Downloadurl(site, id string) map[string]string {
 	switch site {
 	case "netease":
 		reqMethod := "POST"
-		url := "http://music.163.com/weapi/song/enhance/player/url?csrf_token="
-		br := 320000
-		data := fmt.Sprintf(`{"ids": "%s", "br": "%d", "csrf_token": ""}`, id, br)
+		url := "http://music.163.com/api/song/enhance/player/url"
+		br := "320000"
+		data := fmt.Sprintf(`{"ids": "%s", "br": "%s"}`, id, br)
 		return reqHandler("netease", reqMethod, url, data, true)
 	case "tencent":
 		reqMethod := "GET"
@@ -68,15 +68,13 @@ func neteaseURL(result string) map[string]string {
 }
 
 func tencentURL(result string) map[string]string {
-	const guid = "1896377264"
-	const key = "58A42A941AEC67EDC9792B5A824F8E8AAB5D3F5641628A002364306E7796FE98CAE45F2F1EEC7BAB5DD6F6C158C08D24471C31CB6200B625"
+	const guid = "2088072923"
+	const key = "159C1FE19818BFE9B617AF6A1CFB564526A5290B0E3F3D389DC32A498CAB0B69B16CB7D6D10423AF752CCEF66FD330A36AAC7E812CB30BD2"
 	media_mid := gojsonq.New().JSONString(result).Find("data.[0].file.media_mid")
 	if media_mid == nil {
 		return map[string]string{"url": ""}
 	}
-	//https://dl.stream.qqmusic.qq.com/'.$vo[1].$data['data'][0]['file']['media_mid'].'.'.$vo[2].'?vkey='.$key.'&guid='.$guid.'&uid=0&fromtag=30
-	//http://dl.stream.qqmusic.qq.com/%s?vkey=%s&guid=%s&uin=0&fromtag=66' % (filename, vkey, guid)  # 获取直链
-	url := fmt.Sprintf("http://dl.stream.qqmusic.qq.com/C400%s.m4a?vkey=%s&guid=%s&uid=0&fromtag=30", media_mid, key, guid)
+	url := fmt.Sprintf("https://dl.stream.qqmusic.qq.com/M800%s.mp3?vkey=%s&guid=%s&uid=0&fromtag=30", media_mid, key, guid)
 	return map[string]string{"url": url}
 }
 
