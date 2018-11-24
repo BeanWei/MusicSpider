@@ -948,4 +948,29 @@
 ```
 </details><br/>
 
+<details>
+<summary>http://localhost:8080/api/v1/lyric/netease/418603133</summary>
+```
+{
+    "result": {
+        "lyric": "[by:鱼见]\n[00:26.59]Hello from the other side\n[00:56.26]Hello, it's me\n[01:01.76]I was wondering if after all these years you'd like to meet\n[01:07.85]To go over everything\n[01:13.55]They say that time's supposed to heal ya but I ain't done much healing\n[01:20.72]Hello, can you hear me\n[01:25.90]I'm in California dreaming about who we used to be\n[01:31.90]When we were younger and free\n[01:38.36]I've forgotten how it felt before the world fell at our feet\n[01:44.17]There's such a difference between us\n[01:50.51]And a million miles\n[01:57.06]Hello from the other side\n[02:02.86]I must've called a thousand times to tell you\n[02:09.75]I'm sorry, for everything that I've done\n[02:14.26]But when I call you never seem to be home\n[02:21.45]Hello from the other side\n[02:27.23]At least I can say that I've tried to tell you\n[02:33.84]I'm sorry, for breaking your heart\n[02:38.47]But it don't matter, it clearly doesn't tear you apart anymore\n[03:05.83]Hello from the other side\n[03:09.41]At least I can say that I've tried to tell you\n[03:13.58]I'm sorry, for breaking your heart\n[03:16.57]But it don't matter, it clearly doesn't tear you apart anymore\n[03:42.03]Hello from the other side\n[04:14.41]Hello from the other side\n[04:18.07]At least I can say that I've tried to tell you\n[04:22.15]I'm sorry, for breaking your heart\n[04:25.17]But it don't matter, it clearly doesn't tear you apart anymore\n",
+        "tlyric": "[by:Armin6]\n[00:26.59]我还是想打给你 即使相隔天边\n[00:56.26]你好吗 是我\n[01:01.76]我犹豫着要不要给你来电 我不确定多年之后的今日你是否还愿意见我\n[01:07.85]是否愿意来闲聊寒暄 细数从前\n[01:13.55]人们都说时间能治愈一切 但似乎这说法不怎么适合我\n[01:20.72]嘿 你在听吗\n[01:25.90]我会梦到从前 美好的加州 美好的我们\n[01:31.90]当时那么年轻 向往自由的我们\n[01:38.36]我都快要忘了 但现实却让一切重现眼前\n[01:44.17]我们之间的差距愈见明显\n[01:50.51]有如天差地别\n[01:57.06]我还是想打给你 即使相隔天边\n[02:02.86]即使打上千遍万遍我也想给你来电\n[02:09.75]对我从前所有的一切 说声抱歉\n[02:14.26]但似乎我每次来电 都是忙音不断 没人接\n[02:21.45]我还是想打给你 即使相隔天边\n[02:27.23]至少能让我不留遗憾 告诉你我的想念\n[02:33.84]我想说我伤了你的心 真的很抱歉\n[02:38.47]但也许值得庆幸的是 不会再有人让你悲痛欲绝\n[03:05.83]我还是想打给你 即使相隔天边\n[03:09.41]至少能让我不留遗憾 告诉你我的想念\n[03:13.58]我想说我伤了你的心 真的很抱歉\n[03:16.57]但也许值得庆幸的是 不会再有人让你悲痛欲绝\n[03:42.03]我还是想打给你 即使相隔天边\n[04:14.41]我还是想打给你 即使相隔天边\n[04:18.07]至少能让我不留遗憾 告诉你我的想念\n[04:22.15]我想说我伤了你的心 真的很抱歉\n[04:25.17]但也许值得庆幸的是 不会再有人让你悲痛欲绝\n"
+    },
+    "status": "ok"
+}
+```
+</details><br/>
+
+<details>
+<summary>http://localhost:8080/api/v1/download/kugou/09E8DE70A24C97B92A29F6A19F3528A2</summary>
+```
+{
+    "result": {
+        "url": "http:\/\/fs.ios.kugou.com\/201811241422\/75b9e41a18aac474d88dc1130ce9d7bf\/G066\/M06\/07\/05\/4oYBAFdWacmAKv-MADc2_4Ip1v0854.mp3",
+    },
+    "status": "ok"
+}
+```
+</details><br/>
+
 @MIT
