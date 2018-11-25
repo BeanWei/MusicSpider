@@ -4,14 +4,13 @@ import (
 	"fmt"
 )
 
-var (
-	_type  = 1
-	limit  = 30
-	page   = 1
-	offset = 0
-)
-
 func Search(site, keyword string, option map[string]int) map[string]string {
+	var (
+		_type  = 1
+		limit  = 30
+		page   = 1
+		offset = 0
+	)
 	switch site {
 	case "netease":
 		reqMethod := "POST"
