@@ -493,7 +493,7 @@ func SongFormat(site, jsonStr string) map[string]interface{} {
 		songinfo["singer_id"] = safeParse(jsonStr, "data.singer.[0].id")
 		songinfo["singer_name"] = safeParse(jsonStr, "data.singer.[0].name")
 		songinfo["publish_time"] = safeParse(jsonStr, "data.[0].time_public")
-		songinfo["cover_url"] = ""
+		songinfo["cover_url"] = fmt.Sprintf("https://y.gtimg.cn/music/photo_new/T002R300x300M000%s.jpg?max_age=2592000", safeParse(jsonStr, "data.[0].mid"))
 		songinfo["source_url"] = fmt.Sprintf("https://y.qq.com/n/yqq/song/%s.html", safeParse(jsonStr, "data.[0].mid"))
 	case "xiami":
 		songinfo["source"] = "xiami"
