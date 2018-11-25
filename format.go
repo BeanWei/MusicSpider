@@ -551,7 +551,7 @@ func UserPlaylistFormat(site, jsonStr string) map[string]interface{} {
 			item["creator_avatarUrl"] = safeParse(jsonStr, fmt.Sprintf("playlist.[%d].creator.avatarUrl", i))
 			play = append(play, item)
 		}
-		playlist["playlist"] = play
+		playlist["code"], playlist["playlist"] = safeParse(jsonStr, "code"), play
 	default:
 		//TODO: 支持其他站点
 		return nil
