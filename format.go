@@ -523,3 +523,38 @@ func SongFormat(site, jsonStr string) map[string]interface{} {
 	}
 	return songinfo
 }
+
+/*===================UserPlaylist Info API Response Format==================================*/
+func UserPlaylistFormat(site, jsonStr string) map[string]interface{} {
+	play, playlist := []interface{}{}, map[string]interface{}{}
+
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(err)
+		}
+	}()
+
+	if site == "" || jsonStr == "" {
+		return nil
+	}
+	switch site {
+	case "netease":
+		for i := 0; i >= 0; i++ {
+			item := map[string]interface{}{}
+			item["id"] = safeParse(jsonStr, fmt.Sprintf("playlist.[%d].id", i))
+			item["name"] = safeParse(jsonStr, fmt.Sprintf("playlist.[%d].id", i))
+			item["coverImgUrl"] = safeParse(jsonStr, fmt.Sprintf("playlist.[%d].coverImgUrl", i))
+			item["update_time"] = safeParse(jsonStr, fmt.Sprintf("playlist.[%d].updateTime", i))
+			item["track_count"] = safeParse(jsonStr, fmt.Sprintf("playlist.[%d].trackCount", i))
+			item["play_count"] = safeParse(jsonStr, fmt.Sprintf("playlist.[%d].playCount", i))
+			item["creator_nickname"] = safeParse(jsonStr, fmt.Sprintf("playlist.[%d].creator.nickname", i))
+			item["creator_avatarUrl"] = safeParse(jsonStr, fmt.Sprintf("playlist.[%d].creator.avatarUrl", i))
+			play = append(play, item)
+		}
+		playlist["playlist"] = play
+	default:
+		//TODO: 支持其他站点
+		return nil
+	}
+	return playlist
+}
