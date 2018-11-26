@@ -57,16 +57,13 @@
         }
        ```
 - 歌单
-   > http://music.163.com/weapi/v3/playlist/detail
-     - 请求方式: POST 
-     - 请求参数需要加密 
+   > http://music.163.com/api/v3/playlist/detail
+     - 请求方式: GET 
        ```
-       {
-           "s": "0",
-           "id": 歌单ID,
-           "n": '1000',
-           "t": '0',
-       }    
+       "s": "0",
+       "id": "歌单ID",
+       "n": "1000",
+       "t": "0",  
        ```               
 
  ### QQ音乐 API

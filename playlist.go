@@ -7,11 +7,11 @@ import (
 func Playlist(site, id string) map[string]string {
 	switch site {
 	case "netease":
-		reqMethod := "POST"
-		url := "http://music.163.com/weapi/v3/playlist/detail"
-		s, n, t := "0", "1000", "0"
-		data := fmt.Sprintf(`{"id": "%s", "s": "%s", "n": "%s", "t": "%s"}`, id, s, n, t)
-		return reqHandler("netease", reqMethod, url, data, true)
+		reqMethod := "GET"
+		url := "http://music.163.com/api/v3/playlist/detail"
+		s, n, t := 0, 1000, 0
+		data := fmt.Sprintf(`{"id": "%s", "s": "%d", "n": "%d", "t": "%d"}`, id, s, n, t)
+		return reqHandler("netease", reqMethod, url, data)
 	case "tencent":
 		reqMethod := "GET"
 		url := "https://c.y.qq.com/v8/fcg-bin/fcg_v8_playlist_cp.fcg"

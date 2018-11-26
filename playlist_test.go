@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-const testAll4playlist, index4playlist = true, 2
+const testAll4playlist, index4playlist = false, 0
 
 func Test_playlist(t *testing.T) {
 
 	playlistID := map[string]string{
-		"netease": "436843836",
+		"netease": "64016",
 		"tencent": "1144188779",
 		"xiami":   "277809522",
 		"kugou":   "119859",
