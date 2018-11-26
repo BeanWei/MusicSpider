@@ -100,6 +100,19 @@ func NeteaseAESCBC(text string) *strings.Reader {
 	return strings.NewReader(form.Encode())
 }
 
+func NeteaseEncryptId(id string) (idDecoded string) {
+	//magic := []string{"3", "g", "o", "8", "&", "$", "8", "*", "3", "*", "3", "h", "0", "k", "(", "2", ")", "2"}
+	magic := "3go8&$8*3*3h0k(2)2"
+	var s string
+	for i := 0; i < len(id); i++ {
+		s += fmt.Sprintf("%c", rune(id[i]+magic[i%len(magic)]))
+	}
+	idDecoded = md5Encrpyt16(s)
+	idDecoded = strings.Replace(idDecoded, "/", "_", -1)
+	idDecoded = strings.Replace(idDecoded, "+", "-", -1)
+	return
+}
+
 func BaiduAESCBC(text string) string {
 	const key = "DBEECF8C50FD160E"
 	const vi = "1231021386755796"

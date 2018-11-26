@@ -1,10 +1,14 @@
 package musicspider
 
 import (
+	"bytes"
 	"crypto/md5"
+	"encoding/base64"
+	"encoding/hex"
 	"fmt"
 	"math/rand"
 	"net/url"
+	"strconv"
 	"strings"
 )
 
@@ -48,12 +52,26 @@ func reverseStr(s string) string {
 	return string(runes)
 }
 
-// MD5加密
+// MD5加密32位
 func md5Encrpyt(s string) string {
 	data := []byte(s)
 	has := md5.Sum(data)
 	md5Str := fmt.Sprintf("%x", has)
 	return md5Str
+}
+
+// MD5加密16位
+func md5Encrpyt16(s string) string {
+	hasher := md5.New()
+	hasher.Write([]byte(s))
+	md5hex := hex.EncodeToString(hasher.Sum(nil))
+	loop := len(md5hex) / 2
+	buf := bytes.NewBufferString("")
+	for i := 0; i < loop; i++ {
+		idx, _ := strconv.ParseInt(md5hex[i*2:i*2+2], 16, 10)
+		buf.WriteByte(byte(int8(idx)))
+	}
+	return base64.StdEncoding.EncodeToString(buf.Bytes())
 }
 
 // URL Decode
