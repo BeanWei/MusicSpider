@@ -355,11 +355,11 @@ func PlaylistFormat(site, jsonStr string) map[string]interface{} {
 		playlist["brief_desc"] = safeParse(jsonStr, "playlist.description")
 		tagsStr := ""
 		for i := 0; i >= 0; i++ {
-			tag := safeParse(jsonStr, fmt.Sprintf("playlist.tags.[%d]", i)) + ","
+			tag := safeParse(jsonStr, fmt.Sprintf("playlist.tags.[%d]", i))
 			if tag == "" {
 				break
 			}
-			tagsStr += tag
+			tagsStr += tag + ","
 		}
 		playlist["tags"] = strings.TrimRight(tagsStr, ",")
 		playlist["creat_time"] = safeParse(jsonStr, "playlist.createTime")
@@ -386,11 +386,11 @@ func PlaylistFormat(site, jsonStr string) map[string]interface{} {
 		playlist["brief_desc"] = safeParse(jsonStr, "data.cdlist.desc")
 		tagsStr := ""
 		for i := 0; i >= 0; i++ {
-			tag := safeParse(jsonStr, fmt.Sprintf("data.cdlist.tags.[%d].name", i)) + ","
+			tag := safeParse(jsonStr, fmt.Sprintf("data.cdlist.tags.[%d].name", i))
 			if tag == "" {
 				break
 			}
-			tagsStr += tag
+			tagsStr += tag + ","
 		}
 		playlist["tags"] = strings.TrimRight(tagsStr, ",")
 		playlist["creat_time"] = safeParse(jsonStr, "data.cdlist.ctime")
